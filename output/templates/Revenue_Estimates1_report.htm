@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 10.00.9200.17116"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
+<TABLE class=runner-toptable cellPadding=0>
+  <TBODY>
+  <TR class=runner-header>
+    <TD class=runner-top colSpan=3>
+      {BEGIN container_toplinks}
+      <TABLE class="runner-c runner-c-toplinks" cellPadding=0>
+        <TBODY>
+        <TR class="{$cheaderclass_toplinks}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc>
+            <TABLE class=runner-hc cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                {BEGIN prints_block}<TD class="runner-cc runner-bl runner-b-toplinks_print" {$brickclass_toplinks_print}>
+                  <SPAN>{BEGIN print_link}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner- btnright></SPAN><A class=runner-button href="#" {$printlink_attrs}>Printer-friendly version</A> </SPAN>{END print_link}{BEGIN printall_link}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$printalllink_attrs}>Print 
+                  whole report</A> </SPAN>{END printall_link}</SPAN></TD>
+                {END prints_block}{BEGIN asearch_link}<TD class="runner-cc runner-bl runner-b-toplinks_advsearch" {$brickclass_toplinks_advsearch}>
+                  <SPAN><SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$advsearchlink_attrs}>Advanced 
+                  search</A> </SPAN></SPAN></TD>
+                {END asearch_link}{BEGIN export_link}<TD class="runner-cc runner-bl runner-b-toplinks_export_links" {$brickclass_toplinks_export_links}>
+                  <SPAN><SPAN id=export_links{$id}><A href="#" 
+                  {$excellink_attrs}><IMG border=0 alt="Export to Excel" src="images/excel.gif"></A> <A href="#" {$wordlink_attrs}><IMG border=0 alt="Export to Word" src="images/word.gif"></A> </SPAN></SPAN></TD>
+                {END export_link}<TD class="runner-cc filler">
+                  </TD>
+                {BEGIN security_block}<TD class="runner-cc runner-br runner-b-loggedas" {$brickclass_loggedas}>
+                  <SPAN>{BEGIN loggedas_message}<SPAN>Logged on as&nbsp;<B>{$username}</B>&nbsp;</SPAN> {END loggedas_message}{BEGIN guestloginbutton}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$guestloginlink_attrs}>Login</A> </SPAN>{END guestloginbutton}{BEGIN logoutbutton}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$logoutlink_attrs}>Log out</A> 
+                  </SPAN>{END logoutbutton}</SPAN></TD>{END security_block}</TR></TBODY></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_toplinks}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_toplinks}</TD></TR>
+  <TR class=runner-body>
+    <TD class="runner-left {$blockclass_left}"></TD>
+    <TD class="runner-center {$blockclass_center}">
+      {BEGIN container_message}
+      <TABLE class="runner-c runner-c-message" cellPadding=0>
+        <TBODY>
+        <TR class="{$cheaderclass_message}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc>
+            <TABLE class=runner-hc cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                {BEGIN message_block}<TD class="runner-cc runner-bc runner-b-message" {$brickclass_message}>
+                  <SPAN>
+                  <DIV class=runner-message>{$message}</DIV></SPAN></TD>{END message_block}</TR></TBODY></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_message}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_message}
+      {BEGIN container_pageinfo}
+      <TABLE class="runner-c runner-c-pageinfo" cellPadding=0>
+        <TBODY>
+        <TR class="{$cheaderclass_pageinfo}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc>
+            <TABLE class=runner-hc cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                {BEGIN details_block}<TD class="runner-cc runner-bl runner-b-details_found" {$brickclass_details_found}>
+                  <SPAN><SPAN 
+                  {$details_attrs}>Details found: <B><SPAN 
+                  class=runner-details_found_count>{$records_found}</SPAN></B> 
+                  </SPAN></SPAN></TD>
+                {END details_block}{BEGIN pages_block}<TD class="runner-cc runner-bl runner-b-page_of" {$brickclass_page_of}>
+                  <SPAN><SPAN 
+                  {$pages_attrs}>Page <B>{$page}</B> of <B>{$maxpages}</B> </SPAN></SPAN></TD>
+                {END pages_block}{BEGIN recordspp_block}<TD class="runner-cc runner-bl runner-b-recsperpage" {$brickclass_recsperpage}>
+                  <SPAN><SPAN id=recordspp_block{$id} name="recordspp_block{$id}">Groups per page:&nbsp;{$grpsPerPage} </SPAN></SPAN></TD>
+                {END recordspp_block}<TD class="runner-cc filler">
+                  </TD></TR></TBODY></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_pageinfo}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_pageinfo}
+      {BEGIN container_grid}
+      <STYLE>
+table.report {border-collapse: collapse} 
+table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #cccccc;}
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.group_1{background-color: #C4D6FF;padding-right:8px}
+td.nbgroup_1{background-color: #C4D6FF;border-style:none;padding-right:8px}
+td.header_1{background-color: #A6B5D8;padding-right:8px}
+td.pagesummary{background-color:#ffffbb;padding-right:8px}
+td.globalsummary{background-color:#ffe0b0;padding-right:8px}
+</STYLE>
+      {END container_grid}
+      <TABLE style="WIDTH: auto" cellSpacing=0 cellPadding=5 border=0>
+        <TBODY>
+        <TR class="runner-toprow style1">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc style="WIDTH: auto">
+            <TABLE 
+            style="PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; WIDTH: 1054px" 
+            borderColor=#000000 cellSpacing=2 cellPadding=0 rules=all 
+            bgColor=#ffffff border=1><!-------------------------------------  group headers ----------------------------------------->
+              {BEGIN grid_row}<TBODY>
+              {BEGIN Pipeline_newgroup}<TR>
+                <TD class=header_1 style="WHITE-SPACE: normal; WIDTH: 200px" 
+                colSpan=11><FONT style="FONT-WEIGHT: 900" 
+                  size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  {$Pipeline_grval}</FONT></TD></TR>
+              {END Pipeline_newgroup}{BEGIN Pipeline_newgroup}<TR>
+                <TD class=blackshade 
+                  style="WHITE-SPACE: normal; WIDTH: 300px"><P 
+                  align=center>Client</P></TD>
+                <TD class=blackshade 
+                  style="WHITE-SPACE: normal; WIDTH: 150px"><P 
+                  align=center>Vertical</P></TD>
+                <TD class="blackshade runner-cc" 
+                style="WHITE-SPACE: normal; WIDTH: 130px">
+                  <P align=center>Team</P></TD>
+                <TD class=blackshade style="WIDTH: 86px">
+                  <P align=center>Deal Status</P></TD>
+                <TD class=blackshade 
+                  style="WHITE-SPACE: normal; WIDTH: 200px"><P 
+                  align=center>Referral Source</P></TD>
+                <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 30px">
+                  <P align=center>Split</P></TD>
+                <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 60px">
+                  <P align=center>Month of Close</P></TD>
+                <TD class=blackshade 
+                  style="WHITE-SPACE: normal; WIDTH: 100px"><P 
+                  align=center>Gross This</P></TD>
+                <TD class=blackshade 
+                  style="WHITE-SPACE: normal; WIDTH: 100px"><P align=center>Net 
+                  This</P></TD>
+                <TD class=blackshade 
+                  style="WHITE-SPACE: normal; WIDTH: 100px"><P 
+                  align=center>Gross Next</P></TD>
+                <TD class=blackshade 
+                  style="WHITE-SPACE: normal; WIDTH: 100px"><P align=center>Net 
+                  Next</P></TD></TR>
+              {END Pipeline_newgroup}{BEGIN row_data}<TR style="HEIGHT: 192px">
+                <TD class=data style="WHITE-SPACE: normal; WIDTH: 300px">
+                  <P align=center>{$Company_value}</P></TD>
+                <TD class=data style="WHITE-SPACE: normal; WIDTH: 150px">
+                  <P align=center>{$Practice_Area_value}</P></TD>
+                <TD class="data runner-cc" 
+                style="WHITE-SPACE: normal; WIDTH: 130px">
+                  <P align=center>{$Team_1_value}</P>
+                  <P align=center>{$Team_2_value}</P>
+                  <P align=center>{$Team_3_value}</P>
+                  <P align=center>{$Team_4_value}</P>
+                  <P align=center>{$Team_5_value}</P>
+                  <P align=center>{$Team_6_value}</P></TD>
+                <TD class=data style="WIDTH: 78px">
+                  <P align=center>{$Status_value}</P></TD>
+                <TD class=data style="WHITE-SPACE: normal; WIDTH: 200px">
+                  <P align=center>{$Source_value}</P></TD>
+                <TD class=data style="WHITE-SPACE: normal; WIDTH: 30px">
+                  <P align=center>{$Split_to_Corporate_value}</P></TD>
+                <TD class=data style="WHITE-SPACE: normal; WIDTH: 60px">
+                  <P align=center>{$Month_of_Close_value}</P></TD>
+                <TD class=data style="WHITE-SPACE: normal; WIDTH: 100px">
+                  <P align=center>{$Gross_This_value}</P></TD>
+                <TD class=data style="WHITE-SPACE: normal; WIDTH: 100px">
+                  <P align=center>{$Net_This_value}</P></TD>
+                <TD class=data style="WHITE-SPACE: normal; WIDTH: 100px">
+                  <P align=center>{$Gross_Next_value}</P></TD>
+                <TD class=data style="WHITE-SPACE: normal; WIDTH: 100px">
+                  <P align=center>{$Net_next_value}</P></TD></TR><!-------------------------------------  group summary -----------------------------------------><!--  Sum -->
+              {END row_data}{BEGIN Pipeline_endgroup}<TR>
+                <TD class=group_1 
+                style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 300px; BACKGROUND-COLOR: #ffffff" 
+                rowSpan=2 colSpan=6>&nbsp; &nbsp; &nbsp; &nbsp; </TD>
+                <TD class=group_1 
+                style="HEIGHT: 30px; WHITE-SPACE: normal; WIDTH: 60px">
+                  <P align=center><FONT 
+                  size=1><STRONG>SUB-TOTAL</STRONG></FONT></P></TD>
+                <TD class=group_1 
+                style="HEIGHT: 30px; WHITE-SPACE: normal; WIDTH: 100px">
+                  <P align=center>&nbsp; {$groupPipeline_totalGross_This_sum} 
+                </P></TD>
+                <TD class=group_1 
+                style="HEIGHT: 30px; WHITE-SPACE: normal; WIDTH: 100px">
+                  <P align=center>&nbsp; {$groupPipeline_totalNet_This_sum} </P></TD>
+                <TD class=group_1 
+                style="HEIGHT: 30px; WHITE-SPACE: normal; WIDTH: 100px">
+                  <P align=center>&nbsp; {$groupPipeline_totalGross_Next_sum} 
+                </P></TD>
+                <TD class=group_1 
+                style="HEIGHT: 30px; WHITE-SPACE: normal; WIDTH: 100px">
+                  <P align=center>&nbsp; {$groupPipeline_totalNet_next_sum} 
+              </P></TD></TR>
+              <TR>
+                <TD style="HEIGHT: 10px; WHITE-SPACE: normal" 
+              colSpan=5></TD></TR>{END Pipeline_endgroup}</TBODY>{END grid_row}</TABLE>
+            <P>&nbsp;</P>
+            <P>&nbsp;</P>
+            <P>&nbsp;</P></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="runner-row style1">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc>
+            <DIV align=left>
+            <TABLE style="WIDTH: 858px" borderColor=#000000 cellSpacing=0 
+            cellPadding=0 rules=all align=left bgColor=#ffffff border=1>
+              <TBODY>
+              <TR>
+                <TD class=blackshade 
+                style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #2389dc"></TD>
+                <TD class=blackshade 
+                style="WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #2389dc">
+                  <P align=center>Gross This</P></TD>
+                <TD class=blackshade 
+                style="WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #2389dc">
+                  <P align=center>Net This</P></TD>
+                <TD class=blackshade 
+                style="WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #2389dc">
+                  <P align=center>Gross Next</P></TD>
+                <TD class=blackshade 
+                style="WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #2389dc">
+                  <P align=center>Net Next</P></TD></TR><!--------------------------------------global summary--------------------------------------------><!--  Sum -->
+              <TR>
+                <TD class=globalsummary 
+                style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #5ca4de">
+                  <P align=center><STRONG>&nbsp;TOTALS</STRONG> </P></TD>
+                <TD class=globalsummary 
+                style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #5ca4de">
+                  <P align=center>&nbsp; {$global_totalGross_This_sum} </P></TD>
+                <TD class=globalsummary 
+                style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #5ca4de">
+                  <P align=center>&nbsp; {$global_totalNet_This_sum} </P></TD>
+                <TD class=globalsummary 
+                style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #5ca4de">
+                  <P align=center>&nbsp; {$global_totalGross_Next_sum} </P></TD>
+                <TD class=globalsummary 
+                style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #5ca4de">
+                  <P>&nbsp; {$global_totalNet_next_sum} </P></TD></TR>
+              <TR>
+                <TD class=globalsummary 
+                style="HEIGHT: 5px; BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 859px; BACKGROUND-COLOR: #ffffff" 
+                colSpan=5></TD></TR>
+              <TR>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #037bbc">
+                  <P align=center><STRONG>This</STRONG></P></TD>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #037bbc">
+                  <P align=center><STRONG>YTD Gross</STRONG></P></TD>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #037bbc">
+                  <P align=center><STRONG>YTD Net</STRONG></P></TD>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #ffffff" 
+                rowSpan=4 colSpan=2></TD></TR>
+              <TR>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #5ca4de">
+                  <P align=center><STRONG>YTD Actuals</STRONG></P></TD>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #5ca4de">
+                  <P align=center>{$event Revenue_Estimates1_snippet61}</P></TD>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #5ca4de">
+                  <P align=center>{$global_totalYTD_Net_Actual_max}</P></TD></TR>
+              <TR>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #ffffff" 
+                colSpan=3></TD></TR>
+              <TR>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #ffff00">
+                  <P align=center><STRONG>This FORECAST</STRONG></P>
+                  <P align=center><STRONG>+YTD Actuals</STRONG></P></TD>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #ffff00">
+                  <P align=center>{$event Revenue_Estimates1_snippet51}</P></TD>
+                <TD class=globalsummary 
+                style="HEIGHT: 15px; WHITE-SPACE: normal; WIDTH: 109px; BACKGROUND-COLOR: #ffff00">
+                  <P align=center>{$event Revenue_Estimates1_snippet71}</P></TD></TR></TBODY></TABLE></DIV></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="runner-bottomrow style1">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE></TD></TR>
+  <TBODY></TBODY></TABLE>
+<DIV></DIV></TD></TR></TBODY></TABLE>
+<TABLE class=runner-b-report cellSpacing=0 cellPadding=5 border=0>
+  <TBODY>
+  <TR class="runner-toprow style1">
+    <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD class=runner-cc></TD>
+    <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+  <TR class="runner-row style1"></TR></TBODY></TABLE>{END body}</BODY></HTML>

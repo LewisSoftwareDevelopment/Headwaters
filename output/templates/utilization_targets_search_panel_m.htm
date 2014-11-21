@@ -1,0 +1,71 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_IBC_per_MD}
+			<a href="#" id="addSearchControl_IBC_per_MD" class="addSearchControl" {$addSearchControl_IBC_per_MD_attrs}>IBC per MD</a><br>
+		{END addSearch_IBC_per_MD}
+		{BEGIN addSearch_IBC_Total_MD}
+			<a href="#" id="addSearchControl_IBC_Total_MD" class="addSearchControl" {$addSearchControl_IBC_Total_MD_attrs}>IBC Total MD</a><br>
+		{END addSearch_IBC_Total_MD}
+		{BEGIN addSearch_IBC_YTD_Target}
+			<a href="#" id="addSearchControl_IBC_YTD_Target" class="addSearchControl" {$addSearchControl_IBC_YTD_Target_attrs}>IBC YTD Target</a><br>
+		{END addSearch_IBC_YTD_Target}
+		{BEGIN addSearch_EL_per_MD}
+			<a href="#" id="addSearchControl_EL_per_MD" class="addSearchControl" {$addSearchControl_EL_per_MD_attrs}>EL per MD</a><br>
+		{END addSearch_EL_per_MD}
+		{BEGIN addSearch_EL_Total_MD}
+			<a href="#" id="addSearchControl_EL_Total_MD" class="addSearchControl" {$addSearchControl_EL_Total_MD_attrs}>EL Total MD</a><br>
+		{END addSearch_EL_Total_MD}
+		{BEGIN addSearch_EL_YTD_Target}
+			<a href="#" id="addSearchControl_EL_YTD_Target" class="addSearchControl" {$addSearchControl_EL_YTD_Target_attrs}>EL YTD Target</a><br>
+		{END addSearch_EL_YTD_Target}
+		{BEGIN addSearch_Closing_per_MD}
+			<a href="#" id="addSearchControl_Closing_per_MD" class="addSearchControl" {$addSearchControl_Closing_per_MD_attrs}>Closing per MD</a><br>
+		{END addSearch_Closing_per_MD}
+		{BEGIN addSearch_Closing_Total_MD}
+			<a href="#" id="addSearchControl_Closing_Total_MD" class="addSearchControl" {$addSearchControl_Closing_Total_MD_attrs}>Closing Total MD</a><br>
+		{END addSearch_Closing_Total_MD}
+		{BEGIN addSearch_Closing_YTD_MD}
+			<a href="#" id="addSearchControl_Closing_YTD_MD" class="addSearchControl" {$addSearchControl_Closing_YTD_MD_attrs}>Closing YTD MD</a><br>
+		{END addSearch_Closing_YTD_MD}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

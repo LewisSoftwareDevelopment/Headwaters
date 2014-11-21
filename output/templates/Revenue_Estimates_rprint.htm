@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--%%pagestyle%%--><!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 10.00.9200.17088"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{BEGIN container_grid}{BEGIN pages}<H1>Revenue Estimates</H1><SPAN {$pages_attrs}>Page <B>{$pageno}</B> of <B>{$maxpages}</B> </SPAN>
+<STYLE>
+table.report {border-collapse: collapse} 
+table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #cccccc;}
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.group_1{background-color: #C4D6FF;}
+td.group_2{background-color: #FFB9B9;}
+td.nbgroup_1{background-color: #C4D6FF;border-style:none;}
+td.nbgroup_2{background-color: #FFB9B9;border-style:none;}
+td.header_1{background-color: #A6B5D8;}
+td.header_2{background-color: #D89D9D;}
+td.pagesummary{background-color:#ffffbb;}
+td.globalsummary{background-color:#ffe0b0;}
+</STYLE>
+
+<DIV id=grid_block{$id}><TABLE cellSpacing=0 cellPadding=5 border=0><TR class="runner-toprow style1"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD class=runner-cc></TD>
+    <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+  <TR class="runner-row style1"><TD class=runner-cl></TD>
+    <TD class=runner-cc><TABLE 
+      style="PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; WIDTH: 1054px" 
+      borderColor=#000000 cellSpacing=2 cellPadding=0 rules=all bgColor=#ffffff 
+      border=1>{BEGIN grid_row}{BEGIN Paul_newgroup}<TR><td>Paul</td>
+					<td>Mc Broom</td>
+					<td>Company</td>
+					<td>Practice Area</td>
+					<td>Status</td>
+					<td>Source</td>
+					<td>Split to Corporate</td>
+					<td>Month of Close</td>
+					<td>Gross This</td>
+					<td>Net This</td>
+					<td>Gross Next</td>
+					<td>Net Next</td>
+					<td>Team-1</td>
+					<td>Team-2</td>
+					<td>Team-3</td>
+					<td>Team-4</td>
+					<td>Team-5</td>
+					<td>Team-6</td>
+				</tr>
+				<tr><TD class=header_1 
+          style="WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #ffffff" 
+          colSpan=18></TR>
+        {END Paul_newgroup}{BEGIN McBroom_newgroup}<TR><td class="noborder group_1" style="border-style:none;"><FONT color=#000000></td></FONT></TD><FONT 
+            color=#000000>Client</FONT></STRONG></P></TD><FONT 
+            color=#000000>Vertical</FONT></STRONG></P></TD><FONT color=#000000>Lead 
+            MD</FONT></STRONG></P>2nd 
+            MD</FONT></STRONG></P>Primary 
+            Execution</FONT></STRONG></P></TD><FONT color=#000000>Deal 
+            Status</FONT></STRONG></P></TD><FONT color=#000000>Referral 
+            Source</FONT></STRONG></P></TD><P align=center><STRONG><FONT 
+          color=#000000>Split</FONT></STRONG></P></TD>
+          <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 50px"><P align=center><STRONG><FONT color=#000000></STRONG></P></TD><P align=center><STRONG><FONT color=#000000></STRONG></P></TD><P align=center><STRONG><FONT color=#000000></STRONG></P></TD><P align=center><STRONG><FONT color=#000000></STRONG></P></TD><P align=center><STRONG><FONT color=#000000></TR><!-------------------------------------  data 
+
+----------------------------------------->
+        {END McBroom_newgroup}{BEGIN row_data}<TR><td class="noborder group_1" style="border-style:none; border-right:solid 1px"><P align=center>{$Company_value}</P></TD>
+          <TD class=data style="WIDTH: 123px"><P align=center>{$Practice_Area_value}</P></TD>
+          <TD class=data style="WHITE-SPACE: normal; WIDTH: 100px"><P align=center>{$Team_1_value}<BR>{$Team_2_value}<BR>{$Team_3_value}<BR>{$Team_4_value}<BR>{$Team_5_value}<BR>{$Team_6_value}</P></TD>
+          <TD class=data style="WIDTH: 83px"><P align=center>{$Status_value}</P></TD>
+          <TD class=data style="WIDTH: 125px"><P align=center>{$Source_value}</P></TD>
+          <TD class=data style="WHITE-SPACE: normal; WIDTH: 20px"><P align=center><FONT color=#000000>&nbsp;</FONT>{$Split_to_Corporate_value}</P></TD>
+          <TD class=data style="WIDTH: 132px"><P align=center>{$Month_of_Close_value}</P></TD>
+          <TD class=data style="WIDTH: 242px"><P align=center>{$Gross_This_value}</P></TD>
+          <TD class=data style="WIDTH: 228px"><P align=center>{$Net_This_value}</P></TD>
+          <TD class=data style="WIDTH: 246px"><P align=center>{$Gross_Next_value}</P></TD>
+          <TD class=data style="WIDTH: 231px"><P align=center>{$Net_next_value}</P></TD></TR><!-------------------------------------  group summary 
+
+----------------------------------------->
+        {END row_data}{BEGIN McBroom_endgroup}<TR><td class=group_1 style="border-style:none"></td><FONT color=#000000><td style="border-top: none" class="noborder group_2" colspan=17 ></td></TR><!--  Sum -->
+        <TR><td class=group_1 style="border-style:none"><FONT 
+            color=#000000></td>
+          <td class=group_2 style="border-left: solid #cccccc 1px;"><FONT 
+            color=#000000></td>
+          <TD class=group_2 
+          style="WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #ffffff"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=group_2 
+          style="WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #ffffff"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=group_2 
+          style="WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #ffffff"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=group_2 
+          style="WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #ffffff"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=group_2 
+          style="WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #ffffff"><P align=center><FONT 
+            color=#000000>&nbsp;<STRONG>SUB-TOTAL</STRONG></FONT></P></TD>
+          <TD class=group_2 
+          style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #6395be"><P align=center><STRONG><FONT 
+            color=#000000>&nbsp;</FONT></STRONG>{$groupMcBroom_totalGross_This_sum}</P></TD>
+          <TD class=group_2 
+          style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #6395be"><P align=center>{$groupMcBroom_totalNet_This_sum}</P></TD>
+          <TD class=group_2 
+          style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #6395be"><P align=center>{$groupMcBroom_totalGross_Next_sum}</P></TD>
+          <TD class=group_2 
+          style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #6395be"><P align=center>{$groupMcBroom_totalNet_next_sum}</P></TD></TR>{END McBroom_endgroup}<FONT 
+        color=#000000>{BEGIN Paul_endgroup}</FONT> 
+        <TR><td style="border-top: none" class="noborder group_1" colspan=18 ><DIV><FONT color=#000000></FONT></td></TR><!--  Sum --></TD>
+        <TR><td class=group_1 style="border-left: solid #cccccc 1px;"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=group_1 
+          style="WHITE-SPACE: normal; BACKGROUND-COLOR: #ffffff"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=group_1 
+          style="WHITE-SPACE: normal; BACKGROUND-COLOR: #ffffff"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=group_1 
+          style="WHITE-SPACE: normal; BACKGROUND-COLOR: #ffffff"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=group_1 
+          style="WHITE-SPACE: normal; BACKGROUND-COLOR: #ffffff"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=group_1 
+          style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 20px; BACKGROUND-COLOR: #ffffff">{END Paul_endgroup}<FONT color=#000000></FONT></TD></TR>{END grid_row}</TABLE></TD>
+    <TD class=runner-cr></TD></TR>
+  <TR class="runner-row style1"><TD class=runner-cl></TD>
+    <TD class=runner-cc><TABLE style="WIDTH: 1816px" borderColor=#000000 cellSpacing=2 
+      cellPadding=0 rules=all bgColor=#ffffff border=1><!--								<tr>
+				<td>Paul</td>
+				<td>Mc Broom</td>
+				<td>Company</td>
+				<td>Practice Area</td>
+				<td>Status</td>
+				<td>Source</td>
+				<td>Split to Corporate</td>
+				<td>Month of Close</td>
+				<td>Gross This</td>
+				<td>Net This</td>
+				<td>Gross Next</td>
+				<td>Net Next</td>
+				<td>Team-1</td>
+				<td>Team-2</td>
+				<td>Team-3</td>
+				<td>Team-4</td>
+				<td>Team-5</td>
+				<td>Team-6</td>
+				</tr>
+				--></TD></TD></TD></TD></TD></TD><FONT color=#000000></TD><FONT color=#000000></TD><FONT color=#000000></TD><FONT color=#000000>
+        <TR><FONT color=#000000><!--------------------------------------global summary--------------------------------------------></FONT>
+        <TR><TD class=globalsummary colSpan=18><FONT color=#000000>Global 
+            summary </FONT>{$global_total_cnt}<FONT color=#000000> - records 
+            total</FONT></TD></TR><!--  Sum -->
+        <TR><TD class=globalsummary style="WIDTH: 28px"><FONT 
+            color=#000000>Sum</FONT></TD>
+          <TD class=globalsummary style="WIDTH: 45px"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=globalsummary style="WIDTH: 46px"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=globalsummary style="WIDTH: 46px"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=globalsummary style="WIDTH: 46px"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=globalsummary style="WIDTH: 46px"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=globalsummary style="WIDTH: 50px"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=globalsummary style="WIDTH: 85px"><FONT 
+            color=#000000>&nbsp;</FONT></TD>
+          <TD class=globalsummary style="WIDTH: 188px">{$global_totalGross_This_sum}</TD>
+          <TD class=globalsummary style="WIDTH: 174px">{$global_totalNet_This_sum}</TD>
+          <TD class=globalsummary style="WIDTH: 192px">{$global_totalGross_Next_sum}</TD>
+          <TD class=globalsummary style="WIDTH: 177px">{$global_totalNet_next_sum}</TD></TR></TABLE>&nbsp;</TD>
+    <TD class=runner-cr></TD></TR>
+  <TR class="runner-bottomrow style1"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD class=runner-cc></TD>
+    <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE></DIV>{END pages}{END container_grid}{END body}</BODY></HTML>

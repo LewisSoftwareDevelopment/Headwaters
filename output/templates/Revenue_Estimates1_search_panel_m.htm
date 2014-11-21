@@ -1,0 +1,104 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_Company}
+			<a href="#" id="addSearchControl_Company" class="addSearchControl" {$addSearchControl_Company_attrs}>Company</a><br>
+		{END addSearch_Company}
+		{BEGIN addSearch_Practice_Area}
+			<a href="#" id="addSearchControl_Practice_Area" class="addSearchControl" {$addSearchControl_Practice_Area_attrs}>Practice Area</a><br>
+		{END addSearch_Practice_Area}
+		{BEGIN addSearch_Status}
+			<a href="#" id="addSearchControl_Status" class="addSearchControl" {$addSearchControl_Status_attrs}>Status</a><br>
+		{END addSearch_Status}
+		{BEGIN addSearch_Source}
+			<a href="#" id="addSearchControl_Source" class="addSearchControl" {$addSearchControl_Source_attrs}>Source</a><br>
+		{END addSearch_Source}
+		{BEGIN addSearch_Split_to_Corporate}
+			<a href="#" id="addSearchControl_Split_to_Corporate" class="addSearchControl" {$addSearchControl_Split_to_Corporate_attrs}>Split to Corporate</a><br>
+		{END addSearch_Split_to_Corporate}
+		{BEGIN addSearch_Net_This}
+			<a href="#" id="addSearchControl_Net_This" class="addSearchControl" {$addSearchControl_Net_This_attrs}>Net This</a><br>
+		{END addSearch_Net_This}
+		{BEGIN addSearch_Gross_Next}
+			<a href="#" id="addSearchControl_Gross_Next" class="addSearchControl" {$addSearchControl_Gross_Next_attrs}>Gross Next</a><br>
+		{END addSearch_Gross_Next}
+		{BEGIN addSearch_Net_next}
+			<a href="#" id="addSearchControl_Net_next" class="addSearchControl" {$addSearchControl_Net_next_attrs}>Net Next</a><br>
+		{END addSearch_Net_next}
+		{BEGIN addSearch_Gross_This}
+			<a href="#" id="addSearchControl_Gross_This" class="addSearchControl" {$addSearchControl_Gross_This_attrs}>Gross This</a><br>
+		{END addSearch_Gross_This}
+		{BEGIN addSearch_Team_1}
+			<a href="#" id="addSearchControl_Team_1" class="addSearchControl" {$addSearchControl_Team_1_attrs}>Team-1</a><br>
+		{END addSearch_Team_1}
+		{BEGIN addSearch_Team_2}
+			<a href="#" id="addSearchControl_Team_2" class="addSearchControl" {$addSearchControl_Team_2_attrs}>Team-2</a><br>
+		{END addSearch_Team_2}
+		{BEGIN addSearch_Team_3}
+			<a href="#" id="addSearchControl_Team_3" class="addSearchControl" {$addSearchControl_Team_3_attrs}>Team-3</a><br>
+		{END addSearch_Team_3}
+		{BEGIN addSearch_Team_4}
+			<a href="#" id="addSearchControl_Team_4" class="addSearchControl" {$addSearchControl_Team_4_attrs}>Team-4</a><br>
+		{END addSearch_Team_4}
+		{BEGIN addSearch_Team_5}
+			<a href="#" id="addSearchControl_Team_5" class="addSearchControl" {$addSearchControl_Team_5_attrs}>Team-5</a><br>
+		{END addSearch_Team_5}
+		{BEGIN addSearch_Team_6}
+			<a href="#" id="addSearchControl_Team_6" class="addSearchControl" {$addSearchControl_Team_6_attrs}>Team-6</a><br>
+		{END addSearch_Team_6}
+		{BEGIN addSearch_Month_of_Close}
+			<a href="#" id="addSearchControl_Month_of_Close" class="addSearchControl" {$addSearchControl_Month_of_Close_attrs}>Month of Close</a><br>
+		{END addSearch_Month_of_Close}
+		{BEGIN addSearch_Pipeline}
+			<a href="#" id="addSearchControl_Pipeline" class="addSearchControl" {$addSearchControl_Pipeline_attrs}>Pipeline</a><br>
+		{END addSearch_Pipeline}
+		{BEGIN addSearch_This_Year_Buget_Gross}
+			<a href="#" id="addSearchControl_This_Year_Buget_Gross" class="addSearchControl" {$addSearchControl_This_Year_Buget_Gross_attrs}>This Year Buget Gross</a><br>
+		{END addSearch_This_Year_Buget_Gross}
+		{BEGIN addSearch_This_Year_Budget_Net}
+			<a href="#" id="addSearchControl_This_Year_Budget_Net" class="addSearchControl" {$addSearchControl_This_Year_Budget_Net_attrs}>This Year Budget Net</a><br>
+		{END addSearch_This_Year_Budget_Net}
+		{BEGIN addSearch_YTD_Net_Actual}
+			<a href="#" id="addSearchControl_YTD_Net_Actual" class="addSearchControl" {$addSearchControl_YTD_Net_Actual_attrs}>YTD Net Actual</a><br>
+		{END addSearch_YTD_Net_Actual}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

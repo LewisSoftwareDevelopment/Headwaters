@@ -1,0 +1,457 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+{BEGIN container_master}
+<table class="runner-c runner-c-master" cellpadding="0" >
+<tr class="{$cheaderclass_master}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+<tr class="runner-row style1">
+<td class="runner-cl"></td>
+<td class="runner-cc">
+<table border="0" cellpadding="0" class="runner-hc">
+<tr>
+
+{BEGIN mastertable_block}
+<td  class="runner-cc runner-bl runner-b-masterinfoprint" {$brickclass_masterinfoprint}><span>{$showmasterfile}
+</span></td>
+{END mastertable_block}
+
+<td class="runner-cc filler"></td>
+</tr>
+</table></td>
+<td class="runner-cr"></td>
+</tr>
+
+<tr class="{$cfooterclass_master}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_master}
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Bankers</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN First_Name_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN First_Name_fieldheader}
+	<b>First Name</b>
+	{END First_Name_fieldheader}
+</th>
+{END First_Name_fieldheadercolumn}
+	{BEGIN YTD_Last_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN YTD_Last_fieldheader}
+	<b>YTD+Last</b>
+	{END YTD_Last_fieldheader}
+</th>
+{END YTD_Last_fieldheadercolumn}
+	{BEGIN Last_Name_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Last_Name_fieldheader}
+	<b>Last Name</b>
+	{END Last_Name_fieldheader}
+</th>
+{END Last_Name_fieldheadercolumn}
+	{BEGIN Active_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Active_fieldheader}
+	<b>Active</b>
+	{END Active_fieldheader}
+</th>
+{END Active_fieldheadercolumn}
+	{BEGIN Name_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Name_fieldheader}
+	<b>Name</b>
+	{END Name_fieldheader}
+</th>
+{END Name_fieldheadercolumn}
+	{BEGIN Budget_Year_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Budget_Year_fieldheader}
+	<b>Budget Year</b>
+	{END Budget_Year_fieldheader}
+</th>
+{END Budget_Year_fieldheadercolumn}
+	{BEGIN Start_Date_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Start_Date_fieldheader}
+	<b>Start Date</b>
+	{END Start_Date_fieldheader}
+</th>
+{END Start_Date_fieldheadercolumn}
+	{BEGIN YTD_Revenue_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN YTD_Revenue_fieldheader}
+	<b>YTD Revenue</b>
+	{END YTD_Revenue_fieldheader}
+</th>
+{END YTD_Revenue_fieldheadercolumn}
+	{BEGIN Last_Year_Rev_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Last_Year_Rev_fieldheader}
+	<b>Last Year Rev</b>
+	{END Last_Year_Rev_fieldheader}
+</th>
+{END Last_Year_Rev_fieldheadercolumn}
+	{BEGIN Prior_Year_Rev_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Prior_Year_Rev_fieldheader}
+	<b>Prior Year Rev</b>
+	{END Prior_Year_Rev_fieldheader}
+</th>
+{END Prior_Year_Rev_fieldheadercolumn}
+	{BEGIN Last_Year_Rank_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Last_Year_Rank_fieldheader}
+	<b>Last Year Rank</b>
+	{END Last_Year_Rank_fieldheader}
+</th>
+{END Last_Year_Rank_fieldheadercolumn}
+	{BEGIN YTD_Closing_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN YTD_Closing_fieldheader}
+	<b>YTD Closing</b>
+	{END YTD_Closing_fieldheader}
+</th>
+{END YTD_Closing_fieldheadercolumn}
+	{BEGIN Last_Year_Closing_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Last_Year_Closing_fieldheader}
+	<b>Last Year Closing</b>
+	{END Last_Year_Closing_fieldheader}
+</th>
+{END Last_Year_Closing_fieldheadercolumn}
+	{BEGIN YTD_IBC_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN YTD_IBC_fieldheader}
+	<b>YTD IBC</b>
+	{END YTD_IBC_fieldheader}
+</th>
+{END YTD_IBC_fieldheadercolumn}
+	{BEGIN YTD_Engagements_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN YTD_Engagements_fieldheader}
+	<b>YTD Engagements</b>
+	{END YTD_Engagements_fieldheader}
+</th>
+{END YTD_Engagements_fieldheadercolumn}
+	{BEGIN Total_Current_Engagments_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Total_Current_Engagments_fieldheader}
+	<b>Total Current Engagments</b>
+	{END Total_Current_Engagments_fieldheader}
+</th>
+{END Total_Current_Engagments_fieldheadercolumn}
+	{BEGIN __Wheelhouse_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN __Wheelhouse_fieldheader}
+	<b># Wheelhouse</b>
+	{END __Wheelhouse_fieldheader}
+</th>
+{END __Wheelhouse_fieldheadercolumn}
+	{BEGIN __Speculative_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN __Speculative_fieldheader}
+	<b># Speculative</b>
+	{END __Speculative_fieldheader}
+</th>
+{END __Speculative_fieldheadercolumn}
+	{BEGIN __Minimum_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN __Minimum_fieldheader}
+	<b># Minimum</b>
+	{END __Minimum_fieldheader}
+</th>
+{END __Minimum_fieldheadercolumn}
+	{BEGIN ID_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ID_fieldheader}
+	<b>ID</b>
+	{END ID_fieldheader}
+</th>
+{END ID_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN First_Name_fieldcolumn}
+<td  class="runner-cc {$First_Name_class}" {$First_Name_style}>
+	{$First_Name_value}
+</td>
+{END First_Name_fieldcolumn}
+	{BEGIN YTD_Last_fieldcolumn}
+<td  class="runner-cc {$YTD_Last_class}" {$YTD_Last_style}>
+	{$YTD_Last_value}
+</td>
+{END YTD_Last_fieldcolumn}
+	{BEGIN Last_Name_fieldcolumn}
+<td  class="runner-cc {$Last_Name_class}" {$Last_Name_style}>
+	{$Last_Name_value}
+</td>
+{END Last_Name_fieldcolumn}
+	{BEGIN Active_fieldcolumn}
+<td  class="runner-cc {$Active_class}" {$Active_style}>
+	{$Active_value}
+</td>
+{END Active_fieldcolumn}
+	{BEGIN Name_fieldcolumn}
+<td  class="runner-cc {$Name_class}" {$Name_style}>
+	{$Name_value}
+</td>
+{END Name_fieldcolumn}
+	{BEGIN Budget_Year_fieldcolumn}
+<td  class="runner-cc {$Budget_Year_class}" {$Budget_Year_style}>
+	{$Budget_Year_value}
+</td>
+{END Budget_Year_fieldcolumn}
+	{BEGIN Start_Date_fieldcolumn}
+<td  class="runner-cc {$Start_Date_class}" {$Start_Date_style}>
+	{$Start_Date_value}
+</td>
+{END Start_Date_fieldcolumn}
+	{BEGIN YTD_Revenue_fieldcolumn}
+<td  class="runner-cc {$YTD_Revenue_class}" {$YTD_Revenue_style}>
+	{$YTD_Revenue_value}
+</td>
+{END YTD_Revenue_fieldcolumn}
+	{BEGIN Last_Year_Rev_fieldcolumn}
+<td  class="runner-cc {$Last_Year_Rev_class}" {$Last_Year_Rev_style}>
+	{$Last_Year_Rev_value}
+</td>
+{END Last_Year_Rev_fieldcolumn}
+	{BEGIN Prior_Year_Rev_fieldcolumn}
+<td  class="runner-cc {$Prior_Year_Rev_class}" {$Prior_Year_Rev_style}>
+	{$Prior_Year_Rev_value}
+</td>
+{END Prior_Year_Rev_fieldcolumn}
+	{BEGIN Last_Year_Rank_fieldcolumn}
+<td  class="runner-cc {$Last_Year_Rank_class}" {$Last_Year_Rank_style}>
+	{$Last_Year_Rank_value}
+</td>
+{END Last_Year_Rank_fieldcolumn}
+	{BEGIN YTD_Closing_fieldcolumn}
+<td  class="runner-cc {$YTD_Closing_class}" {$YTD_Closing_style}>
+	{$YTD_Closing_value}
+</td>
+{END YTD_Closing_fieldcolumn}
+	{BEGIN Last_Year_Closing_fieldcolumn}
+<td  class="runner-cc {$Last_Year_Closing_class}" {$Last_Year_Closing_style}>
+	{$Last_Year_Closing_value}
+</td>
+{END Last_Year_Closing_fieldcolumn}
+	{BEGIN YTD_IBC_fieldcolumn}
+<td  class="runner-cc {$YTD_IBC_class}" {$YTD_IBC_style}>
+	{$YTD_IBC_value}
+</td>
+{END YTD_IBC_fieldcolumn}
+	{BEGIN YTD_Engagements_fieldcolumn}
+<td  class="runner-cc {$YTD_Engagements_class}" {$YTD_Engagements_style}>
+	{$YTD_Engagements_value}
+</td>
+{END YTD_Engagements_fieldcolumn}
+	{BEGIN Total_Current_Engagments_fieldcolumn}
+<td  class="runner-cc {$Total_Current_Engagments_class}" {$Total_Current_Engagments_style}>
+	{$Total_Current_Engagments_value}
+</td>
+{END Total_Current_Engagments_fieldcolumn}
+	{BEGIN __Wheelhouse_fieldcolumn}
+<td  class="runner-cc {$__Wheelhouse_class}" {$__Wheelhouse_style}>
+	{$__Wheelhouse_value}
+</td>
+{END __Wheelhouse_fieldcolumn}
+	{BEGIN __Speculative_fieldcolumn}
+<td  class="runner-cc {$__Speculative_class}" {$__Speculative_style}>
+	{$__Speculative_value}
+</td>
+{END __Speculative_fieldcolumn}
+	{BEGIN __Minimum_fieldcolumn}
+<td  class="runner-cc {$__Minimum_class}" {$__Minimum_style}>
+	{$__Minimum_value}
+</td>
+{END __Minimum_fieldcolumn}
+	{BEGIN ID_fieldcolumn}
+<td  class="runner-cc {$ID_class}" {$ID_style}>
+	{$ID_value}
+</td>
+{END ID_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN First_Name_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END First_Name_fieldfootercolumn}
+{BEGIN YTD_Last_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END YTD_Last_fieldfootercolumn}
+{BEGIN Last_Name_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Last_Name_fieldfootercolumn}
+{BEGIN Active_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Active_fieldfootercolumn}
+{BEGIN Name_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Name_fieldfootercolumn}
+{BEGIN Budget_Year_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Budget_Year_fieldfootercolumn}
+{BEGIN Start_Date_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Start_Date_fieldfootercolumn}
+{BEGIN YTD_Revenue_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END YTD_Revenue_fieldfootercolumn}
+{BEGIN Last_Year_Rev_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Last_Year_Rev_fieldfootercolumn}
+{BEGIN Prior_Year_Rev_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Prior_Year_Rev_fieldfootercolumn}
+{BEGIN Last_Year_Rank_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Last_Year_Rank_fieldfootercolumn}
+{BEGIN YTD_Closing_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END YTD_Closing_fieldfootercolumn}
+{BEGIN Last_Year_Closing_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Last_Year_Closing_fieldfootercolumn}
+{BEGIN YTD_IBC_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END YTD_IBC_fieldfootercolumn}
+{BEGIN YTD_Engagements_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END YTD_Engagements_fieldfootercolumn}
+{BEGIN Total_Current_Engagments_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Total_Current_Engagments_fieldfootercolumn}
+{BEGIN __Wheelhouse_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END __Wheelhouse_fieldfootercolumn}
+{BEGIN __Speculative_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END __Speculative_fieldfootercolumn}
+{BEGIN __Minimum_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END __Minimum_fieldfootercolumn}
+{BEGIN ID_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END ID_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

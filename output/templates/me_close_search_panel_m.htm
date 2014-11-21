@@ -1,0 +1,59 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_ID}
+			<a href="#" id="addSearchControl_ID" class="addSearchControl" {$addSearchControl_ID_attrs}>ID</a><br>
+		{END addSearch_ID}
+		{BEGIN addSearch_CClient}
+			<a href="#" id="addSearchControl_CClient" class="addSearchControl" {$addSearchControl_CClient_attrs}>CClient</a><br>
+		{END addSearch_CClient}
+		{BEGIN addSearch_CDealtype}
+			<a href="#" id="addSearchControl_CDealtype" class="addSearchControl" {$addSearchControl_CDealtype_attrs}>CDealtype</a><br>
+		{END addSearch_CDealtype}
+		{BEGIN addSearch_CAmount}
+			<a href="#" id="addSearchControl_CAmount" class="addSearchControl" {$addSearchControl_CAmount_attrs}>CAmount</a><br>
+		{END addSearch_CAmount}
+		{BEGIN addSearch_CSlot}
+			<a href="#" id="addSearchControl_CSlot" class="addSearchControl" {$addSearchControl_CSlot_attrs}>CSlot</a><br>
+		{END addSearch_CSlot}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

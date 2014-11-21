@@ -1,0 +1,202 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Me-close</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN ID_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ID_fieldheader}
+	<b>ID</b>
+	{END ID_fieldheader}
+</th>
+{END ID_fieldheadercolumn}
+	{BEGIN CClient_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CClient_fieldheader}
+	<b>CClient</b>
+	{END CClient_fieldheader}
+</th>
+{END CClient_fieldheadercolumn}
+	{BEGIN CDealtype_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CDealtype_fieldheader}
+	<b>CDealtype</b>
+	{END CDealtype_fieldheader}
+</th>
+{END CDealtype_fieldheadercolumn}
+	{BEGIN CAmount_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CAmount_fieldheader}
+	<b>CAmount</b>
+	{END CAmount_fieldheader}
+</th>
+{END CAmount_fieldheadercolumn}
+	{BEGIN CSlot_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN CSlot_fieldheader}
+	<b>CSlot</b>
+	{END CSlot_fieldheader}
+</th>
+{END CSlot_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN ID_fieldcolumn}
+<td  class="runner-cc {$ID_class}" {$ID_style}>
+	{$ID_value}
+</td>
+{END ID_fieldcolumn}
+	{BEGIN CClient_fieldcolumn}
+<td  class="runner-cc {$CClient_class}" {$CClient_style}>
+	{$CClient_value}
+</td>
+{END CClient_fieldcolumn}
+	{BEGIN CDealtype_fieldcolumn}
+<td  class="runner-cc {$CDealtype_class}" {$CDealtype_style}>
+	{$CDealtype_value}
+</td>
+{END CDealtype_fieldcolumn}
+	{BEGIN CAmount_fieldcolumn}
+<td  class="runner-cc {$CAmount_class}" {$CAmount_style}>
+	{$CAmount_value}
+</td>
+{END CAmount_fieldcolumn}
+	{BEGIN CSlot_fieldcolumn}
+<td  class="runner-cc {$CSlot_class}" {$CSlot_style}>
+	{$CSlot_value}
+</td>
+{END CSlot_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN ID_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ID_fieldfootercolumn}
+{BEGIN CClient_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END CClient_fieldfootercolumn}
+{BEGIN CDealtype_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END CDealtype_fieldfootercolumn}
+{BEGIN CAmount_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END CAmount_fieldfootercolumn}
+{BEGIN CSlot_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END CSlot_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

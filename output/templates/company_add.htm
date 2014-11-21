@@ -1,0 +1,967 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+{BEGIN container_add}
+<table class="runner-c runner-c-add" cellpadding="0" align=center>
+
+
+<tr class="runner-toprow style2 header"><td class="runner-cl"><img src="images/spacer.gif"></td><td class="runner-cc" ><div  class="runner-b-addheader {$brickclass_addheader}">Company, Add new record</div></td><td class="runner-cr"><img src="images/spacer.gif"></td></tr>
+
+
+{BEGIN message_block}
+<tr  class="runner-row style1 runner-b-message {$brickclass_message}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div class="runner-message">{$message}</div></td><td class="runner-cr"></td></tr>{END message_block}
+
+
+
+<tr  class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents runner-wrapper" >
+
+{BEGIN container_fields}
+<table class="runner-c runner-c-fields" cellpadding="0" >
+<tr class="{$cheaderclass_fields}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cc alt"></td><td class="runner-cr alt"><img src="images/spacer.gif"></td>
+</tr>
+
+
+	{BEGIN Company_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Company {$fielddispclass_Company}">
+			{BEGIN Company_label}Company{END Company_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Company {$fielddispclass_Company}">
+			{$Company_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Company_fieldblock}
+	{BEGIN EL_Date_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_EL_Date {$fielddispclass_EL_Date}">
+			{BEGIN EL_Date_label}EL Date{END EL_Date_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_EL_Date {$fielddispclass_EL_Date}">
+			{$EL_Date_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END EL_Date_fieldblock}
+	{BEGIN IBC_Date_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_IBC_Date {$fielddispclass_IBC_Date}">
+			{BEGIN IBC_Date_label}IBC Date{END IBC_Date_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_IBC_Date {$fielddispclass_IBC_Date}">
+			{$IBC_Date_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END IBC_Date_fieldblock}
+	{BEGIN Est__Close_Date_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Est__Close_Date {$fielddispclass_Est__Close_Date}">
+			{BEGIN Est__Close_Date_label}Est. Close Date{END Est__Close_Date_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Est__Close_Date {$fielddispclass_Est__Close_Date}">
+			{$Est__Close_Date_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Est__Close_Date_fieldblock}
+	{BEGIN Project_Name_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Project_Name {$fielddispclass_Project_Name}">
+			{BEGIN Project_Name_label}Project Name{END Project_Name_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Project_Name {$fielddispclass_Project_Name}">
+			{$Project_Name_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Project_Name_fieldblock}
+	{BEGIN EL_Expiration_Date_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_EL_Expiration_Date {$fielddispclass_EL_Expiration_Date}">
+			{BEGIN EL_Expiration_Date_label}EL Expiration Date{END EL_Expiration_Date_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_EL_Expiration_Date {$fielddispclass_EL_Expiration_Date}">
+			{$EL_Expiration_Date_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END EL_Expiration_Date_fieldblock}
+	{BEGIN Status_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Status {$fielddispclass_Status}">
+			{BEGIN Status_label}Status{END Status_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Status {$fielddispclass_Status}">
+			{$Status_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Status_fieldblock}
+	{BEGIN Deal_Type_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Deal_Type {$fielddispclass_Deal_Type}">
+			{BEGIN Deal_Type_label}Deal Type{END Deal_Type_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Deal_Type {$fielddispclass_Deal_Type}">
+			{$Deal_Type_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Deal_Type_fieldblock}
+	{BEGIN Deal_Slot_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Deal_Slot {$fielddispclass_Deal_Slot}">
+			{BEGIN Deal_Slot_label}Deal Slot{END Deal_Slot_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Deal_Slot {$fielddispclass_Deal_Slot}">
+			{$Deal_Slot_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Deal_Slot_fieldblock}
+	{BEGIN Closed_Date_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Closed_Date {$fielddispclass_Closed_Date}">
+			{BEGIN Closed_Date_label}Closed Date{END Closed_Date_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Closed_Date {$fielddispclass_Closed_Date}">
+			{$Closed_Date_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Closed_Date_fieldblock}
+	{BEGIN Dead_Date_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Dead_Date {$fielddispclass_Dead_Date}">
+			{BEGIN Dead_Date_label}Dead Date{END Dead_Date_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Dead_Date {$fielddispclass_Dead_Date}">
+			{$Dead_Date_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Dead_Date_fieldblock}
+	{BEGIN Primary_Banker_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Primary_Banker {$fielddispclass_Primary_Banker}">
+			{BEGIN Primary_Banker_label}Primary Banker{END Primary_Banker_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Primary_Banker {$fielddispclass_Primary_Banker}">
+			{$Primary_Banker_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Primary_Banker_fieldblock}
+	{BEGIN Practice_Area_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Practice_Area {$fielddispclass_Practice_Area}">
+			{BEGIN Practice_Area_label}Practice Area{END Practice_Area_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Practice_Area {$fielddispclass_Practice_Area}">
+			{$Practice_Area_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Practice_Area_fieldblock}
+	{BEGIN Industry_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Industry {$fielddispclass_Industry}">
+			{BEGIN Industry_label}Industry{END Industry_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Industry {$fielddispclass_Industry}">
+			{$Industry_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Industry_fieldblock}
+	{BEGIN Projected_Transaction_Size_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Projected_Transaction_Size {$fielddispclass_Projected_Transaction_Size}">
+			{BEGIN Projected_Transaction_Size_label}Projected Transaction Size{END Projected_Transaction_Size_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Projected_Transaction_Size {$fielddispclass_Projected_Transaction_Size}">
+			{$Projected_Transaction_Size_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Projected_Transaction_Size_fieldblock}
+	{BEGIN Enterpise_Value_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Enterpise_Value {$fielddispclass_Enterpise_Value}">
+			{BEGIN Enterpise_Value_label}Enterpise Value{END Enterpise_Value_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Enterpise_Value {$fielddispclass_Enterpise_Value}">
+			{$Enterpise_Value_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Enterpise_Value_fieldblock}
+	{BEGIN Final_Transaction_Size_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Final_Transaction_Size {$fielddispclass_Final_Transaction_Size}">
+			{BEGIN Final_Transaction_Size_label}Final Transaction Size{END Final_Transaction_Size_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Final_Transaction_Size {$fielddispclass_Final_Transaction_Size}">
+			{$Final_Transaction_Size_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Final_Transaction_Size_fieldblock}
+	{BEGIN Projected_Fee_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Projected_Fee {$fielddispclass_Projected_Fee}">
+			{BEGIN Projected_Fee_label}Projected Fee{END Projected_Fee_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Projected_Fee {$fielddispclass_Projected_Fee}">
+			{$Projected_Fee_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Projected_Fee_fieldblock}
+	{BEGIN Fee_Minimum_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_Minimum {$fielddispclass_Fee_Minimum}">
+			{BEGIN Fee_Minimum_label}Fee Minimum{END Fee_Minimum_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_Minimum {$fielddispclass_Fee_Minimum}">
+			{$Fee_Minimum_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_Minimum_fieldblock}
+	{BEGIN Engagment_Fee_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Engagment_Fee {$fielddispclass_Engagment_Fee}">
+			{BEGIN Engagment_Fee_label}Engagment Fee{END Engagment_Fee_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Engagment_Fee {$fielddispclass_Engagment_Fee}">
+			{$Engagment_Fee_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Engagment_Fee_fieldblock}
+	{BEGIN Fee_Details_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_Details {$fielddispclass_Fee_Details}">
+			{BEGIN Fee_Details_label}Fee Details{END Fee_Details_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_Details {$fielddispclass_Fee_Details}">
+			{$Fee_Details_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_Details_fieldblock}
+	{BEGIN Split_to_Corporate_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Split_to_Corporate {$fielddispclass_Split_to_Corporate}">
+			{BEGIN Split_to_Corporate_label}Split to Corporate{END Split_to_Corporate_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Split_to_Corporate {$fielddispclass_Split_to_Corporate}">
+			{$Split_to_Corporate_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Split_to_Corporate_fieldblock}
+	{BEGIN Monthly_Retainer_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Monthly_Retainer {$fielddispclass_Monthly_Retainer}">
+			{BEGIN Monthly_Retainer_label}Monthly Retainer{END Monthly_Retainer_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Monthly_Retainer {$fielddispclass_Monthly_Retainer}">
+			{$Monthly_Retainer_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Monthly_Retainer_fieldblock}
+	{BEGIN Final_Total_Sucess_Fee_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Final_Total_Sucess_Fee {$fielddispclass_Final_Total_Sucess_Fee}">
+			{BEGIN Final_Total_Sucess_Fee_label}Final Total Sucess Fee{END Final_Total_Sucess_Fee_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Final_Total_Sucess_Fee {$fielddispclass_Final_Total_Sucess_Fee}">
+			{$Final_Total_Sucess_Fee_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Final_Total_Sucess_Fee_fieldblock}
+	{BEGIN Ownership_Class_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Ownership_Class {$fielddispclass_Ownership_Class}">
+			{BEGIN Ownership_Class_label}Ownership Class{END Ownership_Class_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Ownership_Class {$fielddispclass_Ownership_Class}">
+			{$Ownership_Class_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Ownership_Class_fieldblock}
+	{BEGIN Referral_Type_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Referral_Type {$fielddispclass_Referral_Type}">
+			{BEGIN Referral_Type_label}Referral Type{END Referral_Type_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Referral_Type {$fielddispclass_Referral_Type}">
+			{$Referral_Type_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Referral_Type_fieldblock}
+	{BEGIN Referral_Source_Company_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Referral_Source_Company {$fielddispclass_Referral_Source_Company}">
+			{BEGIN Referral_Source_Company_label}Referral Source-Company{END Referral_Source_Company_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Referral_Source_Company {$fielddispclass_Referral_Source_Company}">
+			{$Referral_Source_Company_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Referral_Source_Company_fieldblock}
+	{BEGIN Referral_Scource_Ind__fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Referral_Scource_Ind_ {$fielddispclass_Referral_Scource_Ind_}">
+			{BEGIN Referral_Scource_Ind__label}Referral Scource-Ind.{END Referral_Scource_Ind__label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Referral_Scource_Ind_ {$fielddispclass_Referral_Scource_Ind_}">
+			{$Referral_Scource_Ind__editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Referral_Scource_Ind__fieldblock}
+	{BEGIN Description_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Description {$fielddispclass_Description}">
+			{BEGIN Description_label}Description{END Description_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Description {$fielddispclass_Description}">
+			{$Description_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Description_fieldblock}
+	{BEGIN Team_Split_1_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_Split_1 {$fielddispclass_Team_Split_1}">
+			{BEGIN Team_Split_1_label}Team Split-1{END Team_Split_1_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_Split_1 {$fielddispclass_Team_Split_1}">
+			{$Team_Split_1_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_Split_1_fieldblock}
+	{BEGIN Team_1_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_1 {$fielddispclass_Team_1}">
+			{BEGIN Team_1_label}Team-1{END Team_1_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_1 {$fielddispclass_Team_1}">
+			{$Team_1_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_1_fieldblock}
+	{BEGIN Team_Split_2_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_Split_2 {$fielddispclass_Team_Split_2}">
+			{BEGIN Team_Split_2_label}Team Split-2{END Team_Split_2_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_Split_2 {$fielddispclass_Team_Split_2}">
+			{$Team_Split_2_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_Split_2_fieldblock}
+	{BEGIN Team_2_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_2 {$fielddispclass_Team_2}">
+			{BEGIN Team_2_label}Team-2{END Team_2_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_2 {$fielddispclass_Team_2}">
+			{$Team_2_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_2_fieldblock}
+	{BEGIN Team_Split_3_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_Split_3 {$fielddispclass_Team_Split_3}">
+			{BEGIN Team_Split_3_label}Team Split-3{END Team_Split_3_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_Split_3 {$fielddispclass_Team_Split_3}">
+			{$Team_Split_3_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_Split_3_fieldblock}
+	{BEGIN Team_3_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_3 {$fielddispclass_Team_3}">
+			{BEGIN Team_3_label}Team-3{END Team_3_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_3 {$fielddispclass_Team_3}">
+			{$Team_3_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_3_fieldblock}
+	{BEGIN Team_Split_4_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_Split_4 {$fielddispclass_Team_Split_4}">
+			{BEGIN Team_Split_4_label}Team Split-4{END Team_Split_4_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_Split_4 {$fielddispclass_Team_Split_4}">
+			{$Team_Split_4_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_Split_4_fieldblock}
+	{BEGIN Team_4_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_4 {$fielddispclass_Team_4}">
+			{BEGIN Team_4_label}Team-4{END Team_4_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_4 {$fielddispclass_Team_4}">
+			{$Team_4_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_4_fieldblock}
+	{BEGIN Team_Split_5_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_Split_5 {$fielddispclass_Team_Split_5}">
+			{BEGIN Team_Split_5_label}Team Split-5{END Team_Split_5_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_Split_5 {$fielddispclass_Team_Split_5}">
+			{$Team_Split_5_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_Split_5_fieldblock}
+	{BEGIN Team_5_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_5 {$fielddispclass_Team_5}">
+			{BEGIN Team_5_label}Team-5{END Team_5_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_5 {$fielddispclass_Team_5}">
+			{$Team_5_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_5_fieldblock}
+	{BEGIN Team_Split_6_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_Split_6 {$fielddispclass_Team_Split_6}">
+			{BEGIN Team_Split_6_label}Team Split-6{END Team_Split_6_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_Split_6 {$fielddispclass_Team_Split_6}">
+			{$Team_Split_6_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_Split_6_fieldblock}
+	{BEGIN Team_6_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Team_6 {$fielddispclass_Team_6}">
+			{BEGIN Team_6_label}Team-6{END Team_6_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Team_6 {$fielddispclass_Team_6}">
+			{$Team_6_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Team_6_fieldblock}
+	{BEGIN Fee_Split_1_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_Split_1 {$fielddispclass_Fee_Split_1}">
+			{BEGIN Fee_Split_1_label}Fee Split-1{END Fee_Split_1_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_Split_1 {$fielddispclass_Fee_Split_1}">
+			{$Fee_Split_1_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_Split_1_fieldblock}
+	{BEGIN Fee_To_1_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_To_1 {$fielddispclass_Fee_To_1}">
+			{BEGIN Fee_To_1_label}Fee To-1{END Fee_To_1_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_To_1 {$fielddispclass_Fee_To_1}">
+			{$Fee_To_1_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_To_1_fieldblock}
+	{BEGIN Fee_Split_2_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_Split_2 {$fielddispclass_Fee_Split_2}">
+			{BEGIN Fee_Split_2_label}Fee Split-2{END Fee_Split_2_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_Split_2 {$fielddispclass_Fee_Split_2}">
+			{$Fee_Split_2_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_Split_2_fieldblock}
+	{BEGIN Fee_To_2_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_To_2 {$fielddispclass_Fee_To_2}">
+			{BEGIN Fee_To_2_label}Fee To-2{END Fee_To_2_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_To_2 {$fielddispclass_Fee_To_2}">
+			{$Fee_To_2_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_To_2_fieldblock}
+	{BEGIN Fee_Split_3_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_Split_3 {$fielddispclass_Fee_Split_3}">
+			{BEGIN Fee_Split_3_label}Fee Split-3{END Fee_Split_3_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_Split_3 {$fielddispclass_Fee_Split_3}">
+			{$Fee_Split_3_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_Split_3_fieldblock}
+	{BEGIN Fee_To_3_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_To_3 {$fielddispclass_Fee_To_3}">
+			{BEGIN Fee_To_3_label}Fee To-3{END Fee_To_3_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_To_3 {$fielddispclass_Fee_To_3}">
+			{$Fee_To_3_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_To_3_fieldblock}
+	{BEGIN Fee_Split_4_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_Split_4 {$fielddispclass_Fee_Split_4}">
+			{BEGIN Fee_Split_4_label}Fee Split-4{END Fee_Split_4_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_Split_4 {$fielddispclass_Fee_Split_4}">
+			{$Fee_Split_4_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_Split_4_fieldblock}
+	{BEGIN Fee_To_4_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_To_4 {$fielddispclass_Fee_To_4}">
+			{BEGIN Fee_To_4_label}Fee To-4{END Fee_To_4_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_To_4 {$fielddispclass_Fee_To_4}">
+			{$Fee_To_4_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_To_4_fieldblock}
+	{BEGIN Fee_Split_5_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_Split_5 {$fielddispclass_Fee_Split_5}">
+			{BEGIN Fee_Split_5_label}Fee Split-5{END Fee_Split_5_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_Split_5 {$fielddispclass_Fee_Split_5}">
+			{$Fee_Split_5_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_Split_5_fieldblock}
+	{BEGIN Fee_To_5_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_To_5 {$fielddispclass_Fee_To_5}">
+			{BEGIN Fee_To_5_label}Fee To-5{END Fee_To_5_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_To_5 {$fielddispclass_Fee_To_5}">
+			{$Fee_To_5_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_To_5_fieldblock}
+	{BEGIN Fee_Split_6_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_Split_6 {$fielddispclass_Fee_Split_6}">
+			{BEGIN Fee_Split_6_label}Fee Split-6{END Fee_Split_6_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_Split_6 {$fielddispclass_Fee_Split_6}">
+			{$Fee_Split_6_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_Split_6_fieldblock}
+	{BEGIN Fee_To_6_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Fee_To_6 {$fielddispclass_Fee_To_6}">
+			{BEGIN Fee_To_6_label}Fee To-6{END Fee_To_6_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Fee_To_6 {$fielddispclass_Fee_To_6}">
+			{$Fee_To_6_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Fee_To_6_fieldblock}
+	{BEGIN Paul_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Paul {$fielddispclass_Paul}">
+			{BEGIN Paul_label}Paul{END Paul_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Paul {$fielddispclass_Paul}">
+			{$Paul_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Paul_fieldblock}
+	{BEGIN McBroom_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_McBroom {$fielddispclass_McBroom}">
+			{BEGIN McBroom_label}Mc Broom{END McBroom_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_McBroom {$fielddispclass_McBroom}">
+			{$McBroom_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END McBroom_fieldblock}
+	{BEGIN Pipeline_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Pipeline {$fielddispclass_Pipeline}">
+			{BEGIN Pipeline_label}Pipeline{END Pipeline_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Pipeline {$fielddispclass_Pipeline}">
+			{$Pipeline_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Pipeline_fieldblock}
+	{BEGIN Month_of_Close_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Month_of_Close {$fielddispclass_Month_of_Close}">
+			{BEGIN Month_of_Close_label}Month of Close{END Month_of_Close_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Month_of_Close {$fielddispclass_Month_of_Close}">
+			{$Month_of_Close_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Month_of_Close_fieldblock}
+	{BEGIN Gross_This_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Gross_This {$fielddispclass_Gross_This}">
+			{BEGIN Gross_This_label}Gross This{END Gross_This_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Gross_This {$fielddispclass_Gross_This}">
+			{$Gross_This_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Gross_This_fieldblock}
+	{BEGIN Gross_Next_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+	<td class="runner-cc runner-cc1">
+		<div class="fieldlabel_Gross_Next {$fielddispclass_Gross_Next}">
+			{BEGIN Gross_Next_label}Gross Next{END Gross_Next_label}
+		</div>
+	</td>
+	<td class="runner-cc alt runner-fixedcell">
+		<div class="fieldcontrol_Gross_Next {$fielddispclass_Gross_Next}">
+			{$Gross_Next_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Gross_Next_fieldblock}
+
+
+
+{BEGIN legend}
+<tr  class="runner-row style3 runner-b-legend {$brickclass_legend}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2><span id="required_block{$id}">
+<img src="images/icon_required.gif" alt="bullet"> - Required field
+</span>
+</td><td class="runner-cr"></td></tr>{END legend}
+
+
+
+<tr  class="runner-row style2 runner-b-addbuttons {$brickclass_addbuttons}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" colspan=2>{BEGIN save_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$savebutton_attrs}>Save</a>
+</span>
+{END save_button}
+{BEGIN cancel_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$cancelbutton_attrs}>Cancel</a>
+</span>
+{END cancel_button}
+{BEGIN back_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$backbutton_attrs}>Back to list</a>
+</span>
+{END back_button}
+{BEGIN backToMenu_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$backToMenubutton_attrs}>Back to menu</a>
+</span>
+{END backToMenu_button}</td><td class="runner-cr"></td></tr>
+
+
+<tr class="{$cfooterclass_fields}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_fields}
+
+</td><td class="runner-cr"></td></tr>
+
+
+<tr class="{$cfooterclass_add}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_add}
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

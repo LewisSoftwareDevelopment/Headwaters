@@ -1,0 +1,79 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_Name}
+			<a href="#" id="addSearchControl_Name" class="addSearchControl" {$addSearchControl_Name_attrs}>Name</a><br>
+		{END addSearch_Name}
+		{BEGIN addSearch_Budget_Year}
+			<a href="#" id="addSearchControl_Budget_Year" class="addSearchControl" {$addSearchControl_Budget_Year_attrs}>Budget Year</a><br>
+		{END addSearch_Budget_Year}
+		{BEGIN addSearch_Start_Date}
+			<a href="#" id="addSearchControl_Start_Date" class="addSearchControl" {$addSearchControl_Start_Date_attrs}>Start Date</a><br>
+		{END addSearch_Start_Date}
+		{BEGIN addSearch_YTD_Revenue}
+			<a href="#" id="addSearchControl_YTD_Revenue" class="addSearchControl" {$addSearchControl_YTD_Revenue_attrs}>YTD Revenue</a><br>
+		{END addSearch_YTD_Revenue}
+		{BEGIN addSearch_Last_Year_Rev}
+			<a href="#" id="addSearchControl_Last_Year_Rev" class="addSearchControl" {$addSearchControl_Last_Year_Rev_attrs}>Last Year Rev</a><br>
+		{END addSearch_Last_Year_Rev}
+		{BEGIN addSearch_Prior_Year_Rev}
+			<a href="#" id="addSearchControl_Prior_Year_Rev" class="addSearchControl" {$addSearchControl_Prior_Year_Rev_attrs}>Prior Year Rev</a><br>
+		{END addSearch_Prior_Year_Rev}
+		{BEGIN addSearch_YTD_Last}
+			<a href="#" id="addSearchControl_YTD_Last" class="addSearchControl" {$addSearchControl_YTD_Last_attrs}>YTD+Last</a><br>
+		{END addSearch_YTD_Last}
+		{BEGIN addSearch_YTD_Last_Prior}
+			<a href="#" id="addSearchControl_YTD_Last_Prior" class="addSearchControl" {$addSearchControl_YTD_Last_Prior_attrs}>YTD+Last+Prior</a><br>
+		{END addSearch_YTD_Last_Prior}
+		{BEGIN addSearch_company_Count}
+			<a href="#" id="addSearchControl_company_Count" class="addSearchControl" {$addSearchControl_company_Count_attrs}>Company Count</a><br>
+		{END addSearch_company_Count}
+		{BEGIN addSearch_IBC}
+			<a href="#" id="addSearchControl_IBC" class="addSearchControl" {$addSearchControl_IBC_attrs}>IBC</a><br>
+		{END addSearch_IBC}
+	</div>
+	
+	<table class="controlsBlock">
+	{BEGIN searchCtrlBlock}
+		<tr class="srchPanelRow" {$filterRow_attrs}>
+			<td class="srchPanelCell">{$delCtrlButt}</td>
+			<td class="srchPanelCell">{$fLabel}:&nbsp;</td>
+			<td class="srchPanelCell srchPanelCell2">
+				<div class="runner-searchtype">{$searchtype}</div>
+				<div class="runner-searchcontrol">{$searchcontrol}</div>
+				<div class="runner-searchcontrol">{$searchcontrol1}</div>
+		</tr>
+	{END searchCtrlBlock}
+	</table>
+	
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

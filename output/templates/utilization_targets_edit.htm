@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 10.00.9200.17054"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
+<TABLE class=runner-toptable cellPadding=0><TR class=runner-header><TD class=runner-top colSpan=3>{BEGIN container_edit}<TABLE class="runner-c runner-c-edit" cellPadding=0 align=center><TR class="runner-toprow style2 header"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc><DIV 
+            class="runner-b-editheader {$brickclass_editheader}">Utilization 
+            Targets, Edit record [ ID: {$show_key1} ]</DIV></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        {BEGIN message_block}<TR class="runner-row style1 runner-b-message {$brickclass_message}"><TD class=runner-cl></TD>
+          <TD class="runner-cc runner-brickcontents"><DIV class=runner-message>{$message}</DIV></TD>
+          <TD class=runner-cr></TD></TR>
+        {END message_block}<TR class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}"><TD class=runner-cl></TD>
+          <TD class="runner-cc runner-brickcontents runner-wrapper">{BEGIN container_fields}<TABLE class="runner-c runner-c-fields" borderColor=#000000 
+            cellSpacing=2 cellPadding=0 bgColor=#c0c0c0 border=0>{BEGIN ID_fieldblock}<tr class="runner-toprow header style1 runner-b-editfields"><td class="runner-cl"><img src="images/spacer.gif"></td>
+		<td class="runner-cc runner-cc1"><div class="fieldlabel_ID {$fielddispclass_ID}">{BEGIN ID_label}ID{END ID_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell"><div class="fieldcontrol_ID {$fielddispclass_ID}">{$ID_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"><img src="images/spacer.gif"></td></tr>
+{END ID_fieldblock}
+	{BEGIN IBC_per_MD_fieldblock}<tr class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
+                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_IBC_per_MD {$fielddispclass_IBC_per_MD}">{BEGIN IBC_per_MD_label}IBC per MD {END IBC_per_MD_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell"><DIV 
+                  class="fieldcontrol_IBC_per_MD {$fielddispclass_IBC_per_MD}">{$IBC_per_MD_editcontrol}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cc runner-cc1"><STRONG>EL per 
+                  MD</STRONG></TD>
+                <TD class="runner-cc alt runner-fixedcell">{$EL_per_MD_editcontrol}</TD>&lt; 
+
+                <TD class="runner-cc runner-cc1"><STRONG>Closing per 
+                  MD</STRONG></TD>
+                <TD class="runner-cc alt runner-fixedcell">{$Closing_per_MD_editcontrol}</TD>
+                <TD class="runner-cr alt"></TD></tr>
+              {END IBC_per_MD_fieldblock}{BEGIN IBC_Total_MD_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
+                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_IBC_Total_MD {$fielddispclass_IBC_Total_MD}">{BEGIN IBC_Total_MD_label}IBC Total MD {END IBC_Total_MD_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell"><DIV 
+                  class="fieldcontrol_IBC_Total_MD {$fielddispclass_IBC_Total_MD}">{$IBC_Total_MD_editcontrol}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cc runner-cc1"><STRONG>EL Total 
+                  MD</STRONG></TD>
+                <TD class="runner-cc alt runner-fixedcell">{$EL_Total_MD_editcontrol}</TD>
+                <TD class="runner-cc runner-cc1"><STRONG>Closing Total 
+                  MD</STRONG></TD>
+                <TD class="runner-cc alt runner-fixedcell">{$Closing_Total_MD_editcontrol}</TD>
+                <TD class="runner-cc runner-cc1"></TD></TR>
+              {END IBC_Total_MD_fieldblock}{BEGIN IBC_YTD_Target_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
+                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_IBC_YTD_Target {$fielddispclass_IBC_YTD_Target}">{BEGIN IBC_YTD_Target_label}IBC YTD Target {END IBC_YTD_Target_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell"><DIV 
+                  class="fieldcontrol_IBC_YTD_Target {$fielddispclass_IBC_YTD_Target}">{$IBC_YTD_Target_editcontrol}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cc runner-cc1"><STRONG>EL YTD 
+                  Target</STRONG></TD>
+                <TD class="runner-cc alt runner-fixedcell">{$EL_YTD_Target_editcontrol}</TD>
+                <TD class="runner-cc runner-cc1"><STRONG>Closing YTD 
+                  MD</STRONG></TD>
+                <TD class="runner-cc alt runner-fixedcell">{$Closing_YTD_MD_editcontrol}</TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END IBC_YTD_Target_fieldblock}{BEGIN legend}<TR class="runner-row style3 runner-b-legend {$brickclass_legend}"><TD class=runner-cl></TD>
+                <TD class="runner-cc runner-brickcontents" colSpan=2><SPAN id=required_block{$id}><IMG alt=bullet src="images/icon_required.gif"> - Required field </SPAN></TD>
+                <TD class="runner-cc runner-brickcontents"></TD>
+                <TD class="runner-cc runner-brickcontents"></TD>
+                <TD class="runner-cc runner-brickcontents"></TD>
+                <TD class="runner-cc runner-brickcontents"></TD>
+                <TD class=runner-cr></TD></TR>
+              {END legend}<TR 
+              class="runner-row style2 runner-b-editbuttons {$brickclass_editbuttons}"><TD class=runner-cl></TD>
+                <TD class="runner-cc runner-brickcontents" colSpan=2>{BEGIN save_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$savebutton_attrs}>Save</A> 
+                  </SPAN>{END save_button}{BEGIN reset_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$resetbutton_attrs}>Reset</A> 
+                  </SPAN>{END reset_button}{BEGIN prev_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$prevbutton_attrs}>&nbsp;&lt;&lt;&lt;&nbsp;</A> </SPAN>{END prev_button}{BEGIN back_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$backbutton_attrs}>Back to 
+                  list</A> </SPAN>{END back_button}{BEGIN next_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$nextbutton_attrs}>&nbsp;&gt;&gt;&gt;&nbsp;</A> 
+                </SPAN>{END next_button}</TD>
+                <TD class="runner-cc runner-brickcontents"></TD>
+                <TD class="runner-cc runner-brickcontents"></TD>
+                <TD class="runner-cc runner-brickcontents"></TD>
+                <TD class="runner-cc runner-brickcontents"></TD>
+                <TD class=runner-cr></TD></TR>
+              <TR class="{$cfooterclass_fields}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_fields}</TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_edit}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_edit}</TD></TR>
+  <TR class=runner-body><TD class="runner-left {$blockclass_left}"></TD>
+    <TD class="runner-center {$blockclass_center}"></TD>
+    <TD class="runner-right {$blockclass_right}"></TD></TR>
+  <TR class=runner-footer><TD class=runner-bottom 
+colSpan=3><!--%%bottom%%--></TD></TR></TABLE>{$footer} 
+{END body}</BODY></HTML>

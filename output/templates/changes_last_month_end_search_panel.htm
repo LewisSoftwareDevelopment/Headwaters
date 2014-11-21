@@ -1,0 +1,103 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_ID}
+			<a href="#" id="addSearchControl_ID" class="addSearchControl" {$addSearchControl_ID_attrs}>ID</a><br>
+		{END addSearch_ID}
+		{BEGIN addSearch_LMLive}
+			<a href="#" id="addSearchControl_LMLive" class="addSearchControl" {$addSearchControl_LMLive_attrs}>LMLive</a><br>
+		{END addSearch_LMLive}
+		{BEGIN addSearch_Closed}
+			<a href="#" id="addSearchControl_Closed" class="addSearchControl" {$addSearchControl_Closed_attrs}>Closed</a><br>
+		{END addSearch_Closed}
+		{BEGIN addSearch_Dead}
+			<a href="#" id="addSearchControl_Dead" class="addSearchControl" {$addSearchControl_Dead_attrs}>Dead</a><br>
+		{END addSearch_Dead}
+		{BEGIN addSearch_NewEl}
+			<a href="#" id="addSearchControl_NewEl" class="addSearchControl" {$addSearchControl_NewEl_attrs}>New El</a><br>
+		{END addSearch_NewEl}
+		{BEGIN addSearch_CurrentLive}
+			<a href="#" id="addSearchControl_CurrentLive" class="addSearchControl" {$addSearchControl_CurrentLive_attrs}>Current Live</a><br>
+		{END addSearch_CurrentLive}
+		{BEGIN addSearch_CClient}
+			<a href="#" id="addSearchControl_CClient" class="addSearchControl" {$addSearchControl_CClient_attrs}>CClient</a><br>
+		{END addSearch_CClient}
+		{BEGIN addSearch_CDealtype}
+			<a href="#" id="addSearchControl_CDealtype" class="addSearchControl" {$addSearchControl_CDealtype_attrs}>CDealtype</a><br>
+		{END addSearch_CDealtype}
+		{BEGIN addSearch_CAmount}
+			<a href="#" id="addSearchControl_CAmount" class="addSearchControl" {$addSearchControl_CAmount_attrs}>CAmount</a><br>
+		{END addSearch_CAmount}
+		{BEGIN addSearch_CSlot}
+			<a href="#" id="addSearchControl_CSlot" class="addSearchControl" {$addSearchControl_CSlot_attrs}>CSlot</a><br>
+		{END addSearch_CSlot}
+		{BEGIN addSearch_DClient}
+			<a href="#" id="addSearchControl_DClient" class="addSearchControl" {$addSearchControl_DClient_attrs}>DClient</a><br>
+		{END addSearch_DClient}
+		{BEGIN addSearch_DDealtype}
+			<a href="#" id="addSearchControl_DDealtype" class="addSearchControl" {$addSearchControl_DDealtype_attrs}>DDealtype</a><br>
+		{END addSearch_DDealtype}
+		{BEGIN addSearch_DAmount}
+			<a href="#" id="addSearchControl_DAmount" class="addSearchControl" {$addSearchControl_DAmount_attrs}>DAmount</a><br>
+		{END addSearch_DAmount}
+		{BEGIN addSearch_DSlot}
+			<a href="#" id="addSearchControl_DSlot" class="addSearchControl" {$addSearchControl_DSlot_attrs}>DSlot</a><br>
+		{END addSearch_DSlot}
+		{BEGIN addSearch_ELClinet}
+			<a href="#" id="addSearchControl_ELClinet" class="addSearchControl" {$addSearchControl_ELClinet_attrs}>ELClinet</a><br>
+		{END addSearch_ELClinet}
+		{BEGIN addSearch_ELDealType}
+			<a href="#" id="addSearchControl_ELDealType" class="addSearchControl" {$addSearchControl_ELDealType_attrs}>ELDeal Type</a><br>
+		{END addSearch_ELDealType}
+		{BEGIN addSearch_ELAmount}
+			<a href="#" id="addSearchControl_ELAmount" class="addSearchControl" {$addSearchControl_ELAmount_attrs}>ELAmount</a><br>
+		{END addSearch_ELAmount}
+		{BEGIN addSearch_ELSlot}
+			<a href="#" id="addSearchControl_ELSlot" class="addSearchControl" {$addSearchControl_ELSlot_attrs}>ELSlot</a><br>
+		{END addSearch_ELSlot}
+	</div>
+	
+	<table class="controlsBlock">
+	{BEGIN searchCtrlBlock}
+		<tr class="srchPanelRow" {$filterRow_attrs}>
+			<td class="srchPanelCell">{$delCtrlButt}</td>
+			<td class="srchPanelCell">{$fLabel}:&nbsp;</td>
+			<td class="srchPanelCell srchPanelCell2">
+				<div class="runner-searchtype">{$searchtype}</div>
+				<div class="runner-searchcontrol">{$searchcontrol}</div>
+				<div class="runner-searchcontrol">{$searchcontrol1}</div>
+		</tr>
+	{END searchCtrlBlock}
+	</table>
+	
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

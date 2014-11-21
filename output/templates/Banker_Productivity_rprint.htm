@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--%%pagestyle%%--><!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 10.00.9200.17088"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>
+{BEGIN body}{BEGIN container_grid}{BEGIN pages}
+<H1 align=center><FONT size=4><STRONG>Banker 
+Productivity</STRONG></FONT></H1><SPAN {$pages_attrs}></SPAN>
+<STYLE>
+table.report {border-collapse: collapse} 
+table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #ffffff;}
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.pagesummary{background-color:#ffffff;}
+td.globalsummary{background-color:#ffffff;}
+</STYLE>
+
+{BEGIN grid_block}<DIV id=grid_block{$id} class=runner-s-grid>
+<TABLE class="runner-c runner-c-grid" 
+style="BORDER-TOP: black 1px solid; HEIGHT: 960px; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; WIDTH: 1700px" 
+borderColor=#000000 cellSpacing=2 cellPadding=1 rules=all bgColor=#ffffff 
+border=1>
+  <TBODY>
+  <TR class="runner-toprow style1">
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 15px">
+      <B><FONT 
+      color=#ffffff>#</FONT></B></TD>
+    <TD class="runner-cc blackshade" 
+      style="WHITE-SPACE: normal; WIDTH: 120px"><B><FONT color=#ffffff>Name</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 15px">
+      <B><FONT color=#ffffff>Budget 
+      Year</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 30px">
+      <B><FONT color=#ffffff>Start 
+      Date</FONT></B></TD>
+    <TD class="runner-cc blackshade" 
+      style="WHITE-SPACE: normal; WIDTH: 100px"><B><FONT color=#ffffff>YTD</FONT></B></TD>
+    <TD class="runner-cc blackshade" 
+      style="WHITE-SPACE: normal; WIDTH: 100px"><B><FONT color=#ffffff>{$event Banker_Productivity_snippet6}</FONT></B></TD>
+    <TD class="runner-cc blackshade" 
+      style="WHITE-SPACE: normal; WIDTH: 100px"><B><FONT color=#ffffff>{$event Banker_Productivity_snippet7}</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 25px">
+      <B><FONT color=#ffffff>Last Year 
+      Rank</FONT></B></TD>
+    <TD class="runner-cc blackshade" 
+      style="WHITE-SPACE: normal; WIDTH: 100px"><B><FONT color=#ffffff>{$event Banker_Productivity_snippet8}</FONT></B></TD>
+    <TD class="runner-cc blackshade" 
+      style="WHITE-SPACE: normal; WIDTH: 100px"><B><FONT color=#ffffff>{$event Banker_Productivity_snippet9}</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 10px">
+      <B><FONT 
+      color=#ffffff>Closed</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 10px">
+      <B><FONT 
+      color=#ffffff>IBC</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 10px">
+      <B><FONT color=#ffffff>YTD 
+      Count</FONT></B></TD>
+    <TD class="runner-cc blackshade" 
+      style="WHITE-SPACE: normal; WIDTH: 650px"><B><FONT color=#ffffff>YTD Engagements</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 10px">
+      <B><FONT color=#ffffff>Total 
+      Count</FONT></B></TD>
+    <TD class="runner-cc blackshade" 
+      style="WHITE-SPACE: normal; WIDTH: 650px"><B><FONT color=#ffffff>Total 
+Engagements</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 25px">
+      <B><FONT 
+      color=#ffffff>Wheelhouse</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 25px">
+      <B><FONT 
+      color=#ffffff>Speculative</FONT></B></TD>
+    <TD class="runner-cc blackshade" style="WHITE-SPACE: normal; WIDTH: 25px">
+      <B><FONT 
+      color=#ffffff>Minimum</FONT></B></TD></TR><!-------------------------------------  data ----------------------------------------->
+  {BEGIN grid_row}{BEGIN row_data}<TR class="runner-row style1">
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 15px">
+      
+      <P align=left><FONT 
+      color=#000000>{$ID_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 120px">
+      
+      <P align=center><FONT color=#000000>{$Name_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 15px">
+      
+      <P align=center><FONT color=#000000>{$Budget_Year_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 30px">
+      
+      <P align=center><FONT color=#000000>{$Start_Date_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 100px">
+      
+      <P align=right><FONT color=#000000>{$YTD_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 100px">
+      
+      <P align=right><FONT color=#000000>{$y2_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 100px">
+      
+      <P align=right><FONT color=#000000>{$y3_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 25px">
+      
+      <P align=center><FONT color=#000000>{$Last_Year_Rank_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 100px">
+      
+      <P align=right><FONT color=#000000>{$YTD_y2_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 100px">
+      
+      <P align=right><FONT color=#000000>{$YTD_y2_y3_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 10px">
+      
+      <P align=center><FONT color=#000000>{$Closed_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 10px">
+      
+      <P align=center><FONT color=#000000>{$IBC_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 10px">
+      
+      <P align=right><FONT color=#000000>{$YTD_Count_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 650px">
+      
+      <P align=left><FONT color=#000000>{$YTD_Engagments_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 10px">
+      
+      <P align=right><FONT color=#000000>{$Total_Count_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 650px">
+      
+      <P align=left><FONT color=#000000>{$Total_Engagements_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 25px">
+      
+      <P align=center><FONT color=#000000>{$Wheelhouse_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 25px">
+      
+      <P align=center><FONT color=#000000>{$Speculative_value}</FONT></P></TD>
+    <TD class="runner-cc data" style="WHITE-SPACE: normal; WIDTH: 25px">
+      
+      <P align=center><FONT color=#000000>{$Minimum_value}</FONT></P></TD></TR>
+  {END row_data}{END grid_row}<TR>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 15px">ID</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 120px">Name</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 15px">Budget 
+    Year</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 30px">Start 
+Date</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 100px">YTD</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 100px">Y2</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 100px">Y3</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 25px">Last Year 
+      Rank</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 100px">YTD+y2</TD>
+    <TD class=blackshade 
+style="WHITE-SPACE: normal; WIDTH: 100px">YTD+y2=y3</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 10px">Closed</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 10px">IBC</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 10px">YTD Count</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 650px">YTD 
+      Engagments</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 10px">Total 
+    Count</TD>
+    <TD class=blackshade style="WHITE-SPACE: normal; WIDTH: 650px">Total 
+      Engagements</TD>
+    <TD class=blackshade 
+style="WHITE-SPACE: normal; WIDTH: 25px">Wheelhouse</TD>
+    <TD class=blackshade 
+    style="WHITE-SPACE: normal; WIDTH: 25px">Speculative</TD>
+    <TD class=blackshade 
+style="WHITE-SPACE: normal; WIDTH: 25px">Minimum</TD></TR><!--------------------------------------global summary-------------------------------------------->
+  <TR>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 120px" 
+      colSpan=19>Global summary {$global_total_cnt} - records total</TD></TR><!--  Sum -->
+  <TR>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 15px">Sum&nbsp; 
+      &nbsp; </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 120px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 15px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 30px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totaly2_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totaly3_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_y2_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_y2_y3_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalClosed_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalIBC_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalYTD_Count_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 650px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalTotal_Count_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 650px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalWheelhouse_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalSpeculative_sum} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalMinimum_sum} </TD></TR><!--  Avg -->
+  <TR>
+    <TD class=globalsummary 
+      style="WHITE-SPACE: normal; WIDTH: 15px">Average&nbsp; &nbsp; </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 120px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 15px">{$global_totalBudget_Year_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 30px">{$global_totalStart_Date_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totaly2_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totaly3_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_y2_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_y2_y3_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalClosed_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalIBC_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalYTD_Count_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 650px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalTotal_Count_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 650px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalWheelhouse_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalSpeculative_avg} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalMinimum_avg} </TD></TR><!--  Min -->
+  <TR>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 15px">Min&nbsp; 
+      &nbsp; </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 120px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 15px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 30px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totaly2_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totaly3_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_y2_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_y2_y3_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalClosed_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalIBC_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalYTD_Count_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 650px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalTotal_Count_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 650px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalWheelhouse_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalSpeculative_min} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalMinimum_min} </TD></TR><!--  Max -->
+  <TR>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 15px">Max&nbsp; 
+      &nbsp; </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 120px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 15px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 30px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totaly2_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totaly3_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">&nbsp; 
+</TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_y2_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 100px">{$global_totalYTD_y2_y3_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalClosed_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalIBC_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalYTD_Count_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 650px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 10px">{$global_totalTotal_Count_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 650px">&nbsp; 
+    </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalWheelhouse_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalSpeculative_max} </TD>
+    <TD class=globalsummary style="WHITE-SPACE: normal; WIDTH: 25px">{$global_totalMinimum_max} 
+</TD></TR></TBODY></TABLE></DIV>{END grid_block}{END pages}{END container_grid}{END body}</BODY></HTML>

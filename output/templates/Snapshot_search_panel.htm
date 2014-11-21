@@ -1,0 +1,658 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_Live}
+			<a href="#" id="addSearchControl_Live" class="addSearchControl" {$addSearchControl_Live_attrs}>Live</a><br>
+		{END addSearch_Live}
+		{BEGIN addSearch_InMarketLOI}
+			<a href="#" id="addSearchControl_InMarketLOI" class="addSearchControl" {$addSearchControl_InMarketLOI_attrs}>In Market LOI</a><br>
+		{END addSearch_InMarketLOI}
+		{BEGIN addSearch_Closed}
+			<a href="#" id="addSearchControl_Closed" class="addSearchControl" {$addSearchControl_Closed_attrs}>Closed</a><br>
+		{END addSearch_Closed}
+		{BEGIN addSearch_EL}
+			<a href="#" id="addSearchControl_EL" class="addSearchControl" {$addSearchControl_EL_attrs}>EL</a><br>
+		{END addSearch_EL}
+		{BEGIN addSearch_IBC}
+			<a href="#" id="addSearchControl_IBC" class="addSearchControl" {$addSearchControl_IBC_attrs}>IBC</a><br>
+		{END addSearch_IBC}
+		{BEGIN addSearch_nda12}
+			<a href="#" id="addSearchControl_nda12" class="addSearchControl" {$addSearchControl_nda12_attrs}>Nda12</a><br>
+		{END addSearch_nda12}
+		{BEGIN addSearch_nda11}
+			<a href="#" id="addSearchControl_nda11" class="addSearchControl" {$addSearchControl_nda11_attrs}>Nda11</a><br>
+		{END addSearch_nda11}
+		{BEGIN addSearch_nda10}
+			<a href="#" id="addSearchControl_nda10" class="addSearchControl" {$addSearchControl_nda10_attrs}>Nda10</a><br>
+		{END addSearch_nda10}
+		{BEGIN addSearch_nda9}
+			<a href="#" id="addSearchControl_nda9" class="addSearchControl" {$addSearchControl_nda9_attrs}>Nda9</a><br>
+		{END addSearch_nda9}
+		{BEGIN addSearch_nda8}
+			<a href="#" id="addSearchControl_nda8" class="addSearchControl" {$addSearchControl_nda8_attrs}>Nda8</a><br>
+		{END addSearch_nda8}
+		{BEGIN addSearch_nda7}
+			<a href="#" id="addSearchControl_nda7" class="addSearchControl" {$addSearchControl_nda7_attrs}>Nda7</a><br>
+		{END addSearch_nda7}
+		{BEGIN addSearch_nda6}
+			<a href="#" id="addSearchControl_nda6" class="addSearchControl" {$addSearchControl_nda6_attrs}>Nda6</a><br>
+		{END addSearch_nda6}
+		{BEGIN addSearch_nda5}
+			<a href="#" id="addSearchControl_nda5" class="addSearchControl" {$addSearchControl_nda5_attrs}>Nda5</a><br>
+		{END addSearch_nda5}
+		{BEGIN addSearch_nda4}
+			<a href="#" id="addSearchControl_nda4" class="addSearchControl" {$addSearchControl_nda4_attrs}>Nda4</a><br>
+		{END addSearch_nda4}
+		{BEGIN addSearch_nda3}
+			<a href="#" id="addSearchControl_nda3" class="addSearchControl" {$addSearchControl_nda3_attrs}>Nda3</a><br>
+		{END addSearch_nda3}
+		{BEGIN addSearch_nda2}
+			<a href="#" id="addSearchControl_nda2" class="addSearchControl" {$addSearchControl_nda2_attrs}>Nda2</a><br>
+		{END addSearch_nda2}
+		{BEGIN addSearch_nda1}
+			<a href="#" id="addSearchControl_nda1" class="addSearchControl" {$addSearchControl_nda1_attrs}>Nda1</a><br>
+		{END addSearch_nda1}
+		{BEGIN addSearch_NDAYTD}
+			<a href="#" id="addSearchControl_NDAYTD" class="addSearchControl" {$addSearchControl_NDAYTD_attrs}>NDAYTD</a><br>
+		{END addSearch_NDAYTD}
+		{BEGIN addSearch_ELJan}
+			<a href="#" id="addSearchControl_ELJan" class="addSearchControl" {$addSearchControl_ELJan_attrs}>ELJan</a><br>
+		{END addSearch_ELJan}
+		{BEGIN addSearch_ELFeb}
+			<a href="#" id="addSearchControl_ELFeb" class="addSearchControl" {$addSearchControl_ELFeb_attrs}>ELFeb</a><br>
+		{END addSearch_ELFeb}
+		{BEGIN addSearch_ELMar}
+			<a href="#" id="addSearchControl_ELMar" class="addSearchControl" {$addSearchControl_ELMar_attrs}>ELMar</a><br>
+		{END addSearch_ELMar}
+		{BEGIN addSearch_ELApril}
+			<a href="#" id="addSearchControl_ELApril" class="addSearchControl" {$addSearchControl_ELApril_attrs}>ELApril</a><br>
+		{END addSearch_ELApril}
+		{BEGIN addSearch_ELMay}
+			<a href="#" id="addSearchControl_ELMay" class="addSearchControl" {$addSearchControl_ELMay_attrs}>ELMay</a><br>
+		{END addSearch_ELMay}
+		{BEGIN addSearch_ELJune}
+			<a href="#" id="addSearchControl_ELJune" class="addSearchControl" {$addSearchControl_ELJune_attrs}>ELJune</a><br>
+		{END addSearch_ELJune}
+		{BEGIN addSearch_ELJuly}
+			<a href="#" id="addSearchControl_ELJuly" class="addSearchControl" {$addSearchControl_ELJuly_attrs}>ELJuly</a><br>
+		{END addSearch_ELJuly}
+		{BEGIN addSearch_ELAug}
+			<a href="#" id="addSearchControl_ELAug" class="addSearchControl" {$addSearchControl_ELAug_attrs}>ELAug</a><br>
+		{END addSearch_ELAug}
+		{BEGIN addSearch_ELSep}
+			<a href="#" id="addSearchControl_ELSep" class="addSearchControl" {$addSearchControl_ELSep_attrs}>ELSep</a><br>
+		{END addSearch_ELSep}
+		{BEGIN addSearch_ELOct}
+			<a href="#" id="addSearchControl_ELOct" class="addSearchControl" {$addSearchControl_ELOct_attrs}>ELOct</a><br>
+		{END addSearch_ELOct}
+		{BEGIN addSearch_ELNov}
+			<a href="#" id="addSearchControl_ELNov" class="addSearchControl" {$addSearchControl_ELNov_attrs}>ELNov</a><br>
+		{END addSearch_ELNov}
+		{BEGIN addSearch_ELDec}
+			<a href="#" id="addSearchControl_ELDec" class="addSearchControl" {$addSearchControl_ELDec_attrs}>ELDec</a><br>
+		{END addSearch_ELDec}
+		{BEGIN addSearch_IMLJan}
+			<a href="#" id="addSearchControl_IMLJan" class="addSearchControl" {$addSearchControl_IMLJan_attrs}>IMLJan</a><br>
+		{END addSearch_IMLJan}
+		{BEGIN addSearch_IMLeb}
+			<a href="#" id="addSearchControl_IMLeb" class="addSearchControl" {$addSearchControl_IMLeb_attrs}>IMLeb</a><br>
+		{END addSearch_IMLeb}
+		{BEGIN addSearch_IMLMar}
+			<a href="#" id="addSearchControl_IMLMar" class="addSearchControl" {$addSearchControl_IMLMar_attrs}>IMLMar</a><br>
+		{END addSearch_IMLMar}
+		{BEGIN addSearch_IMLApril}
+			<a href="#" id="addSearchControl_IMLApril" class="addSearchControl" {$addSearchControl_IMLApril_attrs}>IMLApril</a><br>
+		{END addSearch_IMLApril}
+		{BEGIN addSearch_IMLMay}
+			<a href="#" id="addSearchControl_IMLMay" class="addSearchControl" {$addSearchControl_IMLMay_attrs}>IMLMay</a><br>
+		{END addSearch_IMLMay}
+		{BEGIN addSearch_IMLJune}
+			<a href="#" id="addSearchControl_IMLJune" class="addSearchControl" {$addSearchControl_IMLJune_attrs}>IMLJune</a><br>
+		{END addSearch_IMLJune}
+		{BEGIN addSearch_IMLJuly}
+			<a href="#" id="addSearchControl_IMLJuly" class="addSearchControl" {$addSearchControl_IMLJuly_attrs}>IMLJuly</a><br>
+		{END addSearch_IMLJuly}
+		{BEGIN addSearch_IMLAug}
+			<a href="#" id="addSearchControl_IMLAug" class="addSearchControl" {$addSearchControl_IMLAug_attrs}>IMLAug</a><br>
+		{END addSearch_IMLAug}
+		{BEGIN addSearch_IMLSep}
+			<a href="#" id="addSearchControl_IMLSep" class="addSearchControl" {$addSearchControl_IMLSep_attrs}>IMLSep</a><br>
+		{END addSearch_IMLSep}
+		{BEGIN addSearch_IMLOct}
+			<a href="#" id="addSearchControl_IMLOct" class="addSearchControl" {$addSearchControl_IMLOct_attrs}>IMLOct</a><br>
+		{END addSearch_IMLOct}
+		{BEGIN addSearch_IMLNov}
+			<a href="#" id="addSearchControl_IMLNov" class="addSearchControl" {$addSearchControl_IMLNov_attrs}>IMLNov</a><br>
+		{END addSearch_IMLNov}
+		{BEGIN addSearch_IMLDec}
+			<a href="#" id="addSearchControl_IMLDec" class="addSearchControl" {$addSearchControl_IMLDec_attrs}>IMLDec</a><br>
+		{END addSearch_IMLDec}
+		{BEGIN addSearch_IBC12}
+			<a href="#" id="addSearchControl_IBC12" class="addSearchControl" {$addSearchControl_IBC12_attrs}>IBC12</a><br>
+		{END addSearch_IBC12}
+		{BEGIN addSearch_IBC11}
+			<a href="#" id="addSearchControl_IBC11" class="addSearchControl" {$addSearchControl_IBC11_attrs}>IBC11</a><br>
+		{END addSearch_IBC11}
+		{BEGIN addSearch_IBC10}
+			<a href="#" id="addSearchControl_IBC10" class="addSearchControl" {$addSearchControl_IBC10_attrs}>IBC10</a><br>
+		{END addSearch_IBC10}
+		{BEGIN addSearch_IBC9}
+			<a href="#" id="addSearchControl_IBC9" class="addSearchControl" {$addSearchControl_IBC9_attrs}>IBC9</a><br>
+		{END addSearch_IBC9}
+		{BEGIN addSearch_IBC8}
+			<a href="#" id="addSearchControl_IBC8" class="addSearchControl" {$addSearchControl_IBC8_attrs}>IBC8</a><br>
+		{END addSearch_IBC8}
+		{BEGIN addSearch_IBC7}
+			<a href="#" id="addSearchControl_IBC7" class="addSearchControl" {$addSearchControl_IBC7_attrs}>IBC7</a><br>
+		{END addSearch_IBC7}
+		{BEGIN addSearch_IBC6}
+			<a href="#" id="addSearchControl_IBC6" class="addSearchControl" {$addSearchControl_IBC6_attrs}>IBC6</a><br>
+		{END addSearch_IBC6}
+		{BEGIN addSearch_IBC5}
+			<a href="#" id="addSearchControl_IBC5" class="addSearchControl" {$addSearchControl_IBC5_attrs}>IBC5</a><br>
+		{END addSearch_IBC5}
+		{BEGIN addSearch_IBC4}
+			<a href="#" id="addSearchControl_IBC4" class="addSearchControl" {$addSearchControl_IBC4_attrs}>IBC4</a><br>
+		{END addSearch_IBC4}
+		{BEGIN addSearch_IBC3}
+			<a href="#" id="addSearchControl_IBC3" class="addSearchControl" {$addSearchControl_IBC3_attrs}>IBC3</a><br>
+		{END addSearch_IBC3}
+		{BEGIN addSearch_IBC2}
+			<a href="#" id="addSearchControl_IBC2" class="addSearchControl" {$addSearchControl_IBC2_attrs}>IBC2</a><br>
+		{END addSearch_IBC2}
+		{BEGIN addSearch_IBC1}
+			<a href="#" id="addSearchControl_IBC1" class="addSearchControl" {$addSearchControl_IBC1_attrs}>IBC1</a><br>
+		{END addSearch_IBC1}
+		{BEGIN addSearch_EL12}
+			<a href="#" id="addSearchControl_EL12" class="addSearchControl" {$addSearchControl_EL12_attrs}>EL12</a><br>
+		{END addSearch_EL12}
+		{BEGIN addSearch_EL11}
+			<a href="#" id="addSearchControl_EL11" class="addSearchControl" {$addSearchControl_EL11_attrs}>EL11</a><br>
+		{END addSearch_EL11}
+		{BEGIN addSearch_EL10}
+			<a href="#" id="addSearchControl_EL10" class="addSearchControl" {$addSearchControl_EL10_attrs}>EL10</a><br>
+		{END addSearch_EL10}
+		{BEGIN addSearch_EL9}
+			<a href="#" id="addSearchControl_EL9" class="addSearchControl" {$addSearchControl_EL9_attrs}>EL9</a><br>
+		{END addSearch_EL9}
+		{BEGIN addSearch_EL8}
+			<a href="#" id="addSearchControl_EL8" class="addSearchControl" {$addSearchControl_EL8_attrs}>EL8</a><br>
+		{END addSearch_EL8}
+		{BEGIN addSearch_EL7}
+			<a href="#" id="addSearchControl_EL7" class="addSearchControl" {$addSearchControl_EL7_attrs}>EL7</a><br>
+		{END addSearch_EL7}
+		{BEGIN addSearch_EL6}
+			<a href="#" id="addSearchControl_EL6" class="addSearchControl" {$addSearchControl_EL6_attrs}>EL6</a><br>
+		{END addSearch_EL6}
+		{BEGIN addSearch_EL5}
+			<a href="#" id="addSearchControl_EL5" class="addSearchControl" {$addSearchControl_EL5_attrs}>EL5</a><br>
+		{END addSearch_EL5}
+		{BEGIN addSearch_EL4}
+			<a href="#" id="addSearchControl_EL4" class="addSearchControl" {$addSearchControl_EL4_attrs}>EL4</a><br>
+		{END addSearch_EL4}
+		{BEGIN addSearch_EL3}
+			<a href="#" id="addSearchControl_EL3" class="addSearchControl" {$addSearchControl_EL3_attrs}>EL3</a><br>
+		{END addSearch_EL3}
+		{BEGIN addSearch_EL2}
+			<a href="#" id="addSearchControl_EL2" class="addSearchControl" {$addSearchControl_EL2_attrs}>EL2</a><br>
+		{END addSearch_EL2}
+		{BEGIN addSearch_EL1}
+			<a href="#" id="addSearchControl_EL1" class="addSearchControl" {$addSearchControl_EL1_attrs}>EL1</a><br>
+		{END addSearch_EL1}
+		{BEGIN addSearch_CL12}
+			<a href="#" id="addSearchControl_CL12" class="addSearchControl" {$addSearchControl_CL12_attrs}>CL12</a><br>
+		{END addSearch_CL12}
+		{BEGIN addSearch_CL11}
+			<a href="#" id="addSearchControl_CL11" class="addSearchControl" {$addSearchControl_CL11_attrs}>CL11</a><br>
+		{END addSearch_CL11}
+		{BEGIN addSearch_CL10}
+			<a href="#" id="addSearchControl_CL10" class="addSearchControl" {$addSearchControl_CL10_attrs}>CL10</a><br>
+		{END addSearch_CL10}
+		{BEGIN addSearch_CL9}
+			<a href="#" id="addSearchControl_CL9" class="addSearchControl" {$addSearchControl_CL9_attrs}>CL9</a><br>
+		{END addSearch_CL9}
+		{BEGIN addSearch_CL8}
+			<a href="#" id="addSearchControl_CL8" class="addSearchControl" {$addSearchControl_CL8_attrs}>CL8</a><br>
+		{END addSearch_CL8}
+		{BEGIN addSearch_CL7}
+			<a href="#" id="addSearchControl_CL7" class="addSearchControl" {$addSearchControl_CL7_attrs}>CL7</a><br>
+		{END addSearch_CL7}
+		{BEGIN addSearch_CL6}
+			<a href="#" id="addSearchControl_CL6" class="addSearchControl" {$addSearchControl_CL6_attrs}>CL6</a><br>
+		{END addSearch_CL6}
+		{BEGIN addSearch_CL5}
+			<a href="#" id="addSearchControl_CL5" class="addSearchControl" {$addSearchControl_CL5_attrs}>CL5</a><br>
+		{END addSearch_CL5}
+		{BEGIN addSearch_CL4}
+			<a href="#" id="addSearchControl_CL4" class="addSearchControl" {$addSearchControl_CL4_attrs}>CL4</a><br>
+		{END addSearch_CL4}
+		{BEGIN addSearch_CL3}
+			<a href="#" id="addSearchControl_CL3" class="addSearchControl" {$addSearchControl_CL3_attrs}>CL3</a><br>
+		{END addSearch_CL3}
+		{BEGIN addSearch_CL2}
+			<a href="#" id="addSearchControl_CL2" class="addSearchControl" {$addSearchControl_CL2_attrs}>CL2</a><br>
+		{END addSearch_CL2}
+		{BEGIN addSearch_CL1}
+			<a href="#" id="addSearchControl_CL1" class="addSearchControl" {$addSearchControl_CL1_attrs}>CL1</a><br>
+		{END addSearch_CL1}
+		{BEGIN addSearch_PreMarket}
+			<a href="#" id="addSearchControl_PreMarket" class="addSearchControl" {$addSearchControl_PreMarket_attrs}>Pre Market</a><br>
+		{END addSearch_PreMarket}
+		{BEGIN addSearch_InMarket}
+			<a href="#" id="addSearchControl_InMarket" class="addSearchControl" {$addSearchControl_InMarket_attrs}>In Market</a><br>
+		{END addSearch_InMarket}
+		{BEGIN addSearch_UNderLOI}
+			<a href="#" id="addSearchControl_UNderLOI" class="addSearchControl" {$addSearchControl_UNderLOI_attrs}>UNder LOI</a><br>
+		{END addSearch_UNderLOI}
+		{BEGIN addSearch_Inactive}
+			<a href="#" id="addSearchControl_Inactive" class="addSearchControl" {$addSearchControl_Inactive_attrs}>Inactive</a><br>
+		{END addSearch_Inactive}
+		{BEGIN addSearch_OnHold}
+			<a href="#" id="addSearchControl_OnHold" class="addSearchControl" {$addSearchControl_OnHold_attrs}>On Hold</a><br>
+		{END addSearch_OnHold}
+		{BEGIN addSearch_Wheelhouse}
+			<a href="#" id="addSearchControl_Wheelhouse" class="addSearchControl" {$addSearchControl_Wheelhouse_attrs}>Wheelhouse</a><br>
+		{END addSearch_Wheelhouse}
+		{BEGIN addSearch_Speculative}
+			<a href="#" id="addSearchControl_Speculative" class="addSearchControl" {$addSearchControl_Speculative_attrs}>Speculative</a><br>
+		{END addSearch_Speculative}
+		{BEGIN addSearch_Minimum}
+			<a href="#" id="addSearchControl_Minimum" class="addSearchControl" {$addSearchControl_Minimum_attrs}>Minimum</a><br>
+		{END addSearch_Minimum}
+		{BEGIN addSearch_EV10SS}
+			<a href="#" id="addSearchControl_EV10SS" class="addSearchControl" {$addSearchControl_EV10SS_attrs}>EV10SS</a><br>
+		{END addSearch_EV10SS}
+		{BEGIN addSearch_EV25SS}
+			<a href="#" id="addSearchControl_EV25SS" class="addSearchControl" {$addSearchControl_EV25SS_attrs}>EV25SS</a><br>
+		{END addSearch_EV25SS}
+		{BEGIN addSearch_EV75SS}
+			<a href="#" id="addSearchControl_EV75SS" class="addSearchControl" {$addSearchControl_EV75SS_attrs}>EV75SS</a><br>
+		{END addSearch_EV75SS}
+		{BEGIN addSearch_EV100SS}
+			<a href="#" id="addSearchControl_EV100SS" class="addSearchControl" {$addSearchControl_EV100SS_attrs}>EV100SS</a><br>
+		{END addSearch_EV100SS}
+		{BEGIN addSearch_EV150SS}
+			<a href="#" id="addSearchControl_EV150SS" class="addSearchControl" {$addSearchControl_EV150SS_attrs}>EV150SS</a><br>
+		{END addSearch_EV150SS}
+		{BEGIN addSearch_sst}
+			<a href="#" id="addSearchControl_sst" class="addSearchControl" {$addSearchControl_sst_attrs}>Sst</a><br>
+		{END addSearch_sst}
+		{BEGIN addSearch_EV10BS}
+			<a href="#" id="addSearchControl_EV10BS" class="addSearchControl" {$addSearchControl_EV10BS_attrs}>EV10BS</a><br>
+		{END addSearch_EV10BS}
+		{BEGIN addSearch_EV25BS}
+			<a href="#" id="addSearchControl_EV25BS" class="addSearchControl" {$addSearchControl_EV25BS_attrs}>EV25BS</a><br>
+		{END addSearch_EV25BS}
+		{BEGIN addSearch_EV75BS}
+			<a href="#" id="addSearchControl_EV75BS" class="addSearchControl" {$addSearchControl_EV75BS_attrs}>EV75BS</a><br>
+		{END addSearch_EV75BS}
+		{BEGIN addSearch_EV100BS}
+			<a href="#" id="addSearchControl_EV100BS" class="addSearchControl" {$addSearchControl_EV100BS_attrs}>EV100BS</a><br>
+		{END addSearch_EV100BS}
+		{BEGIN addSearch_EV150BS}
+			<a href="#" id="addSearchControl_EV150BS" class="addSearchControl" {$addSearchControl_EV150BS_attrs}>EV150BS</a><br>
+		{END addSearch_EV150BS}
+		{BEGIN addSearch_bst}
+			<a href="#" id="addSearchControl_bst" class="addSearchControl" {$addSearchControl_bst_attrs}>Bst</a><br>
+		{END addSearch_bst}
+		{BEGIN addSearch_EV10eq}
+			<a href="#" id="addSearchControl_EV10eq" class="addSearchControl" {$addSearchControl_EV10eq_attrs}>EV10eq</a><br>
+		{END addSearch_EV10eq}
+		{BEGIN addSearch_EV25eq}
+			<a href="#" id="addSearchControl_EV25eq" class="addSearchControl" {$addSearchControl_EV25eq_attrs}>EV25eq</a><br>
+		{END addSearch_EV25eq}
+		{BEGIN addSearch_EV75eq}
+			<a href="#" id="addSearchControl_EV75eq" class="addSearchControl" {$addSearchControl_EV75eq_attrs}>EV75eq</a><br>
+		{END addSearch_EV75eq}
+		{BEGIN addSearch_EV100eq}
+			<a href="#" id="addSearchControl_EV100eq" class="addSearchControl" {$addSearchControl_EV100eq_attrs}>EV100eq</a><br>
+		{END addSearch_EV100eq}
+		{BEGIN addSearch_EV150eq}
+			<a href="#" id="addSearchControl_EV150eq" class="addSearchControl" {$addSearchControl_EV150eq_attrs}>EV150eq</a><br>
+		{END addSearch_EV150eq}
+		{BEGIN addSearch_eqt}
+			<a href="#" id="addSearchControl_eqt" class="addSearchControl" {$addSearchControl_eqt_attrs}>Eqt</a><br>
+		{END addSearch_eqt}
+		{BEGIN addSearch_EV10d}
+			<a href="#" id="addSearchControl_EV10d" class="addSearchControl" {$addSearchControl_EV10d_attrs}>EV10d</a><br>
+		{END addSearch_EV10d}
+		{BEGIN addSearch_EV25d}
+			<a href="#" id="addSearchControl_EV25d" class="addSearchControl" {$addSearchControl_EV25d_attrs}>EV25d</a><br>
+		{END addSearch_EV25d}
+		{BEGIN addSearch_EV75d}
+			<a href="#" id="addSearchControl_EV75d" class="addSearchControl" {$addSearchControl_EV75d_attrs}>EV75d</a><br>
+		{END addSearch_EV75d}
+		{BEGIN addSearch_EV100d}
+			<a href="#" id="addSearchControl_EV100d" class="addSearchControl" {$addSearchControl_EV100d_attrs}>EV100d</a><br>
+		{END addSearch_EV100d}
+		{BEGIN addSearch_EV150d}
+			<a href="#" id="addSearchControl_EV150d" class="addSearchControl" {$addSearchControl_EV150d_attrs}>EV150d</a><br>
+		{END addSearch_EV150d}
+		{BEGIN addSearch_dt}
+			<a href="#" id="addSearchControl_dt" class="addSearchControl" {$addSearchControl_dt_attrs}>Dt</a><br>
+		{END addSearch_dt}
+		{BEGIN addSearch_EV10ad}
+			<a href="#" id="addSearchControl_EV10ad" class="addSearchControl" {$addSearchControl_EV10ad_attrs}>EV10ad</a><br>
+		{END addSearch_EV10ad}
+		{BEGIN addSearch_EV25ad}
+			<a href="#" id="addSearchControl_EV25ad" class="addSearchControl" {$addSearchControl_EV25ad_attrs}>EV25ad</a><br>
+		{END addSearch_EV25ad}
+		{BEGIN addSearch_EV75ad}
+			<a href="#" id="addSearchControl_EV75ad" class="addSearchControl" {$addSearchControl_EV75ad_attrs}>EV75ad</a><br>
+		{END addSearch_EV75ad}
+		{BEGIN addSearch_EV100ad}
+			<a href="#" id="addSearchControl_EV100ad" class="addSearchControl" {$addSearchControl_EV100ad_attrs}>EV100ad</a><br>
+		{END addSearch_EV100ad}
+		{BEGIN addSearch_EV150ad}
+			<a href="#" id="addSearchControl_EV150ad" class="addSearchControl" {$addSearchControl_EV150ad_attrs}>EV150ad</a><br>
+		{END addSearch_EV150ad}
+		{BEGIN addSearch_adt}
+			<a href="#" id="addSearchControl_adt" class="addSearchControl" {$addSearchControl_adt_attrs}>Adt</a><br>
+		{END addSearch_adt}
+		{BEGIN addSearch_EV10p}
+			<a href="#" id="addSearchControl_EV10p" class="addSearchControl" {$addSearchControl_EV10p_attrs}>EV10p</a><br>
+		{END addSearch_EV10p}
+		{BEGIN addSearch_EV25p}
+			<a href="#" id="addSearchControl_EV25p" class="addSearchControl" {$addSearchControl_EV25p_attrs}>EV25p</a><br>
+		{END addSearch_EV25p}
+		{BEGIN addSearch_EV75p}
+			<a href="#" id="addSearchControl_EV75p" class="addSearchControl" {$addSearchControl_EV75p_attrs}>EV75p</a><br>
+		{END addSearch_EV75p}
+		{BEGIN addSearch_EV100p}
+			<a href="#" id="addSearchControl_EV100p" class="addSearchControl" {$addSearchControl_EV100p_attrs}>EV100p</a><br>
+		{END addSearch_EV100p}
+		{BEGIN addSearch_EV150p}
+			<a href="#" id="addSearchControl_EV150p" class="addSearchControl" {$addSearchControl_EV150p_attrs}>EV150p</a><br>
+		{END addSearch_EV150p}
+		{BEGIN addSearch_pt}
+			<a href="#" id="addSearchControl_pt" class="addSearchControl" {$addSearchControl_pt_attrs}>Pt</a><br>
+		{END addSearch_pt}
+		{BEGIN addSearch_EV10pe}
+			<a href="#" id="addSearchControl_EV10pe" class="addSearchControl" {$addSearchControl_EV10pe_attrs}>EV10pe</a><br>
+		{END addSearch_EV10pe}
+		{BEGIN addSearch_EV25pe}
+			<a href="#" id="addSearchControl_EV25pe" class="addSearchControl" {$addSearchControl_EV25pe_attrs}>EV25pe</a><br>
+		{END addSearch_EV25pe}
+		{BEGIN addSearch_EV75pe}
+			<a href="#" id="addSearchControl_EV75pe" class="addSearchControl" {$addSearchControl_EV75pe_attrs}>EV75pe</a><br>
+		{END addSearch_EV75pe}
+		{BEGIN addSearch_EV100pe}
+			<a href="#" id="addSearchControl_EV100pe" class="addSearchControl" {$addSearchControl_EV100pe_attrs}>EV100pe</a><br>
+		{END addSearch_EV100pe}
+		{BEGIN addSearch_EV150pe}
+			<a href="#" id="addSearchControl_EV150pe" class="addSearchControl" {$addSearchControl_EV150pe_attrs}>EV150pe</a><br>
+		{END addSearch_EV150pe}
+		{BEGIN addSearch_pet}
+			<a href="#" id="addSearchControl_pet" class="addSearchControl" {$addSearchControl_pet_attrs}>Pet</a><br>
+		{END addSearch_pet}
+		{BEGIN addSearch_EV10po}
+			<a href="#" id="addSearchControl_EV10po" class="addSearchControl" {$addSearchControl_EV10po_attrs}>EV10po</a><br>
+		{END addSearch_EV10po}
+		{BEGIN addSearch_EV25po}
+			<a href="#" id="addSearchControl_EV25po" class="addSearchControl" {$addSearchControl_EV25po_attrs}>EV25po</a><br>
+		{END addSearch_EV25po}
+		{BEGIN addSearch_EV75po}
+			<a href="#" id="addSearchControl_EV75po" class="addSearchControl" {$addSearchControl_EV75po_attrs}>EV75po</a><br>
+		{END addSearch_EV75po}
+		{BEGIN addSearch_EV100po}
+			<a href="#" id="addSearchControl_EV100po" class="addSearchControl" {$addSearchControl_EV100po_attrs}>EV100po</a><br>
+		{END addSearch_EV100po}
+		{BEGIN addSearch_EV150po}
+			<a href="#" id="addSearchControl_EV150po" class="addSearchControl" {$addSearchControl_EV150po_attrs}>EV150po</a><br>
+		{END addSearch_EV150po}
+		{BEGIN addSearch_pot}
+			<a href="#" id="addSearchControl_pot" class="addSearchControl" {$addSearchControl_pot_attrs}>Pot</a><br>
+		{END addSearch_pot}
+		{BEGIN addSearch_Business_Services}
+			<a href="#" id="addSearchControl_Business_Services" class="addSearchControl" {$addSearchControl_Business_Services_attrs}>Business Services</a><br>
+		{END addSearch_Business_Services}
+		{BEGIN addSearch_Consumer_Products}
+			<a href="#" id="addSearchControl_Consumer_Products" class="addSearchControl" {$addSearchControl_Consumer_Products_attrs}>Consumer Products</a><br>
+		{END addSearch_Consumer_Products}
+		{BEGIN addSearch_Energy___Natural_Resources}
+			<a href="#" id="addSearchControl_Energy___Natural_Resources" class="addSearchControl" {$addSearchControl_Energy___Natural_Resources_attrs}>Energy & Natural Resources</a><br>
+		{END addSearch_Energy___Natural_Resources}
+		{BEGIN addSearch_Financial_Services}
+			<a href="#" id="addSearchControl_Financial_Services" class="addSearchControl" {$addSearchControl_Financial_Services_attrs}>Financial Services</a><br>
+		{END addSearch_Financial_Services}
+		{BEGIN addSearch_Industrials}
+			<a href="#" id="addSearchControl_Industrials" class="addSearchControl" {$addSearchControl_Industrials_attrs}>Industrials</a><br>
+		{END addSearch_Industrials}
+		{BEGIN addSearch_Healthcare}
+			<a href="#" id="addSearchControl_Healthcare" class="addSearchControl" {$addSearchControl_Healthcare_attrs}>Healthcare</a><br>
+		{END addSearch_Healthcare}
+		{BEGIN addSearch_Technology}
+			<a href="#" id="addSearchControl_Technology" class="addSearchControl" {$addSearchControl_Technology_attrs}>Technology</a><br>
+		{END addSearch_Technology}
+		{BEGIN addSearch_Entertainment}
+			<a href="#" id="addSearchControl_Entertainment" class="addSearchControl" {$addSearchControl_Entertainment_attrs}>Entertainment</a><br>
+		{END addSearch_Entertainment}
+		{BEGIN addSearch_Real_Estate}
+			<a href="#" id="addSearchControl_Real_Estate" class="addSearchControl" {$addSearchControl_Real_Estate_attrs}>Real Estate</a><br>
+		{END addSearch_Real_Estate}
+		{BEGIN addSearch_Business_Services_EL}
+			<a href="#" id="addSearchControl_Business_Services_EL" class="addSearchControl" {$addSearchControl_Business_Services_EL_attrs}>Business Services EL</a><br>
+		{END addSearch_Business_Services_EL}
+		{BEGIN addSearch_Consumer_EL}
+			<a href="#" id="addSearchControl_Consumer_EL" class="addSearchControl" {$addSearchControl_Consumer_EL_attrs}>Consumer EL</a><br>
+		{END addSearch_Consumer_EL}
+		{BEGIN addSearch_Ennergy_EL}
+			<a href="#" id="addSearchControl_Ennergy_EL" class="addSearchControl" {$addSearchControl_Ennergy_EL_attrs}>Ennergy EL</a><br>
+		{END addSearch_Ennergy_EL}
+		{BEGIN addSearch_Financial_EL}
+			<a href="#" id="addSearchControl_Financial_EL" class="addSearchControl" {$addSearchControl_Financial_EL_attrs}>Financial EL</a><br>
+		{END addSearch_Financial_EL}
+		{BEGIN addSearch_Industrials_EL}
+			<a href="#" id="addSearchControl_Industrials_EL" class="addSearchControl" {$addSearchControl_Industrials_EL_attrs}>Industrials EL</a><br>
+		{END addSearch_Industrials_EL}
+		{BEGIN addSearch_Healthcare_EL}
+			<a href="#" id="addSearchControl_Healthcare_EL" class="addSearchControl" {$addSearchControl_Healthcare_EL_attrs}>Healthcare EL</a><br>
+		{END addSearch_Healthcare_EL}
+		{BEGIN addSearch_TMT_EL}
+			<a href="#" id="addSearchControl_TMT_EL" class="addSearchControl" {$addSearchControl_TMT_EL_attrs}>TMT EL</a><br>
+		{END addSearch_TMT_EL}
+		{BEGIN addSearch_Entertainment_EL}
+			<a href="#" id="addSearchControl_Entertainment_EL" class="addSearchControl" {$addSearchControl_Entertainment_EL_attrs}>Entertainment EL</a><br>
+		{END addSearch_Entertainment_EL}
+		{BEGIN addSearch_RealEstate_EL}
+			<a href="#" id="addSearchControl_RealEstate_EL" class="addSearchControl" {$addSearchControl_RealEstate_EL_attrs}>RealEstate EL</a><br>
+		{END addSearch_RealEstate_EL}
+		{BEGIN addSearch_IBSreferrals}
+			<a href="#" id="addSearchControl_IBSreferrals" class="addSearchControl" {$addSearchControl_IBSreferrals_attrs}>IBSreferrals</a><br>
+		{END addSearch_IBSreferrals}
+		{BEGIN addSearch_IBSibc}
+			<a href="#" id="addSearchControl_IBSibc" class="addSearchControl" {$addSearchControl_IBSibc_attrs}>IBSibc</a><br>
+		{END addSearch_IBSibc}
+		{BEGIN addSearch_IBSel}
+			<a href="#" id="addSearchControl_IBSel" class="addSearchControl" {$addSearchControl_IBSel_attrs}>IBSel</a><br>
+		{END addSearch_IBSel}
+		{BEGIN addSearch_PPibc}
+			<a href="#" id="addSearchControl_PPibc" class="addSearchControl" {$addSearchControl_PPibc_attrs}>PPibc</a><br>
+		{END addSearch_PPibc}
+		{BEGIN addSearch_PPel}
+			<a href="#" id="addSearchControl_PPel" class="addSearchControl" {$addSearchControl_PPel_attrs}>PPel</a><br>
+		{END addSearch_PPel}
+		{BEGIN addSearch_CPibc}
+			<a href="#" id="addSearchControl_CPibc" class="addSearchControl" {$addSearchControl_CPibc_attrs}>CPibc</a><br>
+		{END addSearch_CPibc}
+		{BEGIN addSearch_CPel}
+			<a href="#" id="addSearchControl_CPel" class="addSearchControl" {$addSearchControl_CPel_attrs}>CPel</a><br>
+		{END addSearch_CPel}
+		{BEGIN addSearch_MAibc}
+			<a href="#" id="addSearchControl_MAibc" class="addSearchControl" {$addSearchControl_MAibc_attrs}>MAibc</a><br>
+		{END addSearch_MAibc}
+		{BEGIN addSearch_MAel}
+			<a href="#" id="addSearchControl_MAel" class="addSearchControl" {$addSearchControl_MAel_attrs}>MAel</a><br>
+		{END addSearch_MAel}
+		{BEGIN addSearch_SCibc}
+			<a href="#" id="addSearchControl_SCibc" class="addSearchControl" {$addSearchControl_SCibc_attrs}>SCibc</a><br>
+		{END addSearch_SCibc}
+		{BEGIN addSearch_SCel}
+			<a href="#" id="addSearchControl_SCel" class="addSearchControl" {$addSearchControl_SCel_attrs}>SCel</a><br>
+		{END addSearch_SCel}
+		{BEGIN addSearch_SSibc}
+			<a href="#" id="addSearchControl_SSibc" class="addSearchControl" {$addSearchControl_SSibc_attrs}>SSibc</a><br>
+		{END addSearch_SSibc}
+		{BEGIN addSearch_SSel}
+			<a href="#" id="addSearchControl_SSel" class="addSearchControl" {$addSearchControl_SSel_attrs}>SSel</a><br>
+		{END addSearch_SSel}
+		{BEGIN addSearch_IBSper}
+			<a href="#" id="addSearchControl_IBSper" class="addSearchControl" {$addSearchControl_IBSper_attrs}>IBSper</a><br>
+		{END addSearch_IBSper}
+		{BEGIN addSearch_PPper}
+			<a href="#" id="addSearchControl_PPper" class="addSearchControl" {$addSearchControl_PPper_attrs}>PPper</a><br>
+		{END addSearch_PPper}
+		{BEGIN addSearch_CPper}
+			<a href="#" id="addSearchControl_CPper" class="addSearchControl" {$addSearchControl_CPper_attrs}>CPper</a><br>
+		{END addSearch_CPper}
+		{BEGIN addSearch_MAper}
+			<a href="#" id="addSearchControl_MAper" class="addSearchControl" {$addSearchControl_MAper_attrs}>MAper</a><br>
+		{END addSearch_MAper}
+		{BEGIN addSearch_SCSper}
+			<a href="#" id="addSearchControl_SCSper" class="addSearchControl" {$addSearchControl_SCSper_attrs}>SCSper</a><br>
+		{END addSearch_SCSper}
+		{BEGIN addSearch_SSper}
+			<a href="#" id="addSearchControl_SSper" class="addSearchControl" {$addSearchControl_SSper_attrs}>SSper</a><br>
+		{END addSearch_SSper}
+		{BEGIN addSearch_IBSper2}
+			<a href="#" id="addSearchControl_IBSper2" class="addSearchControl" {$addSearchControl_IBSper2_attrs}>IBSper2</a><br>
+		{END addSearch_IBSper2}
+		{BEGIN addSearch_PPper2}
+			<a href="#" id="addSearchControl_PPper2" class="addSearchControl" {$addSearchControl_PPper2_attrs}>PPper2</a><br>
+		{END addSearch_PPper2}
+		{BEGIN addSearch_CPper2}
+			<a href="#" id="addSearchControl_CPper2" class="addSearchControl" {$addSearchControl_CPper2_attrs}>CPper2</a><br>
+		{END addSearch_CPper2}
+		{BEGIN addSearch_MAper2}
+			<a href="#" id="addSearchControl_MAper2" class="addSearchControl" {$addSearchControl_MAper2_attrs}>MAper2</a><br>
+		{END addSearch_MAper2}
+		{BEGIN addSearch_SCSper2}
+			<a href="#" id="addSearchControl_SCSper2" class="addSearchControl" {$addSearchControl_SCSper2_attrs}>SCSper2</a><br>
+		{END addSearch_SCSper2}
+		{BEGIN addSearch_SSper2}
+			<a href="#" id="addSearchControl_SSper2" class="addSearchControl" {$addSearchControl_SSper2_attrs}>SSper2</a><br>
+		{END addSearch_SSper2}
+		{BEGIN addSearch_IBCperMD}
+			<a href="#" id="addSearchControl_IBCperMD" class="addSearchControl" {$addSearchControl_IBCperMD_attrs}>IBCper MD</a><br>
+		{END addSearch_IBCperMD}
+		{BEGIN addSearch_IBCTotalMD}
+			<a href="#" id="addSearchControl_IBCTotalMD" class="addSearchControl" {$addSearchControl_IBCTotalMD_attrs}>IBCTotal MD</a><br>
+		{END addSearch_IBCTotalMD}
+		{BEGIN addSearch_IBCYTDTarget}
+			<a href="#" id="addSearchControl_IBCYTDTarget" class="addSearchControl" {$addSearchControl_IBCYTDTarget_attrs}>IBCYTDTarget</a><br>
+		{END addSearch_IBCYTDTarget}
+		{BEGIN addSearch_IBuper}
+			<a href="#" id="addSearchControl_IBuper" class="addSearchControl" {$addSearchControl_IBuper_attrs}>IBuper</a><br>
+		{END addSearch_IBuper}
+		{BEGIN addSearch_ELperMD}
+			<a href="#" id="addSearchControl_ELperMD" class="addSearchControl" {$addSearchControl_ELperMD_attrs}>ELper MD</a><br>
+		{END addSearch_ELperMD}
+		{BEGIN addSearch_ELTotalMD}
+			<a href="#" id="addSearchControl_ELTotalMD" class="addSearchControl" {$addSearchControl_ELTotalMD_attrs}>ELTotal MD</a><br>
+		{END addSearch_ELTotalMD}
+		{BEGIN addSearch_ELYTDTarget}
+			<a href="#" id="addSearchControl_ELYTDTarget" class="addSearchControl" {$addSearchControl_ELYTDTarget_attrs}>ELYTDTarget</a><br>
+		{END addSearch_ELYTDTarget}
+		{BEGIN addSearch_eluper}
+			<a href="#" id="addSearchControl_eluper" class="addSearchControl" {$addSearchControl_eluper_attrs}>Eluper</a><br>
+		{END addSearch_eluper}
+		{BEGIN addSearch_ClosingperMD}
+			<a href="#" id="addSearchControl_ClosingperMD" class="addSearchControl" {$addSearchControl_ClosingperMD_attrs}>Closingper MD</a><br>
+		{END addSearch_ClosingperMD}
+		{BEGIN addSearch_ClosingTotalMD}
+			<a href="#" id="addSearchControl_ClosingTotalMD" class="addSearchControl" {$addSearchControl_ClosingTotalMD_attrs}>Closing Total MD</a><br>
+		{END addSearch_ClosingTotalMD}
+		{BEGIN addSearch_ClosingYTDMD}
+			<a href="#" id="addSearchControl_ClosingYTDMD" class="addSearchControl" {$addSearchControl_ClosingYTDMD_attrs}>Closing YTDMD</a><br>
+		{END addSearch_ClosingYTDMD}
+		{BEGIN addSearch_Closinguper}
+			<a href="#" id="addSearchControl_Closinguper" class="addSearchControl" {$addSearchControl_Closinguper_attrs}>Closinguper</a><br>
+		{END addSearch_Closinguper}
+		{BEGIN addSearch_MGMTnetthis}
+			<a href="#" id="addSearchControl_MGMTnetthis" class="addSearchControl" {$addSearchControl_MGMTnetthis_attrs}>MGMTnetthis</a><br>
+		{END addSearch_MGMTnetthis}
+		{BEGIN addSearch_MGMTG}
+			<a href="#" id="addSearchControl_MGMTG" class="addSearchControl" {$addSearchControl_MGMTG_attrs}>MGMTG</a><br>
+		{END addSearch_MGMTG}
+		{BEGIN addSearch_MGMTnetnext}
+			<a href="#" id="addSearchControl_MGMTnetnext" class="addSearchControl" {$addSearchControl_MGMTnetnext_attrs}>MGMTnetnext</a><br>
+		{END addSearch_MGMTnetnext}
+		{BEGIN addSearch_MGMTN}
+			<a href="#" id="addSearchControl_MGMTN" class="addSearchControl" {$addSearchControl_MGMTN_attrs}>MGMTN</a><br>
+		{END addSearch_MGMTN}
+		{BEGIN addSearch_NetActual}
+			<a href="#" id="addSearchControl_NetActual" class="addSearchControl" {$addSearchControl_NetActual_attrs}>Net Actual</a><br>
+		{END addSearch_NetActual}
+		{BEGIN addSearch_TYBG}
+			<a href="#" id="addSearchControl_TYBG" class="addSearchControl" {$addSearchControl_TYBG_attrs}>TYBG</a><br>
+		{END addSearch_TYBG}
+		{BEGIN addSearch_TYBN}
+			<a href="#" id="addSearchControl_TYBN" class="addSearchControl" {$addSearchControl_TYBN_attrs}>TYBN</a><br>
+		{END addSearch_TYBN}
+		{BEGIN addSearch_YTDgrossact}
+			<a href="#" id="addSearchControl_YTDgrossact" class="addSearchControl" {$addSearchControl_YTDgrossact_attrs}>YTDgrossact</a><br>
+		{END addSearch_YTDgrossact}
+		{BEGIN addSearch_YTDnetact}
+			<a href="#" id="addSearchControl_YTDnetact" class="addSearchControl" {$addSearchControl_YTDnetact_attrs}>YTDnetact</a><br>
+		{END addSearch_YTDnetact}
+		{BEGIN addSearch_YTDgross}
+			<a href="#" id="addSearchControl_YTDgross" class="addSearchControl" {$addSearchControl_YTDgross_attrs}>YTDgross</a><br>
+		{END addSearch_YTDgross}
+		{BEGIN addSearch_ytdgrossper}
+			<a href="#" id="addSearchControl_ytdgrossper" class="addSearchControl" {$addSearchControl_ytdgrossper_attrs}>Ytdgrossper</a><br>
+		{END addSearch_ytdgrossper}
+		{BEGIN addSearch_ytdnetper}
+			<a href="#" id="addSearchControl_ytdnetper" class="addSearchControl" {$addSearchControl_ytdnetper_attrs}>Ytdnetper</a><br>
+		{END addSearch_ytdnetper}
+		{BEGIN addSearch_mytdgrossper}
+			<a href="#" id="addSearchControl_mytdgrossper" class="addSearchControl" {$addSearchControl_mytdgrossper_attrs}>Mytdgrossper</a><br>
+		{END addSearch_mytdgrossper}
+		{BEGIN addSearch_mytdnetper}
+			<a href="#" id="addSearchControl_mytdnetper" class="addSearchControl" {$addSearchControl_mytdnetper_attrs}>Mytdnetper</a><br>
+		{END addSearch_mytdnetper}
+	</div>
+	
+	<table class="controlsBlock">
+	{BEGIN searchCtrlBlock}
+		<tr class="srchPanelRow" {$filterRow_attrs}>
+			<td class="srchPanelCell">{$delCtrlButt}</td>
+			<td class="srchPanelCell">{$fLabel}:&nbsp;</td>
+			<td class="srchPanelCell srchPanelCell2">
+				<div class="runner-searchtype">{$searchtype}</div>
+				<div class="runner-searchcontrol">{$searchcontrol}</div>
+				<div class="runner-searchcontrol">{$searchcontrol1}</div>
+		</tr>
+	{END searchCtrlBlock}
+	</table>
+	
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

@@ -1,0 +1,1027 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+{BEGIN page}
+<h1>Company</h1>
+<span>
+{BEGIN page_number}
+Page {$pageno} of {$maxpages} 
+{END page_number}
+</span>
+
+	<div class="runner-s-grid">	
+	<table class="runner-c runner-c-grid" cellpadding="0">
+		<thead>
+		{BEGIN grid_header}
+		<tr class="runner-toprow style1">
+			<td class="runner-cl"><img src="images/spacer.gif"></td>
+			{BEGIN record_header}
+					{BEGIN ID_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN ID_fieldheader}
+	<b>ID</b>
+	{END ID_fieldheader}
+</th>
+{END ID_fieldheadercolumn}
+	{BEGIN Company_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Company_fieldheader}
+	<b>Company</b>
+	{END Company_fieldheader}
+</th>
+{END Company_fieldheadercolumn}
+	{BEGIN EL_Date_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN EL_Date_fieldheader}
+	<b>EL Date</b>
+	{END EL_Date_fieldheader}
+</th>
+{END EL_Date_fieldheadercolumn}
+	{BEGIN IBC_Date_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN IBC_Date_fieldheader}
+	<b>IBC Date</b>
+	{END IBC_Date_fieldheader}
+</th>
+{END IBC_Date_fieldheadercolumn}
+	{BEGIN Est__Close_Date_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Est__Close_Date_fieldheader}
+	<b>Est. Close Date</b>
+	{END Est__Close_Date_fieldheader}
+</th>
+{END Est__Close_Date_fieldheadercolumn}
+	{BEGIN Project_Name_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Project_Name_fieldheader}
+	<b>Project Name</b>
+	{END Project_Name_fieldheader}
+</th>
+{END Project_Name_fieldheadercolumn}
+	{BEGIN EL_Expiration_Date_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN EL_Expiration_Date_fieldheader}
+	<b>EL Expiration Date</b>
+	{END EL_Expiration_Date_fieldheader}
+</th>
+{END EL_Expiration_Date_fieldheadercolumn}
+	{BEGIN Status_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Status_fieldheader}
+	<b>Status</b>
+	{END Status_fieldheader}
+</th>
+{END Status_fieldheadercolumn}
+	{BEGIN Deal_Type_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Deal_Type_fieldheader}
+	<b>Deal Type</b>
+	{END Deal_Type_fieldheader}
+</th>
+{END Deal_Type_fieldheadercolumn}
+	{BEGIN Deal_Slot_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Deal_Slot_fieldheader}
+	<b>Deal Slot</b>
+	{END Deal_Slot_fieldheader}
+</th>
+{END Deal_Slot_fieldheadercolumn}
+	{BEGIN Closed_Date_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Closed_Date_fieldheader}
+	<b>Closed Date</b>
+	{END Closed_Date_fieldheader}
+</th>
+{END Closed_Date_fieldheadercolumn}
+	{BEGIN Dead_Date_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Dead_Date_fieldheader}
+	<b>Dead Date</b>
+	{END Dead_Date_fieldheader}
+</th>
+{END Dead_Date_fieldheadercolumn}
+	{BEGIN Primary_Banker_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Primary_Banker_fieldheader}
+	<b>Primary Banker</b>
+	{END Primary_Banker_fieldheader}
+</th>
+{END Primary_Banker_fieldheadercolumn}
+	{BEGIN Practice_Area_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Practice_Area_fieldheader}
+	<b>Practice Area</b>
+	{END Practice_Area_fieldheader}
+</th>
+{END Practice_Area_fieldheadercolumn}
+	{BEGIN Industry_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Industry_fieldheader}
+	<b>Industry</b>
+	{END Industry_fieldheader}
+</th>
+{END Industry_fieldheadercolumn}
+	{BEGIN Projected_Transaction_Size_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Projected_Transaction_Size_fieldheader}
+	<b>Projected Transaction Size</b>
+	{END Projected_Transaction_Size_fieldheader}
+</th>
+{END Projected_Transaction_Size_fieldheadercolumn}
+	{BEGIN Enterpise_Value_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Enterpise_Value_fieldheader}
+	<b>Enterpise Value</b>
+	{END Enterpise_Value_fieldheader}
+</th>
+{END Enterpise_Value_fieldheadercolumn}
+	{BEGIN Final_Transaction_Size_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Final_Transaction_Size_fieldheader}
+	<b>Final Transaction Size</b>
+	{END Final_Transaction_Size_fieldheader}
+</th>
+{END Final_Transaction_Size_fieldheadercolumn}
+	{BEGIN Projected_Fee_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Projected_Fee_fieldheader}
+	<b>Projected Fee</b>
+	{END Projected_Fee_fieldheader}
+</th>
+{END Projected_Fee_fieldheadercolumn}
+	{BEGIN Fee_Minimum_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_Minimum_fieldheader}
+	<b>Fee Minimum</b>
+	{END Fee_Minimum_fieldheader}
+</th>
+{END Fee_Minimum_fieldheadercolumn}
+	{BEGIN Engagment_Fee_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Engagment_Fee_fieldheader}
+	<b>Engagment Fee</b>
+	{END Engagment_Fee_fieldheader}
+</th>
+{END Engagment_Fee_fieldheadercolumn}
+	{BEGIN Fee_Details_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_Details_fieldheader}
+	<b>Fee Details</b>
+	{END Fee_Details_fieldheader}
+</th>
+{END Fee_Details_fieldheadercolumn}
+	{BEGIN Split_to_Corporate_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Split_to_Corporate_fieldheader}
+	<b>Split to Corporate</b>
+	{END Split_to_Corporate_fieldheader}
+</th>
+{END Split_to_Corporate_fieldheadercolumn}
+	{BEGIN Monthly_Retainer_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Monthly_Retainer_fieldheader}
+	<b>Monthly Retainer</b>
+	{END Monthly_Retainer_fieldheader}
+</th>
+{END Monthly_Retainer_fieldheadercolumn}
+	{BEGIN Final_Total_Sucess_Fee_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Final_Total_Sucess_Fee_fieldheader}
+	<b>Final Total Sucess Fee</b>
+	{END Final_Total_Sucess_Fee_fieldheader}
+</th>
+{END Final_Total_Sucess_Fee_fieldheadercolumn}
+	{BEGIN Ownership_Class_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Ownership_Class_fieldheader}
+	<b>Ownership Class</b>
+	{END Ownership_Class_fieldheader}
+</th>
+{END Ownership_Class_fieldheadercolumn}
+	{BEGIN Referral_Type_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Referral_Type_fieldheader}
+	<b>Referral Type</b>
+	{END Referral_Type_fieldheader}
+</th>
+{END Referral_Type_fieldheadercolumn}
+	{BEGIN Referral_Source_Company_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Referral_Source_Company_fieldheader}
+	<b>Referral Source-Company</b>
+	{END Referral_Source_Company_fieldheader}
+</th>
+{END Referral_Source_Company_fieldheadercolumn}
+	{BEGIN Referral_Scource_Ind__fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Referral_Scource_Ind__fieldheader}
+	<b>Referral Scource-Ind.</b>
+	{END Referral_Scource_Ind__fieldheader}
+</th>
+{END Referral_Scource_Ind__fieldheadercolumn}
+	{BEGIN Description_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Description_fieldheader}
+	<b>Description</b>
+	{END Description_fieldheader}
+</th>
+{END Description_fieldheadercolumn}
+	{BEGIN Team_Split_1_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_Split_1_fieldheader}
+	<b>Team Split-1</b>
+	{END Team_Split_1_fieldheader}
+</th>
+{END Team_Split_1_fieldheadercolumn}
+	{BEGIN Team_1_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_1_fieldheader}
+	<b>Team-1</b>
+	{END Team_1_fieldheader}
+</th>
+{END Team_1_fieldheadercolumn}
+	{BEGIN Team_Split_2_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_Split_2_fieldheader}
+	<b>Team Split-2</b>
+	{END Team_Split_2_fieldheader}
+</th>
+{END Team_Split_2_fieldheadercolumn}
+	{BEGIN Team_2_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_2_fieldheader}
+	<b>Team-2</b>
+	{END Team_2_fieldheader}
+</th>
+{END Team_2_fieldheadercolumn}
+	{BEGIN Team_Split_3_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_Split_3_fieldheader}
+	<b>Team Split-3</b>
+	{END Team_Split_3_fieldheader}
+</th>
+{END Team_Split_3_fieldheadercolumn}
+	{BEGIN Team_3_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_3_fieldheader}
+	<b>Team-3</b>
+	{END Team_3_fieldheader}
+</th>
+{END Team_3_fieldheadercolumn}
+	{BEGIN Team_Split_4_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_Split_4_fieldheader}
+	<b>Team Split-4</b>
+	{END Team_Split_4_fieldheader}
+</th>
+{END Team_Split_4_fieldheadercolumn}
+	{BEGIN Team_4_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_4_fieldheader}
+	<b>Team-4</b>
+	{END Team_4_fieldheader}
+</th>
+{END Team_4_fieldheadercolumn}
+	{BEGIN Team_Split_5_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_Split_5_fieldheader}
+	<b>Team Split-5</b>
+	{END Team_Split_5_fieldheader}
+</th>
+{END Team_Split_5_fieldheadercolumn}
+	{BEGIN Team_5_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_5_fieldheader}
+	<b>Team-5</b>
+	{END Team_5_fieldheader}
+</th>
+{END Team_5_fieldheadercolumn}
+	{BEGIN Team_Split_6_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_Split_6_fieldheader}
+	<b>Team Split-6</b>
+	{END Team_Split_6_fieldheader}
+</th>
+{END Team_Split_6_fieldheadercolumn}
+	{BEGIN Team_6_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Team_6_fieldheader}
+	<b>Team-6</b>
+	{END Team_6_fieldheader}
+</th>
+{END Team_6_fieldheadercolumn}
+	{BEGIN Fee_Split_1_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_Split_1_fieldheader}
+	<b>Fee Split-1</b>
+	{END Fee_Split_1_fieldheader}
+</th>
+{END Fee_Split_1_fieldheadercolumn}
+	{BEGIN Fee_To_1_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_To_1_fieldheader}
+	<b>Fee To-1</b>
+	{END Fee_To_1_fieldheader}
+</th>
+{END Fee_To_1_fieldheadercolumn}
+	{BEGIN Fee_Split_2_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_Split_2_fieldheader}
+	<b>Fee Split-2</b>
+	{END Fee_Split_2_fieldheader}
+</th>
+{END Fee_Split_2_fieldheadercolumn}
+	{BEGIN Fee_To_2_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_To_2_fieldheader}
+	<b>Fee To-2</b>
+	{END Fee_To_2_fieldheader}
+</th>
+{END Fee_To_2_fieldheadercolumn}
+	{BEGIN Fee_Split_3_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_Split_3_fieldheader}
+	<b>Fee Split-3</b>
+	{END Fee_Split_3_fieldheader}
+</th>
+{END Fee_Split_3_fieldheadercolumn}
+	{BEGIN Fee_To_3_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_To_3_fieldheader}
+	<b>Fee To-3</b>
+	{END Fee_To_3_fieldheader}
+</th>
+{END Fee_To_3_fieldheadercolumn}
+	{BEGIN Fee_Split_4_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_Split_4_fieldheader}
+	<b>Fee Split-4</b>
+	{END Fee_Split_4_fieldheader}
+</th>
+{END Fee_Split_4_fieldheadercolumn}
+	{BEGIN Fee_To_4_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_To_4_fieldheader}
+	<b>Fee To-4</b>
+	{END Fee_To_4_fieldheader}
+</th>
+{END Fee_To_4_fieldheadercolumn}
+	{BEGIN Fee_Split_5_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_Split_5_fieldheader}
+	<b>Fee Split-5</b>
+	{END Fee_Split_5_fieldheader}
+</th>
+{END Fee_Split_5_fieldheadercolumn}
+	{BEGIN Fee_To_5_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_To_5_fieldheader}
+	<b>Fee To-5</b>
+	{END Fee_To_5_fieldheader}
+</th>
+{END Fee_To_5_fieldheadercolumn}
+	{BEGIN Fee_Split_6_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_Split_6_fieldheader}
+	<b>Fee Split-6</b>
+	{END Fee_Split_6_fieldheader}
+</th>
+{END Fee_Split_6_fieldheadercolumn}
+	{BEGIN Fee_To_6_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Fee_To_6_fieldheader}
+	<b>Fee To-6</b>
+	{END Fee_To_6_fieldheader}
+</th>
+{END Fee_To_6_fieldheadercolumn}
+	{BEGIN Paul_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Paul_fieldheader}
+	<b>Paul</b>
+	{END Paul_fieldheader}
+</th>
+{END Paul_fieldheadercolumn}
+	{BEGIN McBroom_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN McBroom_fieldheader}
+	<b>Mc Broom</b>
+	{END McBroom_fieldheader}
+</th>
+{END McBroom_fieldheadercolumn}
+	{BEGIN Pipeline_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Pipeline_fieldheader}
+	<b>Pipeline</b>
+	{END Pipeline_fieldheader}
+</th>
+{END Pipeline_fieldheadercolumn}
+	{BEGIN Month_of_Close_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Month_of_Close_fieldheader}
+	<b>Month of Close</b>
+	{END Month_of_Close_fieldheader}
+</th>
+{END Month_of_Close_fieldheadercolumn}
+	{BEGIN Gross_This_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Gross_This_fieldheader}
+	<b>Gross This</b>
+	{END Gross_This_fieldheader}
+</th>
+{END Gross_This_fieldheadercolumn}
+	{BEGIN Gross_Next_fieldheadercolumn}
+<th class="runner-cc">
+	{BEGIN Gross_Next_fieldheader}
+	<b>Gross Next</b>
+	{END Gross_Next_fieldheader}
+</th>
+{END Gross_Next_fieldheadercolumn}
+		
+			{END record_header}
+			<td class="runner-cr"><img src="images/spacer.gif"></td>
+			{BEGIN endrecordheader_block}
+			<td class="runner-cs">&nbsp;</td>
+			{END endrecordheader_block}
+		</tr>
+	{END grid_header}
+		</thead>
+		<tbody>	
+		{BEGIN grid_row}
+	<tr class="runner-row style1" {$rowattrs} {$rowstyle} {$rowstyle}>
+		<td class="runner-cl"></td>
+		{BEGIN grid_record}
+				{BEGIN ID_fieldcolumn}
+<td  class="runner-cc {$ID_class}" {$ID_style}>
+	{$ID_value}
+</td>
+{END ID_fieldcolumn}
+	{BEGIN Company_fieldcolumn}
+<td  class="runner-cc {$Company_class}" {$Company_style}>
+	{$Company_value}
+</td>
+{END Company_fieldcolumn}
+	{BEGIN EL_Date_fieldcolumn}
+<td  class="runner-cc {$EL_Date_class}" {$EL_Date_style}>
+	{$EL_Date_value}
+</td>
+{END EL_Date_fieldcolumn}
+	{BEGIN IBC_Date_fieldcolumn}
+<td  class="runner-cc {$IBC_Date_class}" {$IBC_Date_style}>
+	{$IBC_Date_value}
+</td>
+{END IBC_Date_fieldcolumn}
+	{BEGIN Est__Close_Date_fieldcolumn}
+<td  class="runner-cc {$Est__Close_Date_class}" {$Est__Close_Date_style}>
+	{$Est__Close_Date_value}
+</td>
+{END Est__Close_Date_fieldcolumn}
+	{BEGIN Project_Name_fieldcolumn}
+<td  class="runner-cc {$Project_Name_class}" {$Project_Name_style}>
+	{$Project_Name_value}
+</td>
+{END Project_Name_fieldcolumn}
+	{BEGIN EL_Expiration_Date_fieldcolumn}
+<td  class="runner-cc {$EL_Expiration_Date_class}" {$EL_Expiration_Date_style}>
+	{$EL_Expiration_Date_value}
+</td>
+{END EL_Expiration_Date_fieldcolumn}
+	{BEGIN Status_fieldcolumn}
+<td  class="runner-cc {$Status_class}" {$Status_style}>
+	{$Status_value}
+</td>
+{END Status_fieldcolumn}
+	{BEGIN Deal_Type_fieldcolumn}
+<td  class="runner-cc {$Deal_Type_class}" {$Deal_Type_style}>
+	{$Deal_Type_value}
+</td>
+{END Deal_Type_fieldcolumn}
+	{BEGIN Deal_Slot_fieldcolumn}
+<td  class="runner-cc {$Deal_Slot_class}" {$Deal_Slot_style}>
+	{$Deal_Slot_value}
+</td>
+{END Deal_Slot_fieldcolumn}
+	{BEGIN Closed_Date_fieldcolumn}
+<td  class="runner-cc {$Closed_Date_class}" {$Closed_Date_style}>
+	{$Closed_Date_value}
+</td>
+{END Closed_Date_fieldcolumn}
+	{BEGIN Dead_Date_fieldcolumn}
+<td  class="runner-cc {$Dead_Date_class}" {$Dead_Date_style}>
+	{$Dead_Date_value}
+</td>
+{END Dead_Date_fieldcolumn}
+	{BEGIN Primary_Banker_fieldcolumn}
+<td  class="runner-cc {$Primary_Banker_class}" {$Primary_Banker_style}>
+	{$Primary_Banker_value}
+</td>
+{END Primary_Banker_fieldcolumn}
+	{BEGIN Practice_Area_fieldcolumn}
+<td  class="runner-cc {$Practice_Area_class}" {$Practice_Area_style}>
+	{$Practice_Area_value}
+</td>
+{END Practice_Area_fieldcolumn}
+	{BEGIN Industry_fieldcolumn}
+<td  class="runner-cc {$Industry_class}" {$Industry_style}>
+	{$Industry_value}
+</td>
+{END Industry_fieldcolumn}
+	{BEGIN Projected_Transaction_Size_fieldcolumn}
+<td  class="runner-cc {$Projected_Transaction_Size_class}" {$Projected_Transaction_Size_style}>
+	{$Projected_Transaction_Size_value}
+</td>
+{END Projected_Transaction_Size_fieldcolumn}
+	{BEGIN Enterpise_Value_fieldcolumn}
+<td  class="runner-cc {$Enterpise_Value_class}" {$Enterpise_Value_style}>
+	{$Enterpise_Value_value}
+</td>
+{END Enterpise_Value_fieldcolumn}
+	{BEGIN Final_Transaction_Size_fieldcolumn}
+<td  class="runner-cc {$Final_Transaction_Size_class}" {$Final_Transaction_Size_style}>
+	{$Final_Transaction_Size_value}
+</td>
+{END Final_Transaction_Size_fieldcolumn}
+	{BEGIN Projected_Fee_fieldcolumn}
+<td  class="runner-cc {$Projected_Fee_class}" {$Projected_Fee_style}>
+	{$Projected_Fee_value}
+</td>
+{END Projected_Fee_fieldcolumn}
+	{BEGIN Fee_Minimum_fieldcolumn}
+<td  class="runner-cc {$Fee_Minimum_class}" {$Fee_Minimum_style}>
+	{$Fee_Minimum_value}
+</td>
+{END Fee_Minimum_fieldcolumn}
+	{BEGIN Engagment_Fee_fieldcolumn}
+<td  class="runner-cc {$Engagment_Fee_class}" {$Engagment_Fee_style}>
+	{$Engagment_Fee_value}
+</td>
+{END Engagment_Fee_fieldcolumn}
+	{BEGIN Fee_Details_fieldcolumn}
+<td  class="runner-cc {$Fee_Details_class}" {$Fee_Details_style}>
+	{$Fee_Details_value}
+</td>
+{END Fee_Details_fieldcolumn}
+	{BEGIN Split_to_Corporate_fieldcolumn}
+<td  class="runner-cc {$Split_to_Corporate_class}" {$Split_to_Corporate_style}>
+	{$Split_to_Corporate_value}
+</td>
+{END Split_to_Corporate_fieldcolumn}
+	{BEGIN Monthly_Retainer_fieldcolumn}
+<td  class="runner-cc {$Monthly_Retainer_class}" {$Monthly_Retainer_style}>
+	{$Monthly_Retainer_value}
+</td>
+{END Monthly_Retainer_fieldcolumn}
+	{BEGIN Final_Total_Sucess_Fee_fieldcolumn}
+<td  class="runner-cc {$Final_Total_Sucess_Fee_class}" {$Final_Total_Sucess_Fee_style}>
+	{$Final_Total_Sucess_Fee_value}
+</td>
+{END Final_Total_Sucess_Fee_fieldcolumn}
+	{BEGIN Ownership_Class_fieldcolumn}
+<td  class="runner-cc {$Ownership_Class_class}" {$Ownership_Class_style}>
+	{$Ownership_Class_value}
+</td>
+{END Ownership_Class_fieldcolumn}
+	{BEGIN Referral_Type_fieldcolumn}
+<td  class="runner-cc {$Referral_Type_class}" {$Referral_Type_style}>
+	{$Referral_Type_value}
+</td>
+{END Referral_Type_fieldcolumn}
+	{BEGIN Referral_Source_Company_fieldcolumn}
+<td  class="runner-cc {$Referral_Source_Company_class}" {$Referral_Source_Company_style}>
+	{$Referral_Source_Company_value}
+</td>
+{END Referral_Source_Company_fieldcolumn}
+	{BEGIN Referral_Scource_Ind__fieldcolumn}
+<td  class="runner-cc {$Referral_Scource_Ind__class}" {$Referral_Scource_Ind__style}>
+	{$Referral_Scource_Ind__value}
+</td>
+{END Referral_Scource_Ind__fieldcolumn}
+	{BEGIN Description_fieldcolumn}
+<td  class="runner-cc {$Description_class}" {$Description_style}>
+	{$Description_value}
+</td>
+{END Description_fieldcolumn}
+	{BEGIN Team_Split_1_fieldcolumn}
+<td  class="runner-cc {$Team_Split_1_class}" {$Team_Split_1_style}>
+	{$Team_Split_1_value}
+</td>
+{END Team_Split_1_fieldcolumn}
+	{BEGIN Team_1_fieldcolumn}
+<td  class="runner-cc {$Team_1_class}" {$Team_1_style}>
+	{$Team_1_value}
+</td>
+{END Team_1_fieldcolumn}
+	{BEGIN Team_Split_2_fieldcolumn}
+<td  class="runner-cc {$Team_Split_2_class}" {$Team_Split_2_style}>
+	{$Team_Split_2_value}
+</td>
+{END Team_Split_2_fieldcolumn}
+	{BEGIN Team_2_fieldcolumn}
+<td  class="runner-cc {$Team_2_class}" {$Team_2_style}>
+	{$Team_2_value}
+</td>
+{END Team_2_fieldcolumn}
+	{BEGIN Team_Split_3_fieldcolumn}
+<td  class="runner-cc {$Team_Split_3_class}" {$Team_Split_3_style}>
+	{$Team_Split_3_value}
+</td>
+{END Team_Split_3_fieldcolumn}
+	{BEGIN Team_3_fieldcolumn}
+<td  class="runner-cc {$Team_3_class}" {$Team_3_style}>
+	{$Team_3_value}
+</td>
+{END Team_3_fieldcolumn}
+	{BEGIN Team_Split_4_fieldcolumn}
+<td  class="runner-cc {$Team_Split_4_class}" {$Team_Split_4_style}>
+	{$Team_Split_4_value}
+</td>
+{END Team_Split_4_fieldcolumn}
+	{BEGIN Team_4_fieldcolumn}
+<td  class="runner-cc {$Team_4_class}" {$Team_4_style}>
+	{$Team_4_value}
+</td>
+{END Team_4_fieldcolumn}
+	{BEGIN Team_Split_5_fieldcolumn}
+<td  class="runner-cc {$Team_Split_5_class}" {$Team_Split_5_style}>
+	{$Team_Split_5_value}
+</td>
+{END Team_Split_5_fieldcolumn}
+	{BEGIN Team_5_fieldcolumn}
+<td  class="runner-cc {$Team_5_class}" {$Team_5_style}>
+	{$Team_5_value}
+</td>
+{END Team_5_fieldcolumn}
+	{BEGIN Team_Split_6_fieldcolumn}
+<td  class="runner-cc {$Team_Split_6_class}" {$Team_Split_6_style}>
+	{$Team_Split_6_value}
+</td>
+{END Team_Split_6_fieldcolumn}
+	{BEGIN Team_6_fieldcolumn}
+<td  class="runner-cc {$Team_6_class}" {$Team_6_style}>
+	{$Team_6_value}
+</td>
+{END Team_6_fieldcolumn}
+	{BEGIN Fee_Split_1_fieldcolumn}
+<td  class="runner-cc {$Fee_Split_1_class}" {$Fee_Split_1_style}>
+	{$Fee_Split_1_value}
+</td>
+{END Fee_Split_1_fieldcolumn}
+	{BEGIN Fee_To_1_fieldcolumn}
+<td  class="runner-cc {$Fee_To_1_class}" {$Fee_To_1_style}>
+	{$Fee_To_1_value}
+</td>
+{END Fee_To_1_fieldcolumn}
+	{BEGIN Fee_Split_2_fieldcolumn}
+<td  class="runner-cc {$Fee_Split_2_class}" {$Fee_Split_2_style}>
+	{$Fee_Split_2_value}
+</td>
+{END Fee_Split_2_fieldcolumn}
+	{BEGIN Fee_To_2_fieldcolumn}
+<td  class="runner-cc {$Fee_To_2_class}" {$Fee_To_2_style}>
+	{$Fee_To_2_value}
+</td>
+{END Fee_To_2_fieldcolumn}
+	{BEGIN Fee_Split_3_fieldcolumn}
+<td  class="runner-cc {$Fee_Split_3_class}" {$Fee_Split_3_style}>
+	{$Fee_Split_3_value}
+</td>
+{END Fee_Split_3_fieldcolumn}
+	{BEGIN Fee_To_3_fieldcolumn}
+<td  class="runner-cc {$Fee_To_3_class}" {$Fee_To_3_style}>
+	{$Fee_To_3_value}
+</td>
+{END Fee_To_3_fieldcolumn}
+	{BEGIN Fee_Split_4_fieldcolumn}
+<td  class="runner-cc {$Fee_Split_4_class}" {$Fee_Split_4_style}>
+	{$Fee_Split_4_value}
+</td>
+{END Fee_Split_4_fieldcolumn}
+	{BEGIN Fee_To_4_fieldcolumn}
+<td  class="runner-cc {$Fee_To_4_class}" {$Fee_To_4_style}>
+	{$Fee_To_4_value}
+</td>
+{END Fee_To_4_fieldcolumn}
+	{BEGIN Fee_Split_5_fieldcolumn}
+<td  class="runner-cc {$Fee_Split_5_class}" {$Fee_Split_5_style}>
+	{$Fee_Split_5_value}
+</td>
+{END Fee_Split_5_fieldcolumn}
+	{BEGIN Fee_To_5_fieldcolumn}
+<td  class="runner-cc {$Fee_To_5_class}" {$Fee_To_5_style}>
+	{$Fee_To_5_value}
+</td>
+{END Fee_To_5_fieldcolumn}
+	{BEGIN Fee_Split_6_fieldcolumn}
+<td  class="runner-cc {$Fee_Split_6_class}" {$Fee_Split_6_style}>
+	{$Fee_Split_6_value}
+</td>
+{END Fee_Split_6_fieldcolumn}
+	{BEGIN Fee_To_6_fieldcolumn}
+<td  class="runner-cc {$Fee_To_6_class}" {$Fee_To_6_style}>
+	{$Fee_To_6_value}
+</td>
+{END Fee_To_6_fieldcolumn}
+	{BEGIN Paul_fieldcolumn}
+<td  class="runner-cc {$Paul_class}" {$Paul_style}>
+	{$Paul_value}
+</td>
+{END Paul_fieldcolumn}
+	{BEGIN McBroom_fieldcolumn}
+<td  class="runner-cc {$McBroom_class}" {$McBroom_style}>
+	{$McBroom_value}
+</td>
+{END McBroom_fieldcolumn}
+	{BEGIN Pipeline_fieldcolumn}
+<td  class="runner-cc {$Pipeline_class}" {$Pipeline_style}>
+	{$Pipeline_value}
+</td>
+{END Pipeline_fieldcolumn}
+	{BEGIN Month_of_Close_fieldcolumn}
+<td  class="runner-cc {$Month_of_Close_class}" {$Month_of_Close_style}>
+	{$Month_of_Close_value}
+</td>
+{END Month_of_Close_fieldcolumn}
+	{BEGIN Gross_This_fieldcolumn}
+<td  class="runner-cc {$Gross_This_class}" {$Gross_This_style}>
+	{$Gross_This_value}
+</td>
+{END Gross_This_fieldcolumn}
+	{BEGIN Gross_Next_fieldcolumn}
+<td  class="runner-cc {$Gross_Next_class}" {$Gross_Next_style}>
+	{$Gross_Next_value}
+</td>
+{END Gross_Next_fieldcolumn}
+
+		{END grid_record}
+		<td class="runner-cr"></td>
+		{BEGIN endrecord_block}
+		<td class="runner-cs">&nbsp;</td>
+		{END endrecord_block}
+	</tr>
+{END grid_row}
+										
+								<tr class="runner-bottomrow style1">
+									<td class="runner-cl"><img src="images/spacer.gif"></td>
+									{BEGIN record_footer}
+									{BEGIN ID_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END ID_fieldfootercolumn}
+{BEGIN Company_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Company_fieldfootercolumn}
+{BEGIN EL_Date_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END EL_Date_fieldfootercolumn}
+{BEGIN IBC_Date_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END IBC_Date_fieldfootercolumn}
+{BEGIN Est__Close_Date_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Est__Close_Date_fieldfootercolumn}
+{BEGIN Project_Name_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Project_Name_fieldfootercolumn}
+{BEGIN EL_Expiration_Date_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END EL_Expiration_Date_fieldfootercolumn}
+{BEGIN Status_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Status_fieldfootercolumn}
+{BEGIN Deal_Type_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Deal_Type_fieldfootercolumn}
+{BEGIN Deal_Slot_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Deal_Slot_fieldfootercolumn}
+{BEGIN Closed_Date_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Closed_Date_fieldfootercolumn}
+{BEGIN Dead_Date_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Dead_Date_fieldfootercolumn}
+{BEGIN Primary_Banker_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Primary_Banker_fieldfootercolumn}
+{BEGIN Practice_Area_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Practice_Area_fieldfootercolumn}
+{BEGIN Industry_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Industry_fieldfootercolumn}
+{BEGIN Projected_Transaction_Size_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Projected_Transaction_Size_fieldfootercolumn}
+{BEGIN Enterpise_Value_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Enterpise_Value_fieldfootercolumn}
+{BEGIN Final_Transaction_Size_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Final_Transaction_Size_fieldfootercolumn}
+{BEGIN Projected_Fee_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Projected_Fee_fieldfootercolumn}
+{BEGIN Fee_Minimum_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_Minimum_fieldfootercolumn}
+{BEGIN Engagment_Fee_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Engagment_Fee_fieldfootercolumn}
+{BEGIN Fee_Details_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_Details_fieldfootercolumn}
+{BEGIN Split_to_Corporate_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Split_to_Corporate_fieldfootercolumn}
+{BEGIN Monthly_Retainer_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Monthly_Retainer_fieldfootercolumn}
+{BEGIN Final_Total_Sucess_Fee_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Final_Total_Sucess_Fee_fieldfootercolumn}
+{BEGIN Ownership_Class_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Ownership_Class_fieldfootercolumn}
+{BEGIN Referral_Type_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Referral_Type_fieldfootercolumn}
+{BEGIN Referral_Source_Company_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Referral_Source_Company_fieldfootercolumn}
+{BEGIN Referral_Scource_Ind__fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Referral_Scource_Ind__fieldfootercolumn}
+{BEGIN Description_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Description_fieldfootercolumn}
+{BEGIN Team_Split_1_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_Split_1_fieldfootercolumn}
+{BEGIN Team_1_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_1_fieldfootercolumn}
+{BEGIN Team_Split_2_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_Split_2_fieldfootercolumn}
+{BEGIN Team_2_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_2_fieldfootercolumn}
+{BEGIN Team_Split_3_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_Split_3_fieldfootercolumn}
+{BEGIN Team_3_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_3_fieldfootercolumn}
+{BEGIN Team_Split_4_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_Split_4_fieldfootercolumn}
+{BEGIN Team_4_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_4_fieldfootercolumn}
+{BEGIN Team_Split_5_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_Split_5_fieldfootercolumn}
+{BEGIN Team_5_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_5_fieldfootercolumn}
+{BEGIN Team_Split_6_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_Split_6_fieldfootercolumn}
+{BEGIN Team_6_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Team_6_fieldfootercolumn}
+{BEGIN Fee_Split_1_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_Split_1_fieldfootercolumn}
+{BEGIN Fee_To_1_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_To_1_fieldfootercolumn}
+{BEGIN Fee_Split_2_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_Split_2_fieldfootercolumn}
+{BEGIN Fee_To_2_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_To_2_fieldfootercolumn}
+{BEGIN Fee_Split_3_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_Split_3_fieldfootercolumn}
+{BEGIN Fee_To_3_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_To_3_fieldfootercolumn}
+{BEGIN Fee_Split_4_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_Split_4_fieldfootercolumn}
+{BEGIN Fee_To_4_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_To_4_fieldfootercolumn}
+{BEGIN Fee_Split_5_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_Split_5_fieldfootercolumn}
+{BEGIN Fee_To_5_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_To_5_fieldfootercolumn}
+{BEGIN Fee_Split_6_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_Split_6_fieldfootercolumn}
+{BEGIN Fee_To_6_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Fee_To_6_fieldfootercolumn}
+{BEGIN Paul_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Paul_fieldfootercolumn}
+{BEGIN McBroom_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END McBroom_fieldfootercolumn}
+{BEGIN Pipeline_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Pipeline_fieldfootercolumn}
+{BEGIN Month_of_Close_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Month_of_Close_fieldfootercolumn}
+{BEGIN Gross_This_fieldfootercolumn}
+<td class="runner-cc "></td>
+{END Gross_This_fieldfootercolumn}
+{BEGIN Gross_Next_fieldfootercolumn}
+<td class="runner-cc runner-clast"></td>
+{END Gross_Next_fieldfootercolumn}
+
+									{END record_footer}
+									<td class="runner-cr"><img src="images/spacer.gif"></td>
+									{BEGIN endrecordtotals_block}
+									<td class="runner-cs"></td>
+									{END endrecordtotals_block}
+								</tr>
+
+		</tbody>
+	</table>
+</div>	
+{END page}
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

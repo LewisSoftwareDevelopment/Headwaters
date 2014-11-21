@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--%%pagestyle%%--><!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 10.00.9200.17088"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>
+{BEGIN body}{BEGIN container_grid}{BEGIN pages}
+<H1 align=center><STRONG><FONT size=3>Corporate Dashboard - Live Engagements by 
+Status</FONT></STRONG></H1>
+<STYLE>
+table.report {border-collapse: collapse} 
+table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #cccccc;}
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.pagesummary{background-color:#ffffbb;}
+td.globalsummary{background-color:#ffe0b0;}
+</STYLE>
+
+<TABLE style="HEIGHT: 960px; WIDTH: 1545px" borderColor=#000000 cellSpacing=2 
+cellPadding=1 rules=all width="98%" align=center bgColor=#ffffff border=1>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      {BEGIN grid_block}<DIV id=grid_block{$id} class=runner-s-grid></DIV>
+      {END grid_block}<TABLE class="runner-c runner-c-grid" 
+      style="BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; WIDTH: 677px" 
+      borderColor=#000000 cellSpacing=2 cellPadding=1 rules=all align=center 
+      bgColor=#ffffff border=1>
+        <TBODY>
+        <TBODY>
+        <TR class="runner-toprow style1" style="HEIGHT: 13px">
+          <TD class="runner-cc blackshade" 
+          style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 213px; BACKGROUND-COLOR: #2d88d2">
+            <P align=left><B>Company</B></P></TD>
+          <TD class="runner-cc blackshade" 
+          style="WHITE-SPACE: normal; WIDTH: 213px; BACKGROUND-COLOR: #2d88d2"><B>Project 
+            Name</B></TD>
+          <TD class="runner-cc blackshade" 
+          style="WHITE-SPACE: normal; WIDTH: 213px; BACKGROUND-COLOR: #2d88d2"><B>Status</B></TD></TR><!-------------------------------------  data ----------------------------------------->
+        {BEGIN grid_row}{BEGIN row_data}<TR class="runner-row style1">
+          <TD class="runner-cc data" 
+            style="WHITE-SPACE: normal; WIDTH: 219px"><P align=left>{$Company_value}</P></TD>
+          <TD class="runner-cc data" 
+            style="WHITE-SPACE: normal; WIDTH: 219px">{$Project_Name_value}</TD>
+          <TD class="runner-cc data" 
+            style="WHITE-SPACE: normal; WIDTH: 220px"><P>{$Status_value}</P></TD></TR>{END row_data}{END grid_row}</TBODY>
+        </TABLE>
+      <DIV></DIV>
+      <DIV></DIV></TD></TR></TBODY></TABLE>
+<P></P>{END pages}{END container_grid}{END body}</BODY></HTML>

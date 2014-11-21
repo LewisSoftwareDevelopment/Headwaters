@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 10.00.9200.17116"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
+<TABLE class=runner-toptable style="WIDTH: auto" cellPadding=0>
+  <TBODY>
+  <TR class=runner-header>
+    <TD class=runner-top colSpan=3>
+      {BEGIN container_toplinks}
+      <TABLE class="runner-c runner-c-toplinks" cellPadding=0>
+        <TBODY>
+        <TR class="{$cheaderclass_toplinks}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc>
+            <TABLE class=runner-hc cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                {BEGIN prints_block}<TD class="runner-cc runner-bl runner-b-toplinks_print" {$brickclass_toplinks_print}>
+                  <SPAN>{BEGIN print_link}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$printlink_attrs}>Printer-friendly version</A> </SPAN>{END print_link}{BEGIN printall_link}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$printalllink_attrs}>Print 
+                  whole report</A> </SPAN>{END printall_link}</SPAN></TD>
+                {END prints_block}{BEGIN asearch_link}<TD class="runner-cc runner-bl runner-b-toplinks_advsearch" {$brickclass_toplinks_advsearch}>
+                  <SPAN><SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$advsearchlink_attrs}>Advanced 
+                  search</A> </SPAN></SPAN></TD>
+                {END asearch_link}{BEGIN export_link}<TD class="runner-cc runner-bl runner-b-toplinks_export_links" {$brickclass_toplinks_export_links}>
+                  <SPAN><SPAN id=export_links{$id}><A href="#" 
+                  {$excellink_attrs}><IMG border=0 alt="Export to Excel" src="images/excel.gif"></A> <A href="#" {$wordlink_attrs}><IMG border=0 alt="Export to Word" src="images/word.gif"></A> </SPAN></SPAN></TD>
+                {END export_link}<TD class="runner-cc filler">
+                  </TD>
+                {BEGIN security_block}<TD class="runner-cc runner-br runner-b-loggedas" {$brickclass_loggedas}>
+                  <SPAN>{BEGIN loggedas_message}<SPAN>Logged on as&nbsp;<B>{$username}</B>&nbsp;</SPAN> {END loggedas_message}{BEGIN guestloginbutton}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$guestloginlink_attrs}>Login</A> </SPAN>{END guestloginbutton}{BEGIN logoutbutton}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$logoutlink_attrs}>Log out</A> 
+                  </SPAN>{END logoutbutton}</SPAN></TD>{END security_block}</TR></TBODY></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_toplinks}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_toplinks}</TD></TR>
+  <TR class=runner-body>
+    <TD class="runner-left {$blockclass_left}"></TD>
+    <TD class="runner-center {$blockclass_center}" style="WIDTH: auto">
+      {BEGIN container_message}
+      <TABLE class="runner-c runner-c-message" cellPadding=0>
+        <TBODY>
+        <TR class="{$cheaderclass_message}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc>
+            <TABLE class=runner-hc cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                {BEGIN message_block}<TD class="runner-cc runner-bc runner-b-message" {$brickclass_message}>
+                  <SPAN>
+                  <DIV class=runner-message>{$message}</DIV></SPAN></TD>{END message_block}</TR></TBODY></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_message}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_message}
+      {BEGIN container_pageinfo}
+      <TABLE class="runner-c runner-c-pageinfo" cellPadding=0>
+        <TBODY>
+        <TR class="{$cheaderclass_pageinfo}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc>
+            <TABLE class=runner-hc cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                {BEGIN details_block}<TD class="runner-cc runner-bl runner-b-details_found" {$brickclass_details_found}>
+                  <SPAN><SPAN 
+                  {$details_attrs}>Details found: <B><SPAN 
+                  class=runner-details_found_count>{$records_found}</SPAN></B> 
+                  </SPAN></SPAN></TD>
+                {END details_block}{BEGIN pages_block}<TD class="runner-cc runner-bl runner-b-page_of" {$brickclass_page_of}>
+                  <SPAN><SPAN 
+                  {$pages_attrs}>Page <B>{$page}</B> of <B>{$maxpages}</B> </SPAN></SPAN></TD>
+                {END pages_block}{BEGIN recordspp_block}<TD class="runner-cc runner-bl runner-b-recsperpage" {$brickclass_recsperpage}>
+                  <SPAN><SPAN id=recordspp_block{$id} name="recordspp_block{$id}">Records Per Page:&nbsp;{$recsPerPage} </SPAN></SPAN></TD>
+                {END recordspp_block}<TD class="runner-cc filler">
+                  </TD></TR></TBODY></TABLE></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_pageinfo}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_pageinfo}
+      {BEGIN container_grid}
+      <STYLE>
+table.report {border-collapse: collapse} 
+/*table.report td {padding: 2px;border-width: 1px; border-style: solid; border-color: #cccccc;}*/
+div.page_block{clear:left;}
+td.noborder{padding-right:8px}
+td.data{padding-right:8px}
+td.pagesummary{background-color:#ffffbb;}
+td.globalsummary{background-color:#ffe0b0;}
+</STYLE>
+      {BEGIN grid_block} 
+      <TABLE class="runner-c runner-b-report report" 
+      style="HEIGHT: 740px; WIDTH: 1056px" borderColor=#000000 cellSpacing=2 
+      cellPadding=0 bgColor=#ffffff border=0>
+        <TBODY>
+        <TR class="runner-toprow style1">
+          <TH class=runner-cl style="WIDTH: 6px"><IMG src="images/spacer.gif"></TH>
+          <TH class=runner-cc style="WIDTH: 1973px"><FONT 
+            color=#ffffff><STRONG>SNAPSHOT</STRONG></FONT></TH>
+          <TD class=runner-cc style="WIDTH: 1px"></TD>
+          <TH class=runner-cc style="WIDTH: 347px"></TH>
+          <TH class=runner-cr style="WIDTH: 9px"><IMG src="images/spacer.gif"></TH></TR><!-------------------------------------  data ----------------------------------------->{BEGIN grid_row}{BEGIN row_data} 
+        <TR class="runner-row style1" style="HEIGHT: 292px">
+          <TD class=runner-cl style="WIDTH: 6px"></TD>
+          <TD class=runner-cc style="WIDTH: 1977px">
+            <TABLE style="HEIGHT: 193.77%; WIDTH: 1875px" borderColor=#000000 
+            cellSpacing=2 cellPadding=1 rules=all width=1875 bgColor=#ffffff 
+            border=1>
+              <TBODY>
+              <TR>
+              <TR>
+                <TD style="WHITE-SPACE: normal; WIDTH: 75%" 
+                  colSpan=4>&nbsp;&nbsp;&nbsp;&nbsp; 
+                  <TABLE style="HEIGHT: 95%; WIDTH: 100%" borderColor=#7f7f7f 
+                  cellSpacing=2 cellPadding=1 rules=all width=894 
+                  bgColor=#ffffff border=1>
+                    <TBODY>
+                    <TR>
+                      <TD style="WIDTH: 213px">&nbsp;<STRONG><FONT 
+                        color=#000000>BACKLOG / ACTIVITY</FONT></STRONG></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 185px">
+                        <P align=center><STRONG><FONT 
+                        color=#000000>&nbsp;YTD</FONT></STRONG></P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center><STRONG><FONT color=#000000>Dec {$event Sanpshot_snippet}</P></FONT></STRONG></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center><STRONG><FONT 
+                        color=#000000>Nov&nbsp;{$event Sanpshot_snippet1}</P></FONT></STRONG></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center><STRONG><FONT 
+                        color=#000000>Oct&nbsp;{$event Sanpshot_snippet2}</P></FONT></STRONG></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center><STRONG><FONT color=#000000>Sep {$event Sanpshot_snippet3}</P></FONT></STRONG></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center><FONT color=#000000><STRONG>Aug {$event Sanpshot_snippet4}</P></STRONG></FONT></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center><FONT color=#000000><STRONG>Jul {$event Sanpshot_snippet5}</P></STRONG></FONT></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center><FONT color=#000000><STRONG>Jun {$event Sanpshot_snippet6}</P></STRONG></FONT></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center><FONT color=#000000><STRONG>May {$event Sanpshot_snippet7}</P></STRONG></FONT></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center><FONT color=#000000><STRONG>Apr {$event Sanpshot_snippet8}</P></STRONG></FONT></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center><FONT color=#000000><STRONG>Mar {$event Sanpshot_snippet9}</P></STRONG></FONT></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center><FONT color=#000000><STRONG>Feb {$event Sanpshot_snippet10}</P></STRONG></FONT></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center><FONT color=#000000><STRONG>Jan {$event Sanpshot_snippet11}</P></STRONG></FONT></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 213px">&nbsp;NDA's Signed</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 185px">
+                        <P align=center>{$NDAYTD_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$nda12_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$nda11_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$nda10_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$nda9_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$nda8_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$nda7_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$nda6_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$nda5_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$nda4_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$nda3_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$nda2_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$nda1_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 213px">&nbsp;IBC Proposals</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 185px">
+                        <P align=center>&nbsp;{$IBC_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$IBC12_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$IBC11_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$IBC10_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$IBC9_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$IBC8_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IBC7_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IBC6_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IBC5_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IBC4_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IBC3_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IBC2_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IBC1_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 213px">&nbsp;EL' Signed</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 185px">
+                        <P align=center>&nbsp;{$EL_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EL12_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EL11_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EL10_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EL9_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EL8_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$EL7_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$EL6_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$EL5_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$EL4_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$EL3_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$EL2_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$EL1_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 213px">&nbsp;Total Engagements Live</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 185px">
+                        <P align=center>&nbsp;{$Live_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>{$ELDec_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$ELNov_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$ELOct_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$ELSep_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>{$ELAug_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$ELJuly_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$ELJune_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$ELMay_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$ELApril_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$ELMar_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$ELFeb_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$ELJan_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 213px">&nbsp;Deals in Market or Under 
+                        LOI</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 185px">
+                        <P align=center>&nbsp;{$InMarketLOI_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$IMLDec_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$IMLNov_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>{$IMLOct_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$IMLSep_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>{$IMLAug_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IMLJuly_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IMLJune_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IMLMay_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IMLApril_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IMLMar_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IMLeb_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$IMLJan_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 213px">&nbsp;Closed Deals</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 185px">
+                        <P align=center>&nbsp;{$Closed_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$CL12_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$CL11_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$CL10_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$CL9_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$CL8_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$CL7_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$CL6_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$CL5_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$CL4_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$CL3_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$CL2_value}</P></TD>
+                      <TD class=" runner-cc" style="WIDTH: 91px">
+                        <P align=center>{$CL1_value}</P></TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD style="WHITE-SPACE: normal; WIDTH: 25%">&nbsp; 
+                  <TABLE style="HEIGHT: 90%; WIDTH: 90%" borderColor=#7f7f7f 
+                  cellSpacing=2 cellPadding=1 rules=all width=442 
+                  bgColor=#ffffff border=1>
+                    <TBODY>
+                    <TR style="HEIGHT: 5px">
+                      <TD style="WIDTH: 189px" colSpan=2><STRONG><FONT 
+                        color=#000000>&nbsp;ENGAGEMENT 
+                      STATUS</FONT></STRONG>&nbsp;</TD>
+                      <TD style="WIDTH: 189px" rowSpan=2 
+                        colSpan=2>&nbsp;&nbsp;&nbsp;<FONT 
+                        color=#000000><STRONG>Deal 
+                      Slot</STRONG></FONT>&nbsp;&nbsp;</TD></TR>
+                    <TR>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 92px">&nbsp;Pre 
+                        Market</TD>
+                      <TD style="WIDTH: 96px">
+                        <P align=center>&nbsp;{$PreMarket_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 92px">&nbsp;&nbsp;In Market</TD>
+                      <TD style="WIDTH: 96px">
+                        <P align=center>&nbsp;{$InMarket_value}</P></TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 81px; BACKGROUND-COLOR: #ffff00">&nbsp;Wheelhouse</TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 107px; BACKGROUND-COLOR: #ffff00">
+                        <P align=center>&nbsp;{$Wheelhouse_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 92px">&nbsp;&nbsp;Under LOI</TD>
+                      <TD style="WIDTH: 96px">
+                        <P align=center>&nbsp;{$UNderLOI_value}</P></TD>
+                      <TD style="WIDTH: 81px">&nbsp;Speculative</TD>
+                      <TD style="WIDTH: 107px">
+                        <P align=center>&nbsp;{$Speculative_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 92px">&nbsp;&nbsp;Inactive</TD>
+                      <TD style="WIDTH: 96px">
+                        <P align=center>&nbsp;{$Inactive_value}</P></TD>
+                      <TD style="WIDTH: 81px">&nbsp;Minimum</TD>
+                      <TD style="WIDTH: 107px">
+                        <P align=center>&nbsp;{$Minimum_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 92px">&nbsp;&nbsp;Onhold</TD>
+                      <TD style="WIDTH: 96px">
+                        <P align=center>&nbsp;{$OnHold_value}</P></TD>
+                      <TD style="WIDTH: 81px">&nbsp;Total</TD>
+                      <TD style="WIDTH: 107px">
+                        <P align=center>&nbsp;{$Live_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 92px">&nbsp;&nbsp;Total</TD>
+                      <TD style="WIDTH: 96px">
+                        <P align=center>&nbsp;{$Live_value}</P></TD>
+                      <TD style="WIDTH: 189px" 
+                      colSpan=2>&nbsp;&nbsp;&nbsp;&nbsp;</TD></TR></TBODY></TABLE></TD>
+                <TD style="WHITE-SPACE: normal; WIDTH: 75%" colSpan=3>
+                  <P>
+                  <TABLE style="HEIGHT: 90%; WIDTH: 98%" borderColor=#666666 
+                  cellSpacing=2 cellPadding=1 rules=all width="98%" align=center 
+                  bgColor=#ffffff border=1>&nbsp; 
+                    <TBODY>
+                    <TR>
+                      <TD style="WIDTH: 496px" colSpan=6><STRONG><FONT 
+                        color=#000000>ENGAGEMENT TOTAL BY SIZE,&nbsp;TYPE and 
+                        Ownership = </FONT></STRONG><STRONG><FONT 
+                        color=#000000>{$Live_value}</FONT></STRONG>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+                      <TD style="WIDTH: 247px" 
+                    colSpan=3>&nbsp;&nbsp;&nbsp;</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 65px" rowSpan=2>&nbsp;<FONT 
+                        color=#000000>Enterprise Value</FONT></TD>
+                      <TD style="WIDTH: 430px" colSpan=5>
+                        <P align=center>&nbsp;<FONT color=#000000>Transaction 
+                        Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></P></TD>
+                      <TD style="WIDTH: 247px" colSpan=3>
+                        <P align=center><FONT 
+                        color=#000000>&nbsp;&nbsp;&nbsp;Ownership 
+                      Type</FONT></P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 86px">&nbsp;Sell-Side</TD>
+                      <TD style="WIDTH: 86px">&nbsp;Buy-Side</TD>
+                      <TD style="WIDTH: 84px">Equity Raise&nbsp;</TD>
+                      <TD style="WIDTH: 77px">Debt Raise&nbsp;</TD>
+                      <TD style="WIDTH: 93px">Advisory/Other&nbsp;</TD>
+                      <TD style="WIDTH: 77px">&nbsp;Public</TD>
+                      <TD style="WIDTH: 84px">Private&nbsp;</TD>
+                      <TD style="WIDTH: 84px">PE Owned&nbsp;</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 65px">&nbsp;&lt;$10mm</TD>
+                      <TD style="WIDTH: 86px">
+                        <P align=center>&nbsp;{$EV10SS_value}</P></TD>
+                      <TD style="WIDTH: 86px">
+                        <P align=center>&nbsp;{$EV10BS_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV10eq_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV10d_value}</P></TD>
+                      <TD style="WIDTH: 93px">
+                        <P align=center>&nbsp;{$EV10ad_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV10p_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV10po_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV10pe_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 65px">&nbsp;$10mm - $25mm</TD>
+                      <TD style="WIDTH: 86px">
+                        <P align=center>&nbsp;{$EV25SS_value}</P></TD>
+                      <TD style="WIDTH: 86px">
+                        <P align=center>&nbsp;{$EV25BS_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV25eq_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV25d_value}</P></TD>
+                      <TD style="WIDTH: 93px">
+                        <P align=center>&nbsp;{$EV25ad_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV25p_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV25po_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV25pe_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 65px">&nbsp;$25mm - $75mm</TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 86px; BACKGROUND-COLOR: #ffff00">
+                        <P align=center>&nbsp;{$EV75SS_value}</P></TD>
+                      <TD style="WIDTH: 86px">
+                        <P align=center>&nbsp;{$EV75BS_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV75eq_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV75d_value}</P></TD>
+                      <TD style="WIDTH: 93px">
+                        <P align=center>&nbsp;{$EV75ad_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV75p_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV75po_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV75pe_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 65px">&nbsp;$75mm - $100mm</TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 86px; BACKGROUND-COLOR: #ffff00">
+                        <P align=center>&nbsp;{$EV100SS_value}</P></TD>
+                      <TD style="WIDTH: 86px">
+                        <P align=center>&nbsp;{$EV100BS_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV100eq_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV100d_value}</P></TD>
+                      <TD style="WIDTH: 93px">
+                        <P align=center>&nbsp;{$EV100ad_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV100p_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV100po_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV100pe_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 65px">&nbsp;&lt;$150mm</TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 86px; BACKGROUND-COLOR: #ffff00">
+                        <P align=center>&nbsp;{$EV150SS_value}</P></TD>
+                      <TD style="WIDTH: 86px">
+                        <P align=center>&nbsp;{$EV150BS_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV150eq_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV150d_value}</P></TD>
+                      <TD style="WIDTH: 93px">
+                        <P align=center>&nbsp;{$EV150ad_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$EV150p_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV150po_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$EV150pe_value}</P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 65px">&nbsp;Totals</TD>
+                      <TD style="WIDTH: 86px">
+                        <P align=center>&nbsp;{$sst_value}</P></TD>
+                      <TD style="WIDTH: 86px">
+                        <P align=center>&nbsp;{$bst_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$eqt_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$dt_value}</P></TD>
+                      <TD style="WIDTH: 93px">
+                        <P align=center>&nbsp;{$adt_value}</P></TD>
+                      <TD style="WIDTH: 77px">
+                        <P align=center>&nbsp;{$pt_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$pot_value}</P></TD>
+                      <TD style="WIDTH: 84px">
+                        <P align=center>&nbsp;{$pet_value}</P></TD></TR></TBODY></TABLE></P>
+                  <P>&nbsp;</P></TD></TR>
+              <TR>
+                <TD style="WHITE-SPACE: normal; WIDTH: 25%">
+                  <P>&nbsp;</P>
+                  <TABLE style="HEIGHT: 90%; WIDTH: 98%" borderColor=#7f7f7f 
+                  cellSpacing=2 cellPadding=1 rules=all width=487 
+                  bgColor=#ffffff border=1>
+                    <TBODY>
+                    <TR style="HEIGHT: 26px">
+                      <TD 
+                        style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;<STRONG><FONT 
+                        color=#000000>ENGAGEMENTS BY SECTOR</FONT></STRONG></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center><STRONG><FONT color=#000000>&nbsp;LIVE 
+                        DEALS</FONT></STRONG></P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center><STRONG><FONT color=#000000>&nbsp;YTD 
+                        EL's</FONT></STRONG></P></TD></TR>
+                    <TR>
+                      <TD 
+                        style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;Business 
+                        Services</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Business_Services_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$Business_Services_EL_value}</P></TD></TR>
+                    <TR>
+                      <TD 
+                        style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;Consumer 
+                        &amp; Retail</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Consumer_Products_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$Consumer_EL_value}</P></TD></TR>
+                    <TR style="HEIGHT: 39px">
+                      <TD 
+                        style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;Energy 
+                        &amp; Natural Resources</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Energy___Natural_Resources_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$Ennergy_EL_value}</P></TD></TR>
+                    <TR>
+                      <TD 
+                        style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;Financial 
+                        Services</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Financial_Services_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$Financial_EL_value}</P></TD></TR>
+                    <TR>
+                      <TD 
+                        style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;Industrials</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Industrials_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$Industrials_EL_value}</P></TD></TR>
+                    <TR>
+                      <TD 
+                        style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;Healthcare</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Healthcare_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$Healthcare_EL_value}</P></TD></TR>
+                    <TR>
+                      <TD 
+                      style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;TMT</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Technology_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$TMT_EL_value}</P></TD></TR>
+                    <TR>
+                      <TD 
+                        style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;Entertainment</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Entertainment_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$Entertainment_EL_value}</P></TD></TR>
+                    <TR style="HEIGHT: 19px">
+                      <TD style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;Real 
+                        Estate</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Real_Estate_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$RealEstate_EL_value}</P></TD></TR>
+                    <TR style="HEIGHT: 20px">
+                      <TD 
+                        style="WHITE-SPACE: nowrap; WIDTH: 174px">&nbsp;Totals</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 194px">
+                        <P align=center>&nbsp;{$Live_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 154px">
+                        <P align=center>&nbsp;{$EL_value}</P></TD></TR></TD>
+                    <TR></TR></TBODY></TABLE>
+                  <P>&nbsp;</P>
+                  <P>&nbsp;</P></TD>
+                <TD class=runner-cc style="WHITE-SPACE: normal; WIDTH: 75%" 
+                colSpan=3>
+                  <P>
+                  <TABLE style="HEIGHT: 90%; WIDTH: 98%" borderColor=#666666 
+                  cellSpacing=2 cellPadding=1 rules=all width=494 align=center 
+                  bgColor=#ffffff border=1>
+                    <TBODY>
+                    <TR>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%"><FONT 
+                        color=#000000><STRONG>&nbsp;REFERRAL 
+                        ACTIVITY</STRONG></FONT></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%"><FONT 
+                        color=#000000><STRONG>&nbsp;YTD 
+                        IBC's&nbsp;</STRONG></FONT></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%"><FONT 
+                        color=#000000><STRONG>&nbsp;YTD %&nbsp;of 
+                        IBC's&nbsp;</STRONG></FONT></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%"><FONT 
+                        color=#000000><STRONG>&nbsp;YTD 
+                        Engagements&nbsp;</STRONG></FONT></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%"><FONT 
+                        color=#000000><STRONG>&nbsp;% of Total YTD 
+                        Engagements</STRONG></FONT>&nbsp;</TD></TR>
+                    <TR>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">&nbsp;IBS to 
+                        Practice&nbsp;</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$IBSibc_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$IBSper_value}%</P></TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$IBSel_value}</P></TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$IBSper2_value}%</P></TD></TR>
+                    <TR>
+                      <TD 
+                        style="WHITE-SPACE: normal; WIDTH: 17%">&nbsp;Practice 
+                        to Practice</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$PPibc_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$PPper_value}%</P></TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$PPel_value}</P></TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$PPper2_value}%</P></TD></TR>
+                    <TR>
+                      <TD 
+                        style="WHITE-SPACE: normal; WIDTH: 17%">&nbsp;Corporate 
+                        to Practice</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$CPibc_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$CPper_value}%</P></TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$CPel_value}</P></TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$CPper2_value}%</P></TD></TR>
+                    <TR>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">&nbsp;MA to 
+                        Practice</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$MAibc_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$MAper_value}%</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$MAel_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$MAper2_value}%</P></TD></TR>
+                    <TR>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">&nbsp;SC to 
+                        Practice</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$SCibc_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$SCSper_value}%</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$SCel_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$SCSper2_value}%</P></TD></TR>
+                    <TR>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">&nbsp;Sole 
+                        Sorced</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$SSibc_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$SSper_value}%</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$SSel_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$SSper2_value}%</P></TD></TR>
+                    <TR>
+                      <TD 
+                      style="WHITE-SPACE: normal; WIDTH: 17%">&nbsp;Totals</TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$IBC_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;100%</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P align=center>&nbsp;{$EL_value}</P></TD>
+                      <TD style="WHITE-SPACE: normal; WIDTH: 17%">
+                        <P 
+              align=center>&nbsp;100%</P></TD></TR></TBODY></TABLE></P></TD></TR>
+              <TR>
+                <TD style="WHITE-SPACE: normal; WIDTH: 25%">
+                  <TABLE style="HEIGHT: 90%; WIDTH: 425px" borderColor=#666666 
+                  cellSpacing=2 cellPadding=1 rules=all width="98%" 
+                  bgColor=#ffffff border=1>
+                    <TBODY>
+                    <TR>
+                      <TD style="WIDTH: 185px" rowSpan=2>&nbsp;<STRONG><FONT 
+                        color=#000000>FORECASTING&nbsp;</FONT></STRONG></TD>
+                      <TD style="WIDTH: 78px" rowSpan=2>&nbsp;&nbsp;</TD>
+                      <TD style="WIDTH: 153px">&nbsp;2014 Buget Gross</TD>
+                      <TD style="WIDTH: 9px">&nbsp;{$TYBG_value}</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 153px">&nbsp;2014 Buget Net</TD>
+                      <TD style="WIDTH: 9px">&nbsp;{$TYBN_value}</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 185px">&nbsp;Total Mgmt Est. Gross 
+                      2014</TD>
+                      <TD style="WIDTH: 78px">&nbsp;{$YTDgrossact_value}</TD>
+                      <TD style="WIDTH: 153px">&nbsp;% of Budget Gross</TD>
+                      <TD style="WIDTH: 9px">&nbsp;{$mytdgrossper_value}%</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 185px">&nbsp;Total Mgmt Est. Net 
+                      2014</TD>
+                      <TD style="WIDTH: 78px">&nbsp;{$YTDnetact_value}</TD>
+                      <TD style="WIDTH: 153px">&nbsp;% of Budget Net</TD>
+                      <TD style="WIDTH: 9px">&nbsp;{$mytdnetper_value}%</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 185px">&nbsp;YTD&nbsp;Gross Actual</TD>
+                      <TD style="WIDTH: 78px">&nbsp;{$YTDgross_value}</TD>
+                      <TD style="WIDTH: 153px">&nbsp;% of Budget Gross</TD>
+                      <TD style="WIDTH: 9px">&nbsp;{$ytdgrossper_value}%</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 185px">&nbsp;YTD Net Actual</TD>
+                      <TD style="WIDTH: 78px">&nbsp;{$NetActual_value}</TD>
+                      <TD style="WIDTH: 153px">&nbsp;% of Budget Net</TD>
+                      <TD style="WIDTH: 9px">&nbsp;{$ytdnetper_value}%</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 185px">&nbsp;Mgmt ROY Est. Gross</TD>
+                      <TD style="WIDTH: 78px">&nbsp;{$MGMTG_value}</TD>
+                      <TD style="WIDTH: 153px">&nbsp;Practice ROY Gross 
+Est.</TD>
+                      <TD style="WIDTH: 9px">{$MGMTG_value}&nbsp;</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 185px">&nbsp;Mgmt ROY Est. Net</TD>
+                      <TD style="WIDTH: 78px">&nbsp;{$MGMTnetthis_value}</TD>
+                      <TD style="WIDTH: 153px">&nbsp;Practice ROY&nbsp;Net 
+                      Est.</TD>
+                      <TD style="WIDTH: 9px">&nbsp;{$MGMTnetthis_value}</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 185px">&nbsp;Mgmt 2015 Est. Gross</TD>
+                      <TD style="WIDTH: 78px">&nbsp;{$MGMTN_value}</TD>
+                      <TD style="WIDTH: 153px">&nbsp;Practice 2015 Est. 
+                      Gross</TD>
+                      <TD style="WIDTH: 9px">&nbsp;{$MGMTN_value}</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 185px">&nbsp;Mgmt 2015 Est. Net</TD>
+                      <TD style="WIDTH: 78px">&nbsp;{$MGMTnetnext_value}</TD>
+                      <TD style="WIDTH: 153px">&nbsp;Practice 2015 Est. Net</TD>
+                      <TD style="WIDTH: 9px">&nbsp;{$MGMTnetnext_value}</TD></TR></TBODY></TABLE></TD>
+                <TD class=runner-cc style="WHITE-SPACE: normal; WIDTH: 75%" 
+                colSpan=3>
+                  <P>
+                  <TABLE style="HEIGHT: 90%; WIDTH: 98%" borderColor=#666666 
+                  cellSpacing=2 cellPadding=1 rules=all width="98%" align=center 
+                  bgColor=#ffffff border=1>&nbsp; 
+                    <TBODY>
+                    <TR>
+                      <P></P>
+                    <TR style="HEIGHT: 14px">
+                      <TD style="WIDTH: 98px" colSpan=4><STRONG><FONT 
+                        color=#000000>UTILIZATION 
+                        RATES</FONT></STRONG>&nbsp;&nbsp;&nbsp;</TD>
+                      <TD style="WIDTH: 79px" colSpan=2>&nbsp;&nbsp;</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 156px" colSpan=2>
+                        <P align=center><FONT color=#000000>&nbsp;IBC 
+                        Capacity&nbsp;</FONT></P></TD>
+                      <TD style="WIDTH: 129px" colSpan=2>
+                        <P align=center><FONT 
+                        color=#000000>&nbsp;&nbsp;Engagement 
+                      Capacity</FONT></P></TD>
+                      <TD style="WIDTH: 153px" colSpan=2>
+                        <P align=center><FONT color=#000000>&nbsp;&nbsp;Closing 
+                        Capacity</FONT></P></TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 98px">&nbsp;Target =&nbsp;{$IBCperMD_value} per 
+MD/yr</TD>
+                      <TD style="WIDTH: 57px">&nbsp;{$IBCTotalMD_value}</TD>
+                      <TD style="WIDTH: 80px">&nbsp;Target =&nbsp;{$ELperMD_value} per MD/yr</TD>
+                      <TD style="WIDTH: 48px">&nbsp;{$ELTotalMD_value}</TD>
+                      <TD style="WIDTH: 79px">&nbsp;Target = {$ClosingperMD_value} per 
+                        MD/yr</TD>
+                      <TD style="WIDTH: 73px">&nbsp;{$ClosingTotalMD_value}</TD></TR>
+                    <TR>
+                      <TD style="WIDTH: 98px">&nbsp;YTD Target</TD>
+                      <TD style="WIDTH: 57px">&nbsp;{$IBCYTDTarget_value}</TD>
+                      <TD style="WIDTH: 80px">&nbsp;YTD Target</TD>
+                      <TD style="WIDTH: 48px">&nbsp;{$ELYTDTarget_value}</TD>
+                      <TD style="WIDTH: 79px">&nbsp;YTD Target</TD>
+                      <TD style="WIDTH: 73px">&nbsp;{$ClosingYTDMD_value}</TD></TR>
+                    <TR style="HEIGHT: 4px">
+                      <TD style="WIDTH: 98px">&nbsp;YTD Actual</TD>
+                      <TD style="WIDTH: 57px">&nbsp;{$IBC_value}</TD>
+                      <TD style="WIDTH: 80px">&nbsp;YTD Actual</TD>
+                      <TD style="WIDTH: 48px">&nbsp;{$EL_value}</TD>
+                      <TD style="WIDTH: 79px">&nbsp;YTD Actual</TD>
+                      <TD style="WIDTH: 73px">&nbsp;{$Closed_value}</TD></TR>
+                    <TR>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 98px; BACKGROUND-COLOR: #ffff00">&nbsp;Utilization</TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 57px; BACKGROUND-COLOR: #ffff00">&nbsp;{$IBuper_value}%</TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 80px; BACKGROUND-COLOR: #ffff00">&nbsp;&nbsp;Utilization</TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 48px; BACKGROUND-COLOR: #ffff00">&nbsp;{$eluper_value}%</TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 79px; BACKGROUND-COLOR: #ffff00">&nbsp;&nbsp;Utilization</TD>
+                      <TD 
+                      style="BACKGROUND-IMAGE: none; WHITE-SPACE: normal; WIDTH: 73px; BACKGROUND-COLOR: #ffff00">&nbsp;{$Closinguper_value}%</TD></TR></TBODY></TABLE>
+                  <P>&nbsp;</P></TD></TR>
+              <TR></TD></TR></TBODY></TABLE>{END row_data}{END grid_row}{END grid_block} 
+            <DIV></DIV>
+            {BEGIN container_pagination}
+            <TABLE class="runner-c runner-c-pagination" cellPadding=0>
+              <TBODY>
+              <TR class="{$cheaderclass_pagination}">
+                <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+              <TR class="runner-row style1">
+                <TD class=runner-cl></TD>
+                <TD class=runner-cc>
+                  <TABLE class=runner-hc cellPadding=0 border=0>
+                    <TBODY>
+                    <TR>
+                      {BEGIN pagination_block}<TD class="runner-cc runner-bc runner-b-pagination" {$brickclass_pagination}>
+                        <SPAN>{$pagination}</SPAN></TD>{END pagination_block}</TR></TBODY></TABLE></TD>
+                <TD class=runner-cr></TD></TR>
+              <TR class="{$cfooterclass_pagination}">
+                <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_pagination}
+            {BEGIN container_form}
+            <TABLE class="runner-c runner-c-form" cellPadding=0>
+              <TBODY>
+              <TR class="{$cheaderclass_form}">
+                <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+              <TR class="runner-row style1">
+                <TD class=runner-cl></TD>
+                <TD class=runner-cc>
+                  <TABLE class=runner-hc cellPadding=0 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class="runner-cc runner-bl runner-b-reportvariable" 
+                      {$brickclass_reportvariable}>
+                        <SPAN>{$report_filename}</SPAN></TD>
+                      <TD class="runner-cc filler">
+                        </TD></TR></TBODY></TABLE></TD>
+                <TD class=runner-cr></TD></TR>
+              <TR class="{$cfooterclass_form}">
+                <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_form}</TD>
+          <TD class=runner-cc style="WIDTH: 5px"></TD>
+          <TD class="runner-right {$blockclass_right}" style="WIDTH: 354px">
+            {BEGIN container_searchpanel}
+            <TABLE class="runner-c runner-c-searchpanel" cellPadding=0>
+              <TBODY>
+              <TR class="{$cheaderclass_searchpanel}">
+                <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+              {BEGIN searchform_block}<TR class="runner-row style1 runner-b-vsearch1 {$brickclass_vsearch1}">
+                <TD class=runner-cl></TD>
+                <TD class="runner-cc runner-brickcontents">
+                  Search for: {BEGIN searchPanelTopButtons}<SPAN><SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=showSrchWin{$id} class=runner-button-img href="#" {$showHideSearchWin_attrs}><IMG src="images/search/showWindowPin.gif"></A> </SPAN>&nbsp; <SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=showOptPanel{$id} class=runner-button-img href="#" {$showHideSearchPanel_attrs}><IMG src="images/search/showOptions.gif"></A> </SPAN></SPAN>{END searchPanelTopButtons}</TD>
+                <TD class=runner-cr></TD></TR>
+              {END searchform_block}{BEGIN searchform_block}<TR class="runner-row style1 runner-b-vsearch2 {$brickclass_vsearch2}">
+                <TD class=runner-cl></TD>
+                <TD class="runner-cc runner-brickcontents">
+                  
+                  <DIV><SPAN>{BEGIN searchform_text}<INPUT size=25 {$searchfor_attrs}>{END searchform_text} 
+                  &nbsp; {BEGIN searchform_search}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button-img href="#" {$searchbutton_attrs}><IMG src="images/search/search.gif"></A> </SPAN>{END searchform_search}&nbsp; {BEGIN searchform_showall}<SPAN class=runner-btnframe {$showAllCont_attrs}><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$showallbutton_attrs}>Show 
+                  all</A> </SPAN>{END searchform_showall}</SPAN></DIV></TD>
+                <TD class=runner-cr></TD></TR>
+              {END searchform_block}{BEGIN searchPanel}<TR class="runner-row style1 runner-b-searchpanel {$brickclass_searchpanel}">
+                <TD class=runner-cl></TD>
+                <TD class="runner-cc runner-brickcontents">
+                  
+                  <DIV class=searchPanelContainer>{$adv_search_panel} </DIV></TD>
+                <TD class=runner-cr></TD></TR>
+              {END searchPanel}<TR class="{$cfooterclass_searchpanel}">
+                <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_searchpanel}
+            {BEGIN container_menu}
+            <TABLE class="runner-c runner-c-menu" cellPadding=0>
+              <TBODY>
+              <TR class="{$cheaderclass_menu}">
+                <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+              {BEGIN menu_block}{$mainmenu}{END menu_block}<TR class="{$cfooterclass_menu}">
+                <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_menu}</TD></TR>
+        <TR class=runner-footer>
+          <TD class=runner-bottom 
+      colSpan=4><!--%%bottom%%--></TD></TR></TBODY></TABLE>{$footer} {END container_grid}</TD></TR></TBODY></TABLE>{END body}</BODY></HTML>

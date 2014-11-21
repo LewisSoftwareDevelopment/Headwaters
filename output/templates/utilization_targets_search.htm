@@ -1,0 +1,402 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<title>{$pagetitle}</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+		<!--[if IE]>
+			<link REL="stylesheet" href="styles/defaultIE.css" type="text/css">
+			{BEGIN IEcssFiles}
+			<link REL="stylesheet" href="{$stylepathIE}" type="text/css">
+			{END IEcssFiles}
+		<![endif]-->
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+{BEGIN container_search}
+<table class="runner-c runner-c-search" cellpadding="0" align=center>
+
+
+<tr class="runner-toprow style2 header"><td class="runner-cl"><img src="images/spacer.gif"></td><td class="runner-cc" ><div  class="runner-b-srchheader {$brickclass_srchheader}">Utilization Targets - Advanced search
+{$CrossElem}</div></td><td class="runner-cr"><img src="images/spacer.gif"></td></tr>
+
+
+{BEGIN conditions_block}
+<tr  class="runner-row style1 runner-b-srchconditions {$brickclass_srchconditions}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" >	<center>
+	<span class=fieldname>Criteria:&nbsp;</span>	
+	<input type="radio" class="runner-radio-button" name="srchType" {$all_checkbox}><label for="all_checkbox"> All conditions</label>
+	&nbsp;&nbsp;&nbsp;
+	<input type="radio" class="runner-radio-button" name="srchType" {$any_checkbox}><label for="any_checkbox"> Any condition</label>
+	</center></td><td class="runner-cr"></td></tr>{END conditions_block}
+
+
+
+<tr  class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents runner-wrapper" >
+
+{BEGIN container_fields}
+<table class="runner-c runner-c-fields" cellpadding="0" >
+
+
+<tr class="runner-toprow header style2 runner-b-srchfields"><td class="runner-cl"><img src="images/spacer.gif"></td>
+	<td class="runner-cc">&nbsp;</td>
+	<td class="runner-cc">NOT</td>
+	<td class="runner-cc" colspan=3>&nbsp; </td>
+<td class="runner-cr"></td></tr>
+	{BEGIN IBC_per_MD_fieldblock}		
+	<tr class="runner-row style1 runner-b-srchfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_IBC_per_MD {$fielddispclass_IBC_per_MD}">
+				IBC per MD
+			</div>
+		</td>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_IBC_per_MD {$fielddispclass_IBC_per_MD}">
+			<input type="checkbox" {$IBC_per_MD_notbox}>
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_IBC_per_MD {$fielddispclass_IBC_per_MD}">
+			{$searchtype_IBC_per_MD}
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_IBC_per_MD {$fielddispclass_IBC_per_MD}">
+			{$IBC_per_MD_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_IBC_per_MD {$fielddispclass_IBC_per_MD}">
+			{$IBC_per_MD_editcontrol1}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END IBC_per_MD_fieldblock}
+	{BEGIN IBC_Total_MD_fieldblock}		
+	<tr class="runner-row style1 runner-b-srchfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_IBC_Total_MD {$fielddispclass_IBC_Total_MD}">
+				IBC Total MD
+			</div>
+		</td>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_IBC_Total_MD {$fielddispclass_IBC_Total_MD}">
+			<input type="checkbox" {$IBC_Total_MD_notbox}>
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_IBC_Total_MD {$fielddispclass_IBC_Total_MD}">
+			{$searchtype_IBC_Total_MD}
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_IBC_Total_MD {$fielddispclass_IBC_Total_MD}">
+			{$IBC_Total_MD_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_IBC_Total_MD {$fielddispclass_IBC_Total_MD}">
+			{$IBC_Total_MD_editcontrol1}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END IBC_Total_MD_fieldblock}
+	{BEGIN IBC_YTD_Target_fieldblock}		
+	<tr class="runner-row style1 runner-b-srchfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_IBC_YTD_Target {$fielddispclass_IBC_YTD_Target}">
+				IBC YTD Target
+			</div>
+		</td>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_IBC_YTD_Target {$fielddispclass_IBC_YTD_Target}">
+			<input type="checkbox" {$IBC_YTD_Target_notbox}>
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_IBC_YTD_Target {$fielddispclass_IBC_YTD_Target}">
+			{$searchtype_IBC_YTD_Target}
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_IBC_YTD_Target {$fielddispclass_IBC_YTD_Target}">
+			{$IBC_YTD_Target_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_IBC_YTD_Target {$fielddispclass_IBC_YTD_Target}">
+			{$IBC_YTD_Target_editcontrol1}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END IBC_YTD_Target_fieldblock}
+	{BEGIN EL_per_MD_fieldblock}		
+	<tr class="runner-row style1 runner-b-srchfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_EL_per_MD {$fielddispclass_EL_per_MD}">
+				EL per MD
+			</div>
+		</td>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_EL_per_MD {$fielddispclass_EL_per_MD}">
+			<input type="checkbox" {$EL_per_MD_notbox}>
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_EL_per_MD {$fielddispclass_EL_per_MD}">
+			{$searchtype_EL_per_MD}
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_EL_per_MD {$fielddispclass_EL_per_MD}">
+			{$EL_per_MD_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_EL_per_MD {$fielddispclass_EL_per_MD}">
+			{$EL_per_MD_editcontrol1}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END EL_per_MD_fieldblock}
+	{BEGIN EL_Total_MD_fieldblock}		
+	<tr class="runner-row style1 runner-b-srchfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_EL_Total_MD {$fielddispclass_EL_Total_MD}">
+				EL Total MD
+			</div>
+		</td>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_EL_Total_MD {$fielddispclass_EL_Total_MD}">
+			<input type="checkbox" {$EL_Total_MD_notbox}>
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_EL_Total_MD {$fielddispclass_EL_Total_MD}">
+			{$searchtype_EL_Total_MD}
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_EL_Total_MD {$fielddispclass_EL_Total_MD}">
+			{$EL_Total_MD_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_EL_Total_MD {$fielddispclass_EL_Total_MD}">
+			{$EL_Total_MD_editcontrol1}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END EL_Total_MD_fieldblock}
+	{BEGIN EL_YTD_Target_fieldblock}		
+	<tr class="runner-row style1 runner-b-srchfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_EL_YTD_Target {$fielddispclass_EL_YTD_Target}">
+				EL YTD Target
+			</div>
+		</td>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_EL_YTD_Target {$fielddispclass_EL_YTD_Target}">
+			<input type="checkbox" {$EL_YTD_Target_notbox}>
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_EL_YTD_Target {$fielddispclass_EL_YTD_Target}">
+			{$searchtype_EL_YTD_Target}
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_EL_YTD_Target {$fielddispclass_EL_YTD_Target}">
+			{$EL_YTD_Target_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_EL_YTD_Target {$fielddispclass_EL_YTD_Target}">
+			{$EL_YTD_Target_editcontrol1}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END EL_YTD_Target_fieldblock}
+	{BEGIN Closing_per_MD_fieldblock}		
+	<tr class="runner-row style1 runner-b-srchfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Closing_per_MD {$fielddispclass_Closing_per_MD}">
+				Closing per MD
+			</div>
+		</td>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_Closing_per_MD {$fielddispclass_Closing_per_MD}">
+			<input type="checkbox" {$Closing_per_MD_notbox}>
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_Closing_per_MD {$fielddispclass_Closing_per_MD}">
+			{$searchtype_Closing_per_MD}
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_Closing_per_MD {$fielddispclass_Closing_per_MD}">
+			{$Closing_per_MD_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_Closing_per_MD {$fielddispclass_Closing_per_MD}">
+			{$Closing_per_MD_editcontrol1}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Closing_per_MD_fieldblock}
+	{BEGIN Closing_Total_MD_fieldblock}		
+	<tr class="runner-row style1 runner-b-srchfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Closing_Total_MD {$fielddispclass_Closing_Total_MD}">
+				Closing Total MD
+			</div>
+		</td>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_Closing_Total_MD {$fielddispclass_Closing_Total_MD}">
+			<input type="checkbox" {$Closing_Total_MD_notbox}>
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_Closing_Total_MD {$fielddispclass_Closing_Total_MD}">
+			{$searchtype_Closing_Total_MD}
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_Closing_Total_MD {$fielddispclass_Closing_Total_MD}">
+			{$Closing_Total_MD_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_Closing_Total_MD {$fielddispclass_Closing_Total_MD}">
+			{$Closing_Total_MD_editcontrol1}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Closing_Total_MD_fieldblock}
+	{BEGIN Closing_YTD_MD_fieldblock}		
+	<tr class="runner-row style1 runner-b-srchfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Closing_YTD_MD {$fielddispclass_Closing_YTD_MD}">
+				Closing YTD MD
+			</div>
+		</td>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_Closing_YTD_MD {$fielddispclass_Closing_YTD_MD}">
+			<input type="checkbox" {$Closing_YTD_MD_notbox}>
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldoption_Closing_YTD_MD {$fielddispclass_Closing_YTD_MD}">
+			{$searchtype_Closing_YTD_MD}
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_Closing_YTD_MD {$fielddispclass_Closing_YTD_MD}">
+			{$Closing_YTD_MD_editcontrol}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cc alt">
+		<div class="fieldcontrol_Closing_YTD_MD {$fielddispclass_Closing_YTD_MD}">
+			{$Closing_YTD_MD_editcontrol1}&nbsp;
+		</div>
+	</td>
+	<td class="runner-cr alt"></td></tr>
+{END Closing_YTD_MD_fieldblock}
+
+
+
+<tr class="{$cfooterclass_fields}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cc alt"></td><td class="runner-cc alt"></td><td class="runner-cc alt"></td><td class="runner-cc alt"></td><td class="runner-cr alt"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_fields}
+
+</td><td class="runner-cr"></td></tr>
+
+
+
+<tr  class="runner-row style2 runner-b-srchbuttons {$brickclass_srchbuttons}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" >{BEGIN search_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+</span>
+{END search_button} 
+{BEGIN reset_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$resetbutton_attrs}>Reset</a>
+</span>
+{END reset_button}
+{BEGIN back_button}
+<span class="runner-btnframe">
+<span class="runner-btnleft"></span>
+<span class="runner-btnright"></span>
+<a href="#" class="runner-button" {$backbutton_attrs}>Back to list</a>
+</span>
+{END back_button}</td><td class="runner-cr"></td></tr>
+
+
+<tr class="{$cfooterclass_search}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_search}
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

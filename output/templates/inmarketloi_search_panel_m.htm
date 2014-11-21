@@ -1,0 +1,83 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_ID}
+			<a href="#" id="addSearchControl_ID" class="addSearchControl" {$addSearchControl_ID_attrs}>ID</a><br>
+		{END addSearch_ID}
+		{BEGIN addSearch_Jan}
+			<a href="#" id="addSearchControl_Jan" class="addSearchControl" {$addSearchControl_Jan_attrs}>Jan</a><br>
+		{END addSearch_Jan}
+		{BEGIN addSearch_Feb}
+			<a href="#" id="addSearchControl_Feb" class="addSearchControl" {$addSearchControl_Feb_attrs}>Feb</a><br>
+		{END addSearch_Feb}
+		{BEGIN addSearch_Mar}
+			<a href="#" id="addSearchControl_Mar" class="addSearchControl" {$addSearchControl_Mar_attrs}>Mar</a><br>
+		{END addSearch_Mar}
+		{BEGIN addSearch_April}
+			<a href="#" id="addSearchControl_April" class="addSearchControl" {$addSearchControl_April_attrs}>April</a><br>
+		{END addSearch_April}
+		{BEGIN addSearch_May}
+			<a href="#" id="addSearchControl_May" class="addSearchControl" {$addSearchControl_May_attrs}>May</a><br>
+		{END addSearch_May}
+		{BEGIN addSearch_June}
+			<a href="#" id="addSearchControl_June" class="addSearchControl" {$addSearchControl_June_attrs}>June</a><br>
+		{END addSearch_June}
+		{BEGIN addSearch_July}
+			<a href="#" id="addSearchControl_July" class="addSearchControl" {$addSearchControl_July_attrs}>July</a><br>
+		{END addSearch_July}
+		{BEGIN addSearch_Aug}
+			<a href="#" id="addSearchControl_Aug" class="addSearchControl" {$addSearchControl_Aug_attrs}>Aug</a><br>
+		{END addSearch_Aug}
+		{BEGIN addSearch_Sep}
+			<a href="#" id="addSearchControl_Sep" class="addSearchControl" {$addSearchControl_Sep_attrs}>Sep</a><br>
+		{END addSearch_Sep}
+		{BEGIN addSearch_Oct}
+			<a href="#" id="addSearchControl_Oct" class="addSearchControl" {$addSearchControl_Oct_attrs}>Oct</a><br>
+		{END addSearch_Oct}
+		{BEGIN addSearch_Nov}
+			<a href="#" id="addSearchControl_Nov" class="addSearchControl" {$addSearchControl_Nov_attrs}>Nov</a><br>
+		{END addSearch_Nov}
+		{BEGIN addSearch_Dec}
+			<a href="#" id="addSearchControl_Dec" class="addSearchControl" {$addSearchControl_Dec_attrs}>Dec</a><br>
+		{END addSearch_Dec}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>

@@ -1,0 +1,104 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$all_checkbox}> {BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="runner-radio-button" {$any_checkbox}> {BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_First_Name}
+			<a href="#" id="addSearchControl_First_Name" class="addSearchControl" {$addSearchControl_First_Name_attrs}>First Name</a><br>
+		{END addSearch_First_Name}
+		{BEGIN addSearch_YTD_Last}
+			<a href="#" id="addSearchControl_YTD_Last" class="addSearchControl" {$addSearchControl_YTD_Last_attrs}>YTD+Last</a><br>
+		{END addSearch_YTD_Last}
+		{BEGIN addSearch_Last_Name}
+			<a href="#" id="addSearchControl_Last_Name" class="addSearchControl" {$addSearchControl_Last_Name_attrs}>Last Name</a><br>
+		{END addSearch_Last_Name}
+		{BEGIN addSearch_Active}
+			<a href="#" id="addSearchControl_Active" class="addSearchControl" {$addSearchControl_Active_attrs}>Active</a><br>
+		{END addSearch_Active}
+		{BEGIN addSearch_Name}
+			<a href="#" id="addSearchControl_Name" class="addSearchControl" {$addSearchControl_Name_attrs}>Name</a><br>
+		{END addSearch_Name}
+		{BEGIN addSearch_Budget_Year}
+			<a href="#" id="addSearchControl_Budget_Year" class="addSearchControl" {$addSearchControl_Budget_Year_attrs}>Budget Year</a><br>
+		{END addSearch_Budget_Year}
+		{BEGIN addSearch_Start_Date}
+			<a href="#" id="addSearchControl_Start_Date" class="addSearchControl" {$addSearchControl_Start_Date_attrs}>Start Date</a><br>
+		{END addSearch_Start_Date}
+		{BEGIN addSearch_YTD_Revenue}
+			<a href="#" id="addSearchControl_YTD_Revenue" class="addSearchControl" {$addSearchControl_YTD_Revenue_attrs}>YTD Revenue</a><br>
+		{END addSearch_YTD_Revenue}
+		{BEGIN addSearch_Last_Year_Rev}
+			<a href="#" id="addSearchControl_Last_Year_Rev" class="addSearchControl" {$addSearchControl_Last_Year_Rev_attrs}>Last Year Rev</a><br>
+		{END addSearch_Last_Year_Rev}
+		{BEGIN addSearch_Prior_Year_Rev}
+			<a href="#" id="addSearchControl_Prior_Year_Rev" class="addSearchControl" {$addSearchControl_Prior_Year_Rev_attrs}>Prior Year Rev</a><br>
+		{END addSearch_Prior_Year_Rev}
+		{BEGIN addSearch_Last_Year_Rank}
+			<a href="#" id="addSearchControl_Last_Year_Rank" class="addSearchControl" {$addSearchControl_Last_Year_Rank_attrs}>Last Year Rank</a><br>
+		{END addSearch_Last_Year_Rank}
+		{BEGIN addSearch_YTD_Closing}
+			<a href="#" id="addSearchControl_YTD_Closing" class="addSearchControl" {$addSearchControl_YTD_Closing_attrs}>YTD Closing</a><br>
+		{END addSearch_YTD_Closing}
+		{BEGIN addSearch_Last_Year_Closing}
+			<a href="#" id="addSearchControl_Last_Year_Closing" class="addSearchControl" {$addSearchControl_Last_Year_Closing_attrs}>Last Year Closing</a><br>
+		{END addSearch_Last_Year_Closing}
+		{BEGIN addSearch_YTD_IBC}
+			<a href="#" id="addSearchControl_YTD_IBC" class="addSearchControl" {$addSearchControl_YTD_IBC_attrs}>YTD IBC</a><br>
+		{END addSearch_YTD_IBC}
+		{BEGIN addSearch_YTD_Engagements}
+			<a href="#" id="addSearchControl_YTD_Engagements" class="addSearchControl" {$addSearchControl_YTD_Engagements_attrs}>YTD Engagements</a><br>
+		{END addSearch_YTD_Engagements}
+		{BEGIN addSearch_Total_Current_Engagments}
+			<a href="#" id="addSearchControl_Total_Current_Engagments" class="addSearchControl" {$addSearchControl_Total_Current_Engagments_attrs}>Total Current Engagments</a><br>
+		{END addSearch_Total_Current_Engagments}
+		{BEGIN addSearch___Wheelhouse}
+			<a href="#" id="addSearchControl___Wheelhouse" class="addSearchControl" {$addSearchControl___Wheelhouse_attrs}># Wheelhouse</a><br>
+		{END addSearch___Wheelhouse}
+		{BEGIN addSearch___Speculative}
+			<a href="#" id="addSearchControl___Speculative" class="addSearchControl" {$addSearchControl___Speculative_attrs}># Speculative</a><br>
+		{END addSearch___Speculative}
+		{BEGIN addSearch___Minimum}
+			<a href="#" id="addSearchControl___Minimum" class="addSearchControl" {$addSearchControl___Minimum_attrs}># Minimum</a><br>
+		{END addSearch___Minimum}
+		{BEGIN addSearch_ID}
+			<a href="#" id="addSearchControl_ID" class="addSearchControl" {$addSearchControl_ID_attrs}>ID</a><br>
+		{END addSearch_ID}
+	</div>
+	
+	<div class="controlsBlock">
+		{BEGIN searchCtrlBlock}
+		<div class="srchPanelRow" {$filterRow_attrs}>
+			<div class="srchPanelCell">{$delCtrlButt}&nbsp;{$fLabel}:&nbsp;</div>
+			<div class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</div>
+		</div>
+		{END searchCtrlBlock}
+	</div>
+		
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Search</a>
+		</span>
+	</div>
+</div>
