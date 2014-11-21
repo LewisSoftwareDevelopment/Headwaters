@@ -1,0 +1,2995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="company.xsd" generated="2014-11-21T11:26:23">
+<company>
+<ID1>1</ID1>
+<ID>498</ID>
+<Company>Admiral Filter Co.</Company>
+<estimated_closing_date>41607</estimated_closing_date>
+<project_name>Project Valve</project_name>
+<Status>Closed</Status>
+<deal_type>Advisory,M&amp;A - Buy-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<closed_date>41645</closed_date>
+<primary_banker>Len LaPorta</primary_banker>
+<projected_transaction_size>4000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<final_transaction_size>4000000</final_transaction_size>
+<projected_fee>90000</projected_fee>
+<fee_minimum>50000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>0</monthly_retainer>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind>Len Laporta</referral_scource_ind>
+<team_1>Len LaPorta</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>2</ID1>
+<ID>499</ID>
+<Company>Advanced Lighting Technologies, Inc.</Company>
+<el_date>41645</el_date>
+<estimated_closing_date>41850</estimated_closing_date>
+<project_name>ADLT</project_name>
+<Status>Closed</Status>
+<deal_type>Divestiture</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<closed_date>41831</closed_date>
+<primary_banker>Grant Garbers</primary_banker>
+<industry>Industrials - Aerospace/Defense</industry>
+<projected_transaction_size>10000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<final_transaction_size>16500000</final_transaction_size>
+<projected_fee>500000</projected_fee>
+<fee_minimum>500000</fee_minimum>
+<engagment_fee>25000</engagment_fee>
+<monthly_retainer>0</monthly_retainer>
+<final_total_success>825000</final_total_success>
+<referral_type>Practice to Practice</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Tess Oxenstierna</referral_scource_ind>
+<team_1>Grant Garbers</team_1>
+<team_2>Tess Oxenstierna</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>3</ID1>
+<ID>500</ID>
+<Company>Affirmative USA</Company>
+<el_date>41423</el_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side,</deal_type>
+<deal_slot>Speculative</deal_slot>
+<dead_date>41786</dead_date>
+<primary_banker>Dave Francione</primary_banker>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Dave Francione</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>4</ID1>
+<ID>501</ID>
+<Company>Allegheny Iron &amp; Metal</Company>
+<el_date>40459</el_date>
+<estimated_closing_date>41213</estimated_closing_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Doug Usifer</primary_banker>
+<projected_transaction_size>30000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>600000</projected_fee>
+<fee_minimum>0</fee_minimum>
+<engagment_fee>30000</engagment_fee>
+<referral_scource_ind>Brad Hall</referral_scource_ind>
+<team_1>Doug Usifer</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>5</ID1>
+<ID>502</ID>
+<Company>Alta Colleges</Company>
+<el_date>41702</el_date>
+<ibc_date>41701</ibc_date>
+<project_name>Project Alpha</project_name>
+<Status>Dead</Status>
+<deal_type>Capital Formation - Debt,</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Bob Balaban</primary_banker>
+<industry>Business Services - Education and Training</industry>
+<fee_minimum>150000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>25000</monthly_retainer>
+<referral_type>Corporate to Practice</referral_type>
+<referral_scource_ind>Phil Seefried</referral_scource_ind>
+<team_1>Bob Balaban</team_1>
+<team_2>Phil Seefried</team_2>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>6</ID1>
+<ID>503</ID>
+<Company>Ambitions, Inc.</Company>
+<el_date>41718</el_date>
+<ibc_date>41687</ibc_date>
+<estimated_closing_date>41881</estimated_closing_date>
+<project_name>Ambitions, Inc.</project_name>
+<Status>Under LOI</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>David Baker</primary_banker>
+<practice_area>Healthcare</practice_area>
+<industry>Healthcare - Services - Home health care</industry>
+<projected_transaction_size>40000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>400000</projected_fee>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>BAML</referral_scource_company>
+<team_1>David Baker</team_1>
+<Paul>0</Paul>
+<mc_broom>1</mc_broom>
+<Pipeline>IBS - Non-Corporate Pipeline</Pipeline>
+<month_of_close>2014-11-30T00:00:00</month_of_close>
+<gross_this>400000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>7</ID1>
+<ID>504</ID>
+<Company>Ambre Energy North America, Inc.</Company>
+<el_date>41745</el_date>
+<ibc_date>41743</ibc_date>
+<project_name>Ambre Energy North America, Inc.</project_name>
+<Status>In Market</Status>
+<deal_type>Capital Formation - Debt</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Joel Schneyer</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Mining - Coal &amp; Uranium</industry>
+<projected_transaction_size>169000000</projected_transaction_size>
+<enterpise_value>&lt; $150mm</enterpise_value>
+<projected_fee>5000000</projected_fee>
+<engagment_fee>40000</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>40000</monthly_retainer>
+<ownership_class>Public</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Ricardo Campoy</referral_scource_ind>
+<Description>1) Arranging acquisition capital to acquire Cloud Peak&apos;s 50% joint venture interest in the Decker Coal Company; 2) Arranging acquisition capital to acquire Arch Coal Company&apos;s 38% investment in the Millennium Bulk Terminal; 3) Assist in the divestiture of Black Butte Coal Company 4) Other capital raising assignments Ambre might request assistance with</Description>
+<team_split_1>0.5</team_split_1>
+<team_1>Joel Schneyer</team_1>
+<team_split_2>0.5</team_split_2>
+<team_2>Ricardo Campoy</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>8</ID1>
+<ID>505</ID>
+<Company>America Works</Company>
+<ibc_date>41736</ibc_date>
+<primary_banker>Melanie McFaddin</primary_banker>
+<industry>Business Services - Staffing &amp; Recruitment</industry>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Melanie McFaddin</team_1>
+<team_split_2>9.99</team_split_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>9</ID1>
+<ID>506</ID>
+<Company>Amteck</Company>
+<ibc_date>41771</ibc_date>
+<primary_banker>Darin Good</primary_banker>
+<industry>Industrials - Construction Svcs and Homebuilders</industry>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Darin Good</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>10</ID1>
+<ID>507</ID>
+<Company>Arc Partners</Company>
+<ibc_date>41743</ibc_date>
+<primary_banker>Melanie McFaddin</primary_banker>
+<industry>Business Services - Information Technology Services</industry>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Melanie McFaddin</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>11</ID1>
+<ID>508</ID>
+<Company>Arobella Medical</Company>
+<ibc_date>41827</ibc_date>
+<primary_banker>David Baker</primary_banker>
+<industry>Healthcare - Devices</industry>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>David Baker</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>12</ID1>
+<ID>509</ID>
+<Company>Assembled Products Corporation</Company>
+<el_date>41697</el_date>
+<ibc_date>41673</ibc_date>
+<estimated_closing_date>42003</estimated_closing_date>
+<project_name>Project Kickstart</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Paul Janson</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Other</industry>
+<projected_transaction_size>25000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>650000</projected_fee>
+<fee_minimum>450000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.8</split_to_corporate>
+<monthly_retainer>12500</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Corporate to Practice</referral_type>
+<referral_scource_company>PKS</referral_scource_company>
+<referral_scource_ind>Paul Janson</referral_scource_ind>
+<team_1>Paul Janson</team_1>
+<team_2>Bradford Reynolds</team_2>
+<team_3>Brad Collins</team_3>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2015-08-05T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>700000</gross_next>
+</company>
+<company>
+<ID1>13</ID1>
+<ID>510</ID>
+<Company>Atlas Homewares</Company>
+<el_date>40994</el_date>
+<estimated_closing_date>41274</estimated_closing_date>
+<project_name>Project Hardware</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Darin Good</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Building Products &amp; Construction Services</industry>
+<projected_transaction_size>8000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>400000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Practice to Practice</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Brian Mulvaney</referral_scource_ind>
+<Description>Retainer Info : 10K per month for 3 months, then 5K per month for next 6 months.</Description>
+<team_split_1>1</team_split_1>
+<team_1>Darin Good</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-12-31T00:00:00</month_of_close>
+<gross_this>400000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>14</ID1>
+<ID>511</ID>
+<Company>Avenue Code</Company>
+<el_date>41793</el_date>
+<ibc_date>41771</ibc_date>
+<project_name>Project Horizon</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Tyler Comann</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Technology/Media/Telecom - Other</industry>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>700000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>2500</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Tyler Comann</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2015-08-25T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>700000</gross_next>
+</company>
+<company>
+<ID1>15</ID1>
+<ID>512</ID>
+<Company>Babcock Lumber Company</Company>
+<ibc_date>41743</ibc_date>
+<primary_banker>Darin Good</primary_banker>
+<industry>Industrials - Building Products &amp; Construction Services</industry>
+<referral_type>SC to Practice</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Darin Good</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>16</ID1>
+<ID>513</ID>
+<Company>Bolova Technologies Group</Company>
+<ibc_date>41855</ibc_date>
+<primary_banker>Len LaPorta</primary_banker>
+<industry>Industrials - Manufacturing, Equipment &amp; Materials</industry>
+<referral_type>SC to Practice</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Len LaPorta</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>17</ID1>
+<ID>514</ID>
+<Company>Bonneville Contracting &amp; Technology</Company>
+<el_date>41522</el_date>
+<project_name>Bonneville Contracting &amp; Technology</project_name>
+<Status>On Hold</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Tom McConnell</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Physical &amp; Cyber Security</industry>
+<projected_transaction_size>11000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>500000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Thomas McConnell</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Tom McConnell</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>18</ID1>
+<ID>515</ID>
+<Company>BrandAds</Company>
+<el_date>41709</el_date>
+<ibc_date>41708</ibc_date>
+<project_name>BrandAds</project_name>
+<Status>Closed</Status>
+<deal_type>M&amp;A - Sell-side,</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<closed_date>41765</closed_date>
+<primary_banker>John Batdorf</primary_banker>
+<industry>Technology/Media/Telecom - Media - Internet Media and Marketing</industry>
+<projected_transaction_size>20000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<final_transaction_size>16500000</final_transaction_size>
+<projected_fee>450000</projected_fee>
+<fee_minimum>450000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>10000</monthly_retainer>
+<final_total_success>495000</final_total_success>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind>John Batdorf</referral_scource_ind>
+<team_1>John Batdorf</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>19</ID1>
+<ID>516</ID>
+<Company>Cameron Hughes Wine</Company>
+<el_date>41424</el_date>
+<Status>Dead</Status>
+<deal_type>Capital Formation - Debt</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>William Harrison</primary_banker>
+<projected_transaction_size>7000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>400000</projected_fee>
+<fee_minimum>400000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>5000</monthly_retainer>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>William Harrison</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>20</ID1>
+<ID>517</ID>
+<Company>Cascade Hardwood</Company>
+<ibc_date>41722</ibc_date>
+<primary_banker>Len LaPorta</primary_banker>
+<industry>Energy &amp; Natural Resources - Forestry, Paper &amp; Pulp</industry>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Len LaPorta</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>21</ID1>
+<ID>518</ID>
+<Company>Cochise Capital</Company>
+<el_date>41614</el_date>
+<estimated_closing_date>41942</estimated_closing_date>
+<project_name>Project Gemstone</project_name>
+<Status>On Hold</Status>
+<deal_type>Capital Formation - Debt</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Paul Janson</primary_banker>
+<practice_area>Consumer Products</practice_area>
+<industry>Real Estate - Other</industry>
+<projected_transaction_size>30000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>600000</projected_fee>
+<split_to_corporate>0.5</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>UBS</referral_scource_company>
+<team_1>Paul Janson</team_1>
+<team_2>Mike Swartz</team_2>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>22</ID1>
+<ID>519</ID>
+<Company>ConneXion360</Company>
+<el_date>41068</el_date>
+<estimated_closing_date>41243</estimated_closing_date>
+<project_name>Project Broadcast</project_name>
+<Status>On Hold</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Bob Balaban</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Education and Training</industry>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>525000</projected_fee>
+<split_to_corporate>0.4</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>Deutsche Bank Private Wealth Management</referral_scource_company>
+<referral_scource_ind>Sava Kobilarov</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Bob Balaban</team_1>
+<team_2>Chad Gardiner</team_2>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2015-01-01T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>23</ID1>
+<ID>520</ID>
+<Company>Coronado Manufacturing, Inc.</Company>
+<el_date>41590</el_date>
+<project_name>Coronado Manufacturing, Inc.</project_name>
+<Status>On Hold</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>David Brinkley</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Aerospace/Defense</industry>
+<projected_transaction_size>13000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>580000</projected_fee>
+<split_to_corporate>0.3</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>UBS</referral_scource_company>
+<referral_scource_ind>David Brinkley</referral_scource_ind>
+<team_1>David Brinkley</team_1>
+<Paul>0</Paul>
+<mc_broom>1</mc_broom>
+<Pipeline>IBS - Non-Corporate Pipeline</Pipeline>
+<month_of_close>2015-03-10T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>24</ID1>
+<ID>521</ID>
+<Company>Credit.com</Company>
+<el_date>41697</el_date>
+<ibc_date>41680</ibc_date>
+<project_name>Credit.com</project_name>
+<Status>Under LOI</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Gary Moon</primary_banker>
+<practice_area>TMT</practice_area>
+<industry>Technology/Media/Telecom - Other</industry>
+<projected_transaction_size>40000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>1000000</projected_fee>
+<fee_minimum>750000</fee_minimum>
+<engagment_fee>25000</engagment_fee>
+<split_to_corporate>0.15</split_to_corporate>
+<monthly_retainer>25000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Gary Moon</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Gary Moon</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-12-16T00:00:00</month_of_close>
+<gross_this>1200000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>25</ID1>
+<ID>522</ID>
+<Company>CWI Software</Company>
+<el_date>39547</el_date>
+<project_name>Carnaval</project_name>
+<Status>On Hold</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Horacio Facca</primary_banker>
+<practice_area>LATAM</practice_area>
+<industry>Technology/Media/Telecom - Tech - Software</industry>
+<projected_transaction_size>30000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>1000000</projected_fee>
+<split_to_corporate>0.25</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Horacio Facca</referral_scource_ind>
+<Description>Projections based on deals in CWI pipeline, which have had a 60% hit rate historically. Exchange rate as of 01/27/2011: 1R$ = 0.60US$. Accordingly, 2011e Revenues are approximately US$22mm. CWI has 500+ employees.</Description>
+<team_1>Horacio Facca</team_1>
+<team_split_2>1</team_split_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>26</ID1>
+<ID>523</ID>
+<Company>Digital Payment Technologies</Company>
+<el_date>41485</el_date>
+<estimated_closing_date>41670</estimated_closing_date>
+<project_name>Digital Payment Technologies</project_name>
+<Status>Closed</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<closed_date>41670</closed_date>
+<primary_banker>Adrian Kingshott</primary_banker>
+<projected_transaction_size>25000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<final_transaction_size>24999000</final_transaction_size>
+<projected_fee>500000</projected_fee>
+<fee_minimum>400000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>0</monthly_retainer>
+<final_total_success>625000</final_total_success>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind>Adrian Kingshott</referral_scource_ind>
+<team_1>Adrian Kingshott</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>27</ID1>
+<ID>524</ID>
+<Company>Diversified Coal Corporation</Company>
+<el_date>41387</el_date>
+<project_name>Project Slurry</project_name>
+<Status>In Market</Status>
+<deal_type>Capital Formation - Debt</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Mike Swartz</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Mining - Coal &amp; Uranium</industry>
+<projected_transaction_size>25000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>500000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>BAML</referral_scource_company>
+<referral_scource_ind>Phillip Chang</referral_scource_ind>
+<Description>No Financials.</Description>
+<team_1>Mike Swartz</team_1>
+<Paul>0</Paul>
+<mc_broom>1</mc_broom>
+<Pipeline>IBS - Non-Corporate Pipeline</Pipeline>
+<month_of_close>2014-10-23T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>28</ID1>
+<ID>525</ID>
+<Company>Dolinka Group</Company>
+<el_date>41645</el_date>
+<estimated_closing_date>41912</estimated_closing_date>
+<project_name>Project Diamond</project_name>
+<Status>Under LOI</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Bob Balaban</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Professional Services &amp; Consulting</industry>
+<projected_transaction_size>16000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>750000</projected_fee>
+<fee_minimum>450000</fee_minimum>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>Merrill Lynch &amp; Co. Inc.</referral_scource_company>
+<team_1>Bob Balaban</team_1>
+<team_3>Chad Gardiner</team_3>
+<Paul>0</Paul>
+<mc_broom>1</mc_broom>
+<Pipeline>IBS - Non-Corporate Pipeline</Pipeline>
+<month_of_close>2014-11-12T00:00:00</month_of_close>
+<gross_this>400000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>29</ID1>
+<ID>526</ID>
+<Company>Dynatronics Corp. (NasdaqCM:DYNT)</Company>
+<ibc_date>41694</ibc_date>
+<primary_banker>Jerry Sturgill</primary_banker>
+<industry>Healthcare - Devices</industry>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Jerry Sturgill</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>30</ID1>
+<ID>527</ID>
+<Company>Dynmark</Company>
+<el_date>41424</el_date>
+<estimated_closing_date>41881</estimated_closing_date>
+<project_name>Dynmark</project_name>
+<Status>On Hold</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Gary Moon</primary_banker>
+<practice_area>TMT</practice_area>
+<industry>Technology/Media/Telecom - Tech - Wireless</industry>
+<projected_transaction_size>30000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>900000</projected_fee>
+<split_to_corporate>0.15</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Gary Moon</referral_scource_ind>
+<Description>Similar to iLoop.</Description>
+<team_split_1>1</team_split_1>
+<team_1>Gary Moon</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>31</ID1>
+<ID>528</ID>
+<Company>Endra, Inc.</Company>
+<el_date>41193</el_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>David Baker</primary_banker>
+<projected_transaction_size>5000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<engagment_fee>15000</engagment_fee>
+<monthly_retainer>0</monthly_retainer>
+<referral_scource_ind>David Baker</referral_scource_ind>
+<team_1>David Baker</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>32</ID1>
+<ID>529</ID>
+<Company>Engineering Support Personnel, Inc.</Company>
+<el_date>41487</el_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Tess Oxenstierna</primary_banker>
+<projected_transaction_size>8000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>400000</projected_fee>
+<fee_minimum>400000</fee_minimum>
+<engagment_fee>20000</engagment_fee>
+<monthly_retainer>12000</monthly_retainer>
+<referral_scource_ind>Bob Balaban</referral_scource_ind>
+<team_1>Tess Oxenstierna</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>33</ID1>
+<ID>530</ID>
+<Company>Eureka Petroleum</Company>
+<el_date>41758</el_date>
+<ibc_date>41757</ibc_date>
+<project_name>Eureka Petroleum</project_name>
+<Status>Pre Market</Status>
+<deal_type>Capital Formation - Debt,Capital Formation - Equity</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Macy/Pietravalle</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Oil &amp; Gas - E&amp;P</industry>
+<projected_transaction_size>100000000</projected_transaction_size>
+<enterpise_value>&lt; $150mm</enterpise_value>
+<projected_fee>4000000</projected_fee>
+<fee_minimum>750000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>20000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>BAML</referral_scource_company>
+<team_1>Macy/Pietravalle</team_1>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2015-08-11T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>4500000</gross_next>
+</company>
+<company>
+<ID1>34</ID1>
+<ID>531</ID>
+<Company>eWise</Company>
+<el_date>41215</el_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side,</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Bob Balaban</primary_banker>
+<projected_transaction_size>6000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>300000</projected_fee>
+<fee_minimum>250000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>5000</monthly_retainer>
+<referral_scource_ind>Bob Balaban</referral_scource_ind>
+<team_1>Bob Balaban</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>35</ID1>
+<ID>532</ID>
+<Company>Federated National Holding Company</Company>
+<el_date>41673</el_date>
+<ibc_date>41764</ibc_date>
+<estimated_closing_date>41912</estimated_closing_date>
+<project_name>Project Sidecar</project_name>
+<Status>Under LOI</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Adrian Kingshott</primary_banker>
+<practice_area>Financial Institutions</practice_area>
+<industry>Financial Services - Insurance</industry>
+<projected_transaction_size>10000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>600000</projected_fee>
+<engagment_fee>50000</engagment_fee>
+<split_to_corporate>0.3</split_to_corporate>
+<ownership_class>Public</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<team_split_1>1</team_split_1>
+<team_1>Adrian Kingshott</team_1>
+<team_2>Bradford Reynolds</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-09-30T00:00:00</month_of_close>
+<gross_this>500000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>36</ID1>
+<ID>533</ID>
+<Company>Fins, Furs &amp; Feathers Inc.</Company>
+<el_date>41403</el_date>
+<estimated_closing_date>41942</estimated_closing_date>
+<project_name>Project FishTank</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Peter Nam</primary_banker>
+<practice_area>Consumer Products</practice_area>
+<industry>Consumer &amp; Retail - Specialty Retailing</industry>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>500000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Peter Nam</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Peter Nam</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-12-30T00:00:00</month_of_close>
+<gross_this>450000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>37</ID1>
+<ID>534</ID>
+<Company>Focus Four Holdings</Company>
+<el_date>41061</el_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Tom McConnell</primary_banker>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>620000</projected_fee>
+<fee_minimum>300000</fee_minimum>
+<split_to_corporate>0</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<referral_scource_ind>Phil Seefried</referral_scource_ind>
+<team_1>Tom McConnell</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>38</ID1>
+<ID>535</ID>
+<Company>French Transit, Ltd.</Company>
+<el_date>41640</el_date>
+<estimated_closing_date>42093</estimated_closing_date>
+<project_name>Project Blue</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Tyler Comann</primary_banker>
+<practice_area>Consumer Products</practice_area>
+<industry>Consumer &amp; Retail - Organic/Natural Foods/Nutraceuticals (Healthy Living)</industry>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>400000</projected_fee>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<team_split_1>1</team_split_1>
+<team_1>Tyler Comann</team_1>
+<team_2>Bill Harrison</team_2>
+<team_3>Shaun Kalnasy</team_3>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-10-28T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>39</ID1>
+<ID>536</ID>
+<Company>Geosyntec Consultants, Inc.</Company>
+<el_date>41675</el_date>
+<estimated_closing_date>41912</estimated_closing_date>
+<project_name>Geosyntec Consultants, Inc.</project_name>
+<Status>Under LOI</Status>
+<deal_type>Capital Formation - Equity,Divestiture</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Samrat Karnik</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Technology - Controls, Instruments &amp; Sensors</industry>
+<projected_transaction_size>5000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>300000</projected_fee>
+<fee_minimum>225000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>5000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Samrat Karnik</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Samrat Karnik</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-09-17T00:00:00</month_of_close>
+<gross_this>275000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>40</ID1>
+<ID>537</ID>
+<Company>Gigacom</Company>
+<el_date>40812</el_date>
+<project_name>Cherry</project_name>
+<Status>On Hold</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Horacio Facca</primary_banker>
+<practice_area>LATAM</practice_area>
+<industry>Technology/Media/Telecom - Telecom</industry>
+<projected_transaction_size>79000000</projected_transaction_size>
+<enterpise_value>$75mm - $100mm</enterpise_value>
+<projected_fee>1000000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Horacio Facca</referral_scource_ind>
+<team_1>Horacio Facca</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>41</ID1>
+<ID>538</ID>
+<Company>GOBCO</Company>
+<ibc_date>41827</ibc_date>
+<primary_banker>Ray McCormick</primary_banker>
+<industry>Energy &amp; Natural Resources - Mining - Coal &amp; Uranium</industry>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Ray McCormick</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>42</ID1>
+<ID>539</ID>
+<Company>GoSmile, Inc.</Company>
+<el_date>41792</el_date>
+<ibc_date>41789</ibc_date>
+<project_name>Project Pearl</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Bill Harrison</primary_banker>
+<practice_area>Consumer Products</practice_area>
+<industry>Consumer &amp; Retail - Branded Consumer/Private Label</industry>
+<projected_transaction_size>8000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>400000</projected_fee>
+<fee_minimum>250000</fee_minimum>
+<engagment_fee>25000</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>0</monthly_retainer>
+<ownership_class>Private Equity Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Bill Harrison</team_1>
+<team_2>Chad Gardiner</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2015-01-20T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>400000</gross_next>
+</company>
+<company>
+<ID1>43</ID1>
+<ID>540</ID>
+<Company>GSI Group, Inc.</Company>
+<el_date>41450</el_date>
+<estimated_closing_date>41850</estimated_closing_date>
+<project_name>Project Clare &amp; Jacket</project_name>
+<Status>Closed</Status>
+<deal_type>Divestiture</deal_type>
+<deal_slot>Minimum</deal_slot>
+<closed_date>41845</closed_date>
+<primary_banker>Grant Garbers</primary_banker>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<final_transaction_size>12000000</final_transaction_size>
+<projected_fee>800000</projected_fee>
+<fee_minimum>300000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>12000</monthly_retainer>
+<final_total_success>300000</final_total_success>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Grant Garbers</referral_scource_ind>
+<team_1>Grant Garbers</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>44</ID1>
+<ID>541</ID>
+<Company>Gulf Coast Refining</Company>
+<ibc_date>41848</ibc_date>
+<primary_banker>Michael Swartz</primary_banker>
+<industry>Energy &amp; Natural Resources - Oil &amp; Gas - Refining &amp; Storage</industry>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Michael Swartz</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>45</ID1>
+<ID>542</ID>
+<Company>Gutmann AG / ALCO</Company>
+<el_date>41254</el_date>
+<estimated_closing_date>41531</estimated_closing_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Len LaPorta</primary_banker>
+<projected_transaction_size>100000000</projected_transaction_size>
+<enterpise_value>&lt; $150mm</enterpise_value>
+<projected_fee>2500000</projected_fee>
+<fee_minimum>1000000</fee_minimum>
+<engagment_fee>10000</engagment_fee>
+<split_to_corporate>9.99</split_to_corporate>
+<monthly_retainer>8000</monthly_retainer>
+<referral_scource_company>Aegean Baltic Bank S.A.</referral_scource_company>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Len LaPorta</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>46</ID1>
+<ID>543</ID>
+<Company>GWACS Defense</Company>
+<el_date>41435</el_date>
+<Status>Dead</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Speculative</deal_slot>
+<dead_date>41787</dead_date>
+<primary_banker>Tess Oxenstierna</primary_banker>
+<projected_transaction_size>10000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Tess Oxenstierna</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>47</ID1>
+<ID>544</ID>
+<Company>Igloo Products</Company>
+<el_date>41837</el_date>
+<project_name>Project Cooler</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Buy-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Bill Harrison</primary_banker>
+<practice_area>Consumer Products</practice_area>
+<industry>Consumer &amp; Retail - Specialty Retailing</industry>
+<projected_transaction_size>20000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Private Equity Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Igloo Products</referral_scource_company>
+<team_split_1>1</team_split_1>
+<team_1>Bill Harrison</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>48</ID1>
+<ID>545</ID>
+<Company>Iniziativa Prima - Alitalia Maintenance Systems</Company>
+<el_date>41086</el_date>
+<el_expiration_date>41450</el_expiration_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Tess Oxenstierna</primary_banker>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>450000</projected_fee>
+<fee_minimum>300000</fee_minimum>
+<monthly_retainer>3500</monthly_retainer>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Tess Oxenstierna</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>49</ID1>
+<ID>546</ID>
+<Company>Innflux</Company>
+<el_date>41646</el_date>
+<estimated_closing_date>41912</estimated_closing_date>
+<project_name>Project Innovation</project_name>
+<Status>Under LOI</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Gary Moon</primary_banker>
+<practice_area>TMT</practice_area>
+<industry>Technology/Media/Telecom - Telecom - Services</industry>
+<projected_transaction_size>13000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>600000</projected_fee>
+<fee_minimum>500000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.15</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Gary Moon</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Gary Moon</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-09-16T00:00:00</month_of_close>
+<gross_this>500000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>50</ID1>
+<ID>547</ID>
+<Company>Inovus Solar</Company>
+<ibc_date>41841</ibc_date>
+<primary_banker>Michael Swartz</primary_banker>
+<industry>Energy &amp; Natural Resources - Alternative - Solar</industry>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Michael Swartz</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>51</ID1>
+<ID>548</ID>
+<Company>InternetQ</Company>
+<el_date>41397</el_date>
+<Status>Dead</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<dead_date>41786</dead_date>
+<primary_banker>Gary Moon</primary_banker>
+<projected_transaction_size>45000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Gary Moon</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>52</ID1>
+<ID>549</ID>
+<Company>iON Worldwide, LLC</Company>
+<el_date>41662</el_date>
+<ibc_date>41652</ibc_date>
+<estimated_closing_date>41913</estimated_closing_date>
+<project_name>Project Focus</project_name>
+<Status>In Market</Status>
+<deal_type>Capital Formation - Debt</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Darin Good</primary_banker>
+<practice_area>Consumer Products</practice_area>
+<industry>Consumer &amp; Retail - Specialty Retailing</industry>
+<projected_transaction_size>12500000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>400000</projected_fee>
+<fee_minimum>200000</fee_minimum>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Darin Good</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Darin Good</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-09-29T00:00:00</month_of_close>
+<gross_this>200000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>53</ID1>
+<ID>550</ID>
+<Company>Isonas</Company>
+<el_date>41527</el_date>
+<project_name>Isonas</project_name>
+<Status>Closed</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Speculative</deal_slot>
+<closed_date>41899</closed_date>
+<primary_banker>Tom McConnell</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Physical &amp; Cyber Security</industry>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<final_transaction_size>3000000</final_transaction_size>
+<projected_fee>600000</projected_fee>
+<fee_minimum>450000</fee_minimum>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>7500</monthly_retainer>
+<final_total_success>207500</final_total_success>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Thomas McConnell</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Tom McConnell</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-09-30T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>54</ID1>
+<ID>551</ID>
+<Company>Jay Harpole</Company>
+<el_date>41668</el_date>
+<project_name>Project Apex</project_name>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side, Licensing</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Joel Schneyer</primary_banker>
+<industry>Energy &amp; Natural Resources - Oil &amp; Gas - E&amp;P</industry>
+<projected_transaction_size>50000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>750000</projected_fee>
+<fee_minimum>0</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>0</monthly_retainer>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>Deutsche Bank Private Wealth Management</referral_scource_company>
+<referral_scource_ind>Jay Pickett</referral_scource_ind>
+<team_1>Joel Schneyer</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>55</ID1>
+<ID>552</ID>
+<Company>Joshi Technologies International</Company>
+<el_date>41747</el_date>
+<ibc_date>41757</ibc_date>
+<project_name>Joshi Technologies International</project_name>
+<Status>In Market</Status>
+<deal_type>Capital Formation - Debt,Capital Formation - Equity</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Macy/Pietravalle</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Energy Services - Drilling &amp; Energy Fluids</industry>
+<projected_transaction_size>50000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>2000000</projected_fee>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.4</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>BAML</referral_scource_company>
+<team_1>Paul Janson</team_1>
+<team_2>Bradford Reynolds</team_2>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2014-12-10T00:00:00</month_of_close>
+<gross_this>3000000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>56</ID1>
+<ID>553</ID>
+<Company>Kustom Signals, Inc.</Company>
+<el_date>41764</el_date>
+<project_name>Project Citation</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Samrat Karnik</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Manufacturing, Equipment &amp; Materials</industry>
+<projected_transaction_size>20000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>500000</projected_fee>
+<fee_minimum>650000</fee_minimum>
+<split_to_corporate>0.38</split_to_corporate>
+<ownership_class>Private Equity Owned</ownership_class>
+<referral_type>MA to Practice</referral_type>
+<referral_scource_company>Catalyst Corporate Finance LLP</referral_scource_company>
+<team_1>Samrat Karnik</team_1>
+<team_2>Paul Janson</team_2>
+<team_3>Bradford Reynolds</team_3>
+<team_4>Brad Collins</team_4>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2014-10-18T00:00:00</month_of_close>
+<gross_this>650000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>57</ID1>
+<ID>554</ID>
+<Company>Lapmaster International</Company>
+<el_date>41519</el_date>
+<estimated_closing_date>41795</estimated_closing_date>
+<project_name>Project Midway</project_name>
+<Status>Closed</Status>
+<deal_type>Capital Formation - Debt,Recapitalization,</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<closed_date>41823</closed_date>
+<primary_banker>Len LaPorta</primary_banker>
+<projected_transaction_size>62000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<final_transaction_size>62000000</final_transaction_size>
+<projected_fee>2200000</projected_fee>
+<fee_minimum>650000</fee_minimum>
+<engagment_fee>25000</engagment_fee>
+<monthly_retainer>25000</monthly_retainer>
+<final_total_success>1989025</final_total_success>
+<referral_type>SC to Practice</referral_type>
+<referral_scource_company>Headwaters SC</referral_scource_company>
+<referral_scource_ind>Jim Bly</referral_scource_ind>
+<team_1>Len LaPorta</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>58</ID1>
+<ID>555</ID>
+<Company>Legal Coverage Group</Company>
+<el_date>41837</el_date>
+<project_name>Project Benefit</project_name>
+<Status>Pre Market</Status>
+<deal_type>Capital Formation - Debt</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Phil Seefried</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Support Services - BPO</industry>
+<projected_transaction_size>25000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>750000</projected_fee>
+<fee_minimum>450000</fee_minimum>
+<split_to_corporate>0.8</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>SC to Practice</referral_type>
+<team_1>Phil Seefried</team_1>
+<team_2>Bradford Reynolds</team_2>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2014-12-23T00:00:00</month_of_close>
+<gross_this>800000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>59</ID1>
+<ID>556</ID>
+<Company>LocalResponse</Company>
+<el_date>41549</el_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<dead_date>41786</dead_date>
+<primary_banker>Gary Moon</primary_banker>
+<projected_transaction_size>45000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Gary Moon</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>60</ID1>
+<ID>557</ID>
+<Company>Longwall Associates</Company>
+<el_date>41562</el_date>
+<project_name>Project Armour</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Jack Maier</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Manufacturing, Equipment &amp; Materials</industry>
+<projected_transaction_size>77000000</projected_transaction_size>
+<enterpise_value>$75mm - $100mm</enterpise_value>
+<projected_fee>1900000</projected_fee>
+<split_to_corporate>0.85</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>UBS</referral_scource_company>
+<team_1>Jack Maier</team_1>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2015-01-30T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>1600000</gross_next>
+</company>
+<company>
+<ID1>61</ID1>
+<ID>558</ID>
+<Company>Mazza &amp; Sons</Company>
+<el_date>40755</el_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side,</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<dead_date>41733</dead_date>
+<primary_banker>Doug Usifer</primary_banker>
+<projected_transaction_size>21000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>675000</projected_fee>
+<fee_minimum>0</fee_minimum>
+<monthly_retainer>5000</monthly_retainer>
+<referral_scource_ind>Brad Hall</referral_scource_ind>
+<team_1>Doug Usifer</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>62</ID1>
+<ID>559</ID>
+<Company>Medsphere Systems Corporation</Company>
+<el_date>41564</el_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>David Baker</primary_banker>
+<projected_transaction_size>50000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>2000000</projected_fee>
+<fee_minimum>400000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>10000</monthly_retainer>
+<referral_scource_ind>Gary Moon</referral_scource_ind>
+<team_1>David Baker</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>63</ID1>
+<ID>560</ID>
+<Company>Mercer Group International</Company>
+<el_date>41199</el_date>
+<project_name>Mercer Group International</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Doug Usifer</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Business Services - Waste Management &amp; Recycling</industry>
+<projected_transaction_size>25000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>475000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Doug Usifer</referral_scource_ind>
+<Description>Privately Owned.</Description>
+<team_split_1>1</team_split_1>
+<team_1>Doug Usifer</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>64</ID1>
+<ID>561</ID>
+<Company>Milestone Technologies, Inc.</Company>
+<el_date>41718</el_date>
+<ibc_date>41722</ibc_date>
+<project_name>Project AIM</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Tyler Comann</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Information Technology Services</industry>
+<projected_transaction_size>30000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>750000</projected_fee>
+<fee_minimum>500000</fee_minimum>
+<split_to_corporate>0.4</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<team_split_1>1</team_split_1>
+<team_1>Tyler Comann</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-11-30T00:00:00</month_of_close>
+<gross_this>850000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>65</ID1>
+<ID>562</ID>
+<Company>Mirasys</Company>
+<el_date>41527</el_date>
+<project_name>Mirasys</project_name>
+<Status>Under LOI</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Tom McConnell</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Physical &amp; Cyber Security</industry>
+<projected_transaction_size>25000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>1000000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Thomas McConnell</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Tom McConnell</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-10-28T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>66</ID1>
+<ID>563</ID>
+<Company>MKS Instruments, Inc.</Company>
+<el_date>41666</el_date>
+<project_name>MKS Instruments, Inc.</project_name>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Buy-side,</deal_type>
+<deal_slot>Speculative</deal_slot>
+<dead_date>41764</dead_date>
+<primary_banker>Grant Garbers</primary_banker>
+<industry>Industrials - Technology - Controls, Instruments &amp; Sensors</industry>
+<projected_transaction_size>17000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>300000</projected_fee>
+<fee_minimum>300000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>15000</monthly_retainer>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind>John Ippolito</referral_scource_ind>
+<team_1>Grant Garbers</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>67</ID1>
+<ID>564</ID>
+<Company>Nelson Pipeline Constructors</Company>
+<el_date>41488</el_date>
+<project_name>Project Pipe</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Darin Good</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Building Products &amp; Construction Services</industry>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>750000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Brian Krehbiel</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Darin Good</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2015-01-19T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>1000000</gross_next>
+</company>
+<company>
+<ID1>68</ID1>
+<ID>565</ID>
+<Company>NexLube</Company>
+<el_date>41443</el_date>
+<project_name>NexLube</project_name>
+<Status>In Market</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>CJ Hummel</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Oil &amp; Gas - Refining &amp; Storage</industry>
+<projected_transaction_size>40000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>600000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>CJ Hummel</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>CJ Hummel</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>69</ID1>
+<ID>566</ID>
+<Company>Nuclear Care Partners, LLC</Company>
+<ibc_date>41687</ibc_date>
+<primary_banker>David Baker</primary_banker>
+<industry>Healthcare - Services - Home health care</industry>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>David Baker</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>70</ID1>
+<ID>567</ID>
+<Company>Onsite Health</Company>
+<el_date>41365</el_date>
+<project_name>Onsite Health</project_name>
+<Status>On Hold</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Phil Seefried</primary_banker>
+<practice_area>Healthcare</practice_area>
+<industry>Healthcare - Services</industry>
+<projected_transaction_size>30000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>325000</projected_fee>
+<split_to_corporate>0.6</split_to_corporate>
+<ownership_class>Private Equity Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Phil Seefried</referral_scource_ind>
+<Description>No Financials.</Description>
+<team_1>Phil Seefried</team_1>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2015-01-30T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>400000</gross_next>
+</company>
+<company>
+<ID1>71</ID1>
+<ID>568</ID>
+<Company>Opes Resources Inc.</Company>
+<estimated_closing_date>41164</estimated_closing_date>
+<el_expiration_date>41305</el_expiration_date>
+<Status>Dead</Status>
+<deal_type>Capital Formation - Debt</deal_type>
+<deal_slot>Speculative</deal_slot>
+<dead_date>41723</dead_date>
+<primary_banker>Ricardo Campoy</primary_banker>
+<projected_transaction_size>72000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>1800000</projected_fee>
+<fee_minimum>0</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>0</monthly_retainer>
+<referral_scource_ind>Joel Schneyer</referral_scource_ind>
+<team_1>Ricardo Campoy</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>72</ID1>
+<ID>569</ID>
+<Company>Options Group</Company>
+<ibc_date>41708</ibc_date>
+<primary_banker>Chad Gardiner</primary_banker>
+<industry>Business Services - Professional Services &amp; Consulting</industry>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Chad Gardiner</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>73</ID1>
+<ID>570</ID>
+<Company>PACOPS</Company>
+<el_date>41841</el_date>
+<ibc_date>41836</ibc_date>
+<project_name>Project Black Bear</project_name>
+<Status>Pre Market</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Macy/Pietravalle</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Oil &amp; Gas - E&amp;P</industry>
+<projected_transaction_size>50000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>1500000</projected_fee>
+<fee_minimum>450000</fee_minimum>
+<engagment_fee>20000</engagment_fee>
+<split_to_corporate>0.4</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>Barclays</referral_scource_company>
+<team_1>Macy/Pietravalle</team_1>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2015-06-02T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>2000000</gross_next>
+</company>
+<company>
+<ID1>74</ID1>
+<ID>571</ID>
+<Company>People Express Airlines</Company>
+<el_date>41374</el_date>
+<Status>Dead</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Speculative</deal_slot>
+<dead_date>41733</dead_date>
+<primary_banker>Jeff Ackerman</primary_banker>
+<projected_transaction_size>50000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>2000000</projected_fee>
+<fee_minimum>750000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>15000</monthly_retainer>
+<referral_scource_ind>Jeff Ackerman</referral_scource_ind>
+<team_1>Jeff Ackerman</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>75</ID1>
+<ID>572</ID>
+<Company>Perfect Market</Company>
+<el_date>41555</el_date>
+<estimated_closing_date>41850</estimated_closing_date>
+<project_name>Perfect Market</project_name>
+<Status>Closed</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<closed_date>41849</closed_date>
+<primary_banker>Sun Jen Yung</primary_banker>
+<projected_transaction_size>35000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<final_transaction_size>34000000</final_transaction_size>
+<projected_fee>1000000</projected_fee>
+<fee_minimum>800000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<monthly_retainer>12500</monthly_retainer>
+<final_total_success>1023250</final_total_success>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Sun Jen Yung</referral_scource_ind>
+<team_1>Sun Jen Yung</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>76</ID1>
+<ID>573</ID>
+<Company>Phillips Screw Company</Company>
+<el_date>41761</el_date>
+<ibc_date>41732</ibc_date>
+<project_name>Project Bond</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Ian Cookson</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Aerospace/Defense</industry>
+<projected_transaction_size>20000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>900000</projected_fee>
+<fee_minimum>550000</fee_minimum>
+<split_to_corporate>0.3</split_to_corporate>
+<monthly_retainer>15000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Ian Cookson</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Ian Cookson</team_1>
+<team_2>Olivia Moran</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2015-03-31T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>550000</gross_next>
+</company>
+<company>
+<ID1>77</ID1>
+<ID>574</ID>
+<Company>PhotoGenesis</Company>
+<el_date>41813</el_date>
+<ibc_date>41799</ibc_date>
+<project_name>Project Distributed Generation</project_name>
+<Status>Pre Market</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Mike Swartz</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Alternative - Solar</industry>
+<projected_transaction_size>30000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>750000</projected_fee>
+<fee_minimum>350000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>0</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>0.5</team_split_1>
+<team_1>Mike Swartz</team_1>
+<team_split_2>0.5</team_split_2>
+<team_2>CJ Hummel</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2015-08-19T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>78</ID1>
+<ID>575</ID>
+<Company>PhysAssist Scribes, Inc.</Company>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<dead_date>41786</dead_date>
+<primary_banker>Bob Balaban</primary_banker>
+<projected_transaction_size>25000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<split_to_corporate>0.35</split_to_corporate>
+<team_1>Paul Janson</team_1>
+<team_2>Chad Gardiner</team_2>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2015-02-01T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>79</ID1>
+<ID>576</ID>
+<Company>Plastiblok</Company>
+<el_date>41344</el_date>
+<Status>Dead</Status>
+<deal_type>Licensing</deal_type>
+<deal_slot>Minimum</deal_slot>
+<dead_date>41857</dead_date>
+<primary_banker> </primary_banker>
+<projected_transaction_size>5000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<referral_scource_ind> </referral_scource_ind>
+<team_1> </team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>80</ID1>
+<ID>577</ID>
+<Company>Precision Opinion</Company>
+<el_date>41402</el_date>
+<project_name>Project Crowd</project_name>
+<Status>On Hold</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Bob Balaban</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Support Services - BPO</industry>
+<projected_transaction_size>7000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>300000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Bob Balaban</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Bob Balaban</team_1>
+<team_2>Chad Gardiner</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>81</ID1>
+<ID>578</ID>
+<Company>Protonex</Company>
+<Status>Dead</Status>
+<deal_type>Advisory</deal_type>
+<deal_slot>Minimum</deal_slot>
+<dead_date>41787</dead_date>
+<primary_banker>Tess Oxenstierna</primary_banker>
+<projected_transaction_size>400000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Tess Oxenstierna</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>82</ID1>
+<ID>579</ID>
+<Company>Qualfon</Company>
+<el_date>40988</el_date>
+<estimated_closing_date>41850</estimated_closing_date>
+<project_name>Project Talk 3</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Buy-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Bob Balaban</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Support Services - Call Centers</industry>
+<projected_transaction_size>8000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>500000</projected_fee>
+<split_to_corporate>0.3</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>UBS</referral_scource_company>
+<team_1>Bob Balaban</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>IBS - Non-Corporate Pipeline</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>83</ID1>
+<ID>580</ID>
+<Company>Qualfon</Company>
+<project_name>Project Talk</project_name>
+<Status>Closed</Status>
+<deal_type>M&amp;A - Buy-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<closed_date>41764</closed_date>
+<primary_banker>Bob Balaban</primary_banker>
+<projected_transaction_size>9000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<final_transaction_size>25000000</final_transaction_size>
+<projected_fee>750000</projected_fee>
+<fee_minimum>750000</fee_minimum>
+<final_total_success>1375000</final_total_success>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>UBS</referral_scource_company>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Bob Balaban</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>84</ID1>
+<ID>581</ID>
+<Company>Quantum Technology Sciences, Inc.</Company>
+<el_date>41100</el_date>
+<Status>Dead</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Minimum</deal_slot>
+<dead_date>41733</dead_date>
+<primary_banker>Tom McConnell</primary_banker>
+<projected_transaction_size>7500000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>300000</projected_fee>
+<fee_minimum>0</fee_minimum>
+<monthly_retainer>10000</monthly_retainer>
+<referral_scource_ind>Len Laporta</referral_scource_ind>
+<team_1>Tom McConnell</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>85</ID1>
+<ID>582</ID>
+<Company>RAVN Alaska</Company>
+<el_date>41752</el_date>
+<ibc_date>41736</ibc_date>
+<project_name>RAVN Alaska</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Jack Maier</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Aerospace/Defense</industry>
+<projected_transaction_size>150000000</projected_transaction_size>
+<enterpise_value>&lt; $150mm</enterpise_value>
+<projected_fee>3000000</projected_fee>
+<fee_minimum>1000000</fee_minimum>
+<engagment_fee>20000</engagment_fee>
+<split_to_corporate>0.5</split_to_corporate>
+<monthly_retainer>20000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>Barclays</referral_scource_company>
+<team_1>Jack Maier</team_1>
+<team_2>Ian Cookson</team_2>
+<team_3>Brad Collins</team_3>
+<team_4>Olivia Moran</team_4>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2015-02-18T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>2500000</gross_next>
+</company>
+<company>
+<ID1>86</ID1>
+<ID>583</ID>
+<Company>Relevant Ads</Company>
+<el_date>41430</el_date>
+<project_name>Relevant Ads</project_name>
+<Status>In Market</Status>
+<deal_type>Capital Formation - Equity,M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>John Batdorf</primary_banker>
+<practice_area>TMT</practice_area>
+<industry>Technology/Media/Telecom - Tech - Software</industry>
+<projected_transaction_size>25000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>1000000</projected_fee>
+<split_to_corporate>0.15</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>John Batdorf</referral_scource_ind>
+<team_1>John Batdorf</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-11-19T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>87</ID1>
+<ID>584</ID>
+<Company>Restaurant.com, Inc.</Company>
+<el_date>41572</el_date>
+<project_name>Restaurant.com, Inc.</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side,</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Sun Jen Yung</primary_banker>
+<practice_area>TMT</practice_area>
+<industry>Technology/Media/Telecom - Media - Internet Media and Marketing</industry>
+<projected_transaction_size>40000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>1250000</projected_fee>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Practice to Practice</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>David Francione</referral_scource_ind>
+<team_1>Sun Jen Yung</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>88</ID1>
+<ID>585</ID>
+<Company>Rhino Metals</Company>
+<el_date>41683</el_date>
+<ibc_date>41659</ibc_date>
+<project_name>Project Protect</project_name>
+<Status>On Hold</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Jerry Sturgill</primary_banker>
+<practice_area>Consumer Products</practice_area>
+<industry>Consumer &amp; Retail - Other</industry>
+<projected_transaction_size>17500000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>525000</projected_fee>
+<fee_minimum>420000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Jerry Sturgill</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Jerry Sturgill</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>89</ID1>
+<ID>586</ID>
+<Company>Rivet Software</Company>
+<el_date>41369</el_date>
+<project_name>Project X</project_name>
+<Status>Closed</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Minimum</deal_slot>
+<closed_date>41911</closed_date>
+<primary_banker>Tom McConnell</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Technology/Media/Telecom - Tech - Software</industry>
+<projected_transaction_size>10000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>430000</projected_fee>
+<fee_minimum>430000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>5000</monthly_retainer>
+<final_total_success>560000</final_total_success>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind>Thomas McConnell</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Tom McConnell</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-08-31T00:00:00</month_of_close>
+<gross_this>430000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>90</ID1>
+<ID>587</ID>
+<Company>Serra Nova Mineracao S/A</Company>
+<ibc_date>41743</ibc_date>
+<primary_banker>Horacio Facca</primary_banker>
+<industry>Energy &amp; Natural Resources - Mining</industry>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Horacio Facca</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>91</ID1>
+<ID>588</ID>
+<Company>SFO Shuttle</Company>
+<el_date>41263</el_date>
+<Status>Dead</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<dead_date>41851</dead_date>
+<primary_banker> </primary_banker>
+<projected_transaction_size>17000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<referral_scource_ind> </referral_scource_ind>
+<team_1> </team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>92</ID1>
+<ID>589</ID>
+<Company>SK Trucking</Company>
+<el_date>41705</el_date>
+<ibc_date>41659</ibc_date>
+<project_name>Project Quorum</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Buy-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Ted Kinsman</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Energy Services</industry>
+<projected_transaction_size>19915000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>995750</projected_fee>
+<fee_minimum>500000</fee_minimum>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>0</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Sam Hill</referral_scource_ind>
+<Description>Quorum has submitted an initial LOI to acquire SK for $19.9mm.</Description>
+<team_split_1>0.5</team_split_1>
+<team_1>Ted Kinsman</team_1>
+<team_split_2>0.5</team_split_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>93</ID1>
+<ID>590</ID>
+<Company>Snap Infusion, LLC</Company>
+<el_date>41436</el_date>
+<Status>Dead</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Jeff Ackerman</primary_banker>
+<projected_transaction_size>8500000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>400000</projected_fee>
+<fee_minimum>300000</fee_minimum>
+<monthly_retainer>10000</monthly_retainer>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Jeff Ackerman</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>94</ID1>
+<ID>591</ID>
+<Company>Spring Partners</Company>
+<ibc_date>41722</ibc_date>
+<primary_banker>Sun Jen Yung</primary_banker>
+<industry>Technology/Media/Telecom - Tech</industry>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Sun Jen Yung</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>95</ID1>
+<ID>592</ID>
+<Company>Stell Environmental Enterprises, Inc.</Company>
+<el_date>41214</el_date>
+<project_name>Project Yellowstone</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Bob Balaban</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Engineering, Architecture, Design Firms</industry>
+<projected_transaction_size>7000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>360000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Bob Balaban</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Bob Balaban</team_1>
+<team_2>Chad Gardiner</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>96</ID1>
+<ID>593</ID>
+<Company>Sunergy World, Inc.</Company>
+<el_date>41442</el_date>
+<Status>Dead</Status>
+<deal_type>Capital Formation - Debt, Capital Formation - Equity</deal_type>
+<deal_slot>Minimum</deal_slot>
+<dead_date>41786</dead_date>
+<primary_banker>Michael Swartz</primary_banker>
+<projected_transaction_size>10000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Michael Swartz</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>97</ID1>
+<ID>594</ID>
+<Company>Sweeteners Plus</Company>
+<el_date>41786</el_date>
+<project_name>Project Gusto</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Doug Usifer</primary_banker>
+<practice_area>Chemicals &amp; Plastics</practice_area>
+<industry>Industrials - Chemicals</industry>
+<projected_transaction_size>90000000</projected_transaction_size>
+<enterpise_value>$75mm - $100mm</enterpise_value>
+<projected_fee>1800000</projected_fee>
+<fee_minimum>500000</fee_minimum>
+<engagment_fee>50000</engagment_fee>
+<split_to_corporate>0.36</split_to_corporate>
+<monthly_retainer>0</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>BAML</referral_scource_company>
+<team_1>Doug Usifer</team_1>
+<Paul>1</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Corporate Revenue Pipeline</Pipeline>
+<month_of_close>2015-03-08T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>1000000</gross_next>
+</company>
+<company>
+<ID1>98</ID1>
+<ID>595</ID>
+<Company>Tateyama Farms</Company>
+<el_date>41683</el_date>
+<ibc_date>41701</ibc_date>
+<estimated_closing_date>41881</estimated_closing_date>
+<project_name>Project Dairy</project_name>
+<Status>Closed</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<closed_date>41873</closed_date>
+<primary_banker>Dale Heims</primary_banker>
+<practice_area>Consumer Products</practice_area>
+<industry>Consumer &amp; Retail - Agribusiness</industry>
+<projected_transaction_size>14000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<final_transaction_size>10000000</final_transaction_size>
+<projected_fee>400000</projected_fee>
+<fee_minimum>250000</fee_minimum>
+<engagment_fee>25000</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>0</monthly_retainer>
+<final_total_success>250000</final_total_success>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>UBS</referral_scource_company>
+<team_1>Dale Heims</team_1>
+<Paul>0</Paul>
+<mc_broom>1</mc_broom>
+<Pipeline>IBS - Non-Corporate Pipeline</Pipeline>
+<month_of_close>2014-08-31T00:00:00</month_of_close>
+<gross_this>250000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>99</ID1>
+<ID>596</ID>
+<Company>Tecopesca</Company>
+<el_date>41393</el_date>
+<project_name>Tecopesca</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Horacio Facca</primary_banker>
+<practice_area>LATAM</practice_area>
+<industry>Consumer &amp; Retail - Food Processing and Distribution</industry>
+<projected_transaction_size>120000000</projected_transaction_size>
+<enterpise_value>&lt; $150mm</enterpise_value>
+<projected_fee>6300000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>BAML</referral_scource_company>
+<referral_scource_ind>Lily Tapia</referral_scource_ind>
+<Description>Financials include Tecopesca, Bilbosa, T+B and Manabita. All companies are being sold as a group.</Description>
+<team_1>Horacio Facca</team_1>
+<Paul>0</Paul>
+<mc_broom>1</mc_broom>
+<Pipeline>IBS - Non-Corporate Pipeline</Pipeline>
+<month_of_close>2014-12-31T00:00:00</month_of_close>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>100</ID1>
+<ID>597</ID>
+<Company>Two Rivers Pipeline</Company>
+<el_date>41521</el_date>
+<project_name>Project Dos Rios</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Peter Nam</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Oil &amp; Gas - Refining &amp; Storage</industry>
+<projected_transaction_size>72500000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>1500000</projected_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Peter Nam</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Peter Nam</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>101</ID1>
+<ID>598</ID>
+<Company>WestComm, Inc.</Company>
+<el_date>41799</el_date>
+<ibc_date>41792</ibc_date>
+<project_name>Project Eagle</project_name>
+<Status>Pre Market</Status>
+<deal_type>Capital Formation - Equity</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Rick deNey</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Aerospace/Defense</industry>
+<projected_transaction_size>8000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>480000</projected_fee>
+<fee_minimum>300000</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>WestComm, Inc.</referral_scource_company>
+<team_split_1>1</team_split_1>
+<team_1>Rick deNey</team_1>
+<team_2>Len LaPorta</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<gross_this>0</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>102</ID1>
+<ID>599</ID>
+<Company>Wex, Inc.</Company>
+<el_date>41590</el_date>
+<estimated_closing_date>41881</estimated_closing_date>
+<project_name>Project Passport</project_name>
+<Status>Closed</Status>
+<deal_type>M&amp;A - Sell-side,</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<closed_date>41851</closed_date>
+<primary_banker>Dave Francione</primary_banker>
+<projected_transaction_size>40000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<final_transaction_size>53600000</final_transaction_size>
+<projected_fee>750000</projected_fee>
+<fee_minimum>750000</fee_minimum>
+<engagment_fee>20000</engagment_fee>
+<split_to_corporate>9.99</split_to_corporate>
+<monthly_retainer>20000</monthly_retainer>
+<final_total_success>1340000</final_total_success>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>BAML</referral_scource_company>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>Dave Francione</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>103</ID1>
+<ID>600</ID>
+<Company>White Mountain</Company>
+<el_date>41717</el_date>
+<project_name>White Mountain</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Jeff Ackerman</primary_banker>
+<practice_area>Consumer Products</practice_area>
+<industry>Consumer &amp; Retail - Apparel</industry>
+<projected_transaction_size>50000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>162500</projected_fee>
+<fee_minimum>162500</fee_minimum>
+<engagment_fee>0</engagment_fee>
+<split_to_corporate>0.2</split_to_corporate>
+<monthly_retainer>0</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<referral_scource_company>Sole Sourced</referral_scource_company>
+<referral_scource_ind>Jeff Ackerman</referral_scource_ind>
+<team_split_1>1</team_split_1>
+<team_1>Jeff Ackerman</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+<month_of_close>2014-11-30T00:00:00</month_of_close>
+<gross_this>180000</gross_this>
+<gross_next>0</gross_next>
+</company>
+<company>
+<ID1>104</ID1>
+<ID>601</ID>
+<Company>Wholesale Fashion Square</Company>
+<ibc_date>41796</ibc_date>
+<primary_banker>William Harrison</primary_banker>
+<industry>Consumer &amp; Retail - Apparel</industry>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_ind> </referral_scource_ind>
+<team_1>William Harrison</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>105</ID1>
+<ID>602</ID>
+<Company>Wind River Environmental</Company>
+<el_date>41582</el_date>
+<estimated_closing_date>41730</estimated_closing_date>
+<project_name>Project Wagon</project_name>
+<Status>Closed</Status>
+<deal_type>M&amp;A - Sell-side,</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<closed_date>41823</closed_date>
+<primary_banker>Phil Seefried</primary_banker>
+<projected_transaction_size>40000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<final_transaction_size>50000000</final_transaction_size>
+<projected_fee>800000</projected_fee>
+<fee_minimum>400000</fee_minimum>
+<engagment_fee>50000</engagment_fee>
+<monthly_retainer>0</monthly_retainer>
+<final_total_success>1084480</final_total_success>
+<referral_type>Corporate to Practice</referral_type>
+<referral_scource_company>Housatonic Partners</referral_scource_company>
+<referral_scource_ind>Phil Seefried</referral_scource_ind>
+<team_1>Phil Seefried</team_1>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>106</ID1>
+<ID>604</ID>
+<Company>Weiss Residential</Company>
+<project_name>Weiss</project_name>
+<Status>Closed</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<closed_date>41851</closed_date>
+<primary_banker>Dave Francione</primary_banker>
+<final_transaction_size>1500000</final_transaction_size>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Dave Francione</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>107</ID1>
+<ID>605</ID>
+<Company>APX</Company>
+<ibc_date>41890</ibc_date>
+<Status>Pre Market</Status>
+<primary_banker>Rick deNey</primary_banker>
+<practice_area>TMT</practice_area>
+<industry>Technology/Media/Telecom - Tech - Software</industry>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Rick deNey</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>108</ID1>
+<ID>606</ID>
+<Company>Clearwater Systems Corporation</Company>
+<el_date>41864</el_date>
+<ibc_date>41869</ibc_date>
+<project_name>Clearwater Systems Corporation</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Samrat Karnik</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Technology - Controls, Instruments &amp; Sensors</industry>
+<projected_transaction_size>4000000</projected_transaction_size>
+<projected_fee>450000</projected_fee>
+<fee_minimum>450000</fee_minimum>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<team_split_1>1</team_split_1>
+<team_1>Samrat Karnik</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>109</ID1>
+<ID>607</ID>
+<Company>Creative Electronics Systems</Company>
+<el_date>40464</el_date>
+<ibc_date>41914</ibc_date>
+<project_name>Creative Electronics Systems</project_name>
+<primary_banker>Jerry Sturgill</primary_banker>
+<industry>Technology/Media/Telecom - Tech - Hardware</industry>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Jerry Sturgill</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>110</ID1>
+<ID>608</ID>
+<Company>DESO, Inc.</Company>
+<ibc_date>41869</ibc_date>
+<Status>Pre Market</Status>
+<primary_banker>CJ Hummel</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Pipeline</industry>
+<team_split_1>1</team_split_1>
+<team_1>CJ Hummel</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>111</ID1>
+<ID>609</ID>
+<Company>Diva Limousine</Company>
+<el_date>41918</el_date>
+<ibc_date>41914</ibc_date>
+<project_name>Project Black Tie</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Tyler Comann</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Distribution, Transportation &amp; Logistics</industry>
+<projected_fee>200000</projected_fee>
+<fee_minimum>150000</fee_minimum>
+<monthly_retainer>15000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Corporate to Practice</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Tyler Comann</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>112</ID1>
+<ID>610</ID>
+<Company>DPRA</Company>
+<el_date>41914</el_date>
+<ibc_date>41912</ibc_date>
+<project_name>DPRA</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>David Brinkley</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Aerospace/Defense</industry>
+<projected_transaction_size>12000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>550000</projected_fee>
+<fee_minimum>500000</fee_minimum>
+<monthly_retainer>15000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>David Brinkley</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>113</ID1>
+<ID>611</ID>
+<Company>Dyersdale Energy LP</Company>
+<el_date>41892</el_date>
+<ibc_date>41890</ibc_date>
+<estimated_closing_date>41987</estimated_closing_date>
+<project_name>Dyersdale Energy LP</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side,Divestiture</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Macy/Pietravalle</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Oil &amp; Gas - E&amp;P</industry>
+<projected_transaction_size>35000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>500000</projected_fee>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Practice to Practice</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Macy/Pietravalle</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>114</ID1>
+<ID>612</ID>
+<Company>Elbit Kinetics</Company>
+<ibc_date>41869</ibc_date>
+<project_name>Elbit Kinetics</project_name>
+<Status>Pre Market</Status>
+<primary_banker>Tess Oxenstierna</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Aerospace/Defense</industry>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Tess Oxenstierna</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>115</ID1>
+<ID>613</ID>
+<Company>Energy C2</Company>
+<el_date>41878</el_date>
+<ibc_date>41869</ibc_date>
+<project_name>Energy C2</project_name>
+<Status>Pre Market</Status>
+<deal_type>Capital Formation - Debt</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Mike Swartz</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Alternative - Solar</industry>
+<projected_transaction_size>98000000</projected_transaction_size>
+<enterpise_value>$75mm - $100mm</enterpise_value>
+<projected_fee>3275000</projected_fee>
+<monthly_retainer>5000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>Energy C2</referral_scource_company>
+<team_split_1>0.5</team_split_1>
+<team_1>Mike Swartz</team_1>
+<team_split_2>0.5</team_split_2>
+<team_2>CJ Hummel</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>116</ID1>
+<ID>614</ID>
+<Company>Environmental Tectonics Corp.</Company>
+<ibc_date>41876</ibc_date>
+<project_name>Environmental Tectonics Corp.</project_name>
+<Status>Pre Market</Status>
+<primary_banker>Tess Oxenstierna</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Aerospace/Defense</industry>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Tess Oxenstierna</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>117</ID1>
+<ID>615</ID>
+<Company>Kirusa</Company>
+<el_date>41912</el_date>
+<ibc_date>41880</ibc_date>
+<project_name>Kirusa</project_name>
+<Status>Pre Market</Status>
+<deal_type>Capital Formation - Equity,M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Gary Moon</primary_banker>
+<practice_area>TMT</practice_area>
+<industry>Technology/Media/Telecom - Tech - Software</industry>
+<projected_transaction_size>30000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>900000</projected_fee>
+<fee_minimum>500000</fee_minimum>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Gary Moon</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>118</ID1>
+<ID>616</ID>
+<Company>Loop Transportation</Company>
+<el_date>41899</el_date>
+<project_name>Project Stage Coach</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Tyler Comann</primary_banker>
+<practice_area>Business Services</practice_area>
+<industry>Business Services - Distribution, Transportation &amp; Logistics</industry>
+<projected_transaction_size>10000000</projected_transaction_size>
+<enterpise_value>&lt; $10mm</enterpise_value>
+<projected_fee>450000</projected_fee>
+<fee_minimum>300000</fee_minimum>
+<monthly_retainer>7500</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Tyler Comann</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>119</ID1>
+<ID>617</ID>
+<Company>National Financial Companies</Company>
+<el_date>41877</el_date>
+<ibc_date>41845</ibc_date>
+<project_name>Timer</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Buy-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Len LaPorta</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Aerospace/Defense</industry>
+<projected_fee>400000</projected_fee>
+<fee_minimum>400000</fee_minimum>
+<engagment_fee>15000</engagment_fee>
+<monthly_retainer>15000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>SC to Practice</referral_type>
+<referral_scource_company>Headwaters SC</referral_scource_company>
+<team_split_1>1</team_split_1>
+<team_1>Len LaPorta</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>120</ID1>
+<ID>618</ID>
+<Company>Pacific Operators Offshore</Company>
+<el_date>41841</el_date>
+<ibc_date>41836</ibc_date>
+<project_name>Project Grizzly</project_name>
+<Status>Pre Market</Status>
+<deal_type>Capital Formation - Debt,Capital Formation - Equity</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Macy/Pietravalle</primary_banker>
+<practice_area>Energy &amp; Natural Resources</practice_area>
+<industry>Energy &amp; Natural Resources - Oil &amp; Gas - E&amp;P</industry>
+<projected_transaction_size>50000000</projected_transaction_size>
+<enterpise_value>$25mm - $75mm</enterpise_value>
+<projected_fee>1500000</projected_fee>
+<fee_minimum>450000</fee_minimum>
+<engagment_fee>20000</engagment_fee>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>Pacific Operators Offshore</referral_scource_company>
+<team_split_1>1</team_split_1>
+<team_1>Macy/Pietravalle</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>121</ID1>
+<ID>619</ID>
+<Company>PAREX USA</Company>
+<el_date>41906</el_date>
+<ibc_date>41911</ibc_date>
+<project_name>PAREX USA</project_name>
+<Status>In Market</Status>
+<deal_type>M&amp;A - Buy-side</deal_type>
+<deal_slot>Minimum</deal_slot>
+<primary_banker>Grant Garbers</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Building Products &amp; Construction Services</industry>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>275000</projected_fee>
+<fee_minimum>450000</fee_minimum>
+<engagment_fee>50000</engagment_fee>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>0.5</team_split_1>
+<team_1>Grant Garbers</team_1>
+<team_split_2>0.5</team_split_2>
+<team_2>Peter Nam</team_2>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>122</ID1>
+<ID>620</ID>
+<Company>Silescent Lighting Corp.</Company>
+<el_date>41894</el_date>
+<ibc_date>41869</ibc_date>
+<project_name>Project Quiet</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Rick deNey</primary_banker>
+<practice_area>Industrials</practice_area>
+<industry>Industrials - Technology</industry>
+<projected_transaction_size>25000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>625000</projected_fee>
+<fee_minimum>250000</fee_minimum>
+<engagment_fee>50000</engagment_fee>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>Silescent Lighting Corp.</referral_scource_company>
+<team_split_1>1</team_split_1>
+<team_1>Rick deNey</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>123</ID1>
+<ID>621</ID>
+<Company>SpiralEdge</Company>
+<el_date>41876</el_date>
+<ibc_date>41869</ibc_date>
+<project_name>SpiralEdge</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Wheelhouse</deal_slot>
+<primary_banker>Gary Moon</primary_banker>
+<practice_area>TMT</practice_area>
+<industry>Technology/Media/Telecom - Other</industry>
+<projected_transaction_size>80000000</projected_transaction_size>
+<enterpise_value>$75mm - $100mm</enterpise_value>
+<projected_fee>1000000</projected_fee>
+<fee_minimum>800000</fee_minimum>
+<monthly_retainer>15000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>IBS to Practice</referral_type>
+<referral_scource_company>SpiralEdge</referral_scource_company>
+<team_split_1>1</team_split_1>
+<team_1>Gary Moon</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+<company>
+<ID1>124</ID1>
+<ID>622</ID>
+<Company>Tellagence</Company>
+<el_date>41912</el_date>
+<ibc_date>41904</ibc_date>
+<project_name>Tellagence</project_name>
+<Status>Pre Market</Status>
+<deal_type>M&amp;A - Sell-side</deal_type>
+<deal_slot>Speculative</deal_slot>
+<primary_banker>Sun Jen Yung</primary_banker>
+<practice_area>TMT</practice_area>
+<industry>Technology/Media/Telecom - Media - Internet Media and Marketing</industry>
+<projected_transaction_size>15000000</projected_transaction_size>
+<enterpise_value>$10mm - $25mm</enterpise_value>
+<projected_fee>500000</projected_fee>
+<monthly_retainer>10000</monthly_retainer>
+<ownership_class>Privately Owned</ownership_class>
+<referral_type>Sole Sourced</referral_type>
+<team_split_1>1</team_split_1>
+<team_1>Sun Jen Yung</team_1>
+<Paul>0</Paul>
+<mc_broom>0</mc_broom>
+<Pipeline>Standard Margine Pipeline - Non-Corporate</Pipeline>
+</company>
+</dataroot>

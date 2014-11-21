@@ -19,25 +19,13 @@
 					<!--** MENU TOGGLE NEEDS TO BE KEPT-->
 					<a class="menutoggle"><i class="fa fa-bars"></i></a>
 					<!--** SEARCH FUNCTIONALITY NEEDS TO BE KEPT // MAYBE REMOVE LATER-->
-					<form class="searchform" action="index.html" method="post">
+					<form class="searchform" action="" method="post">
 						<input type="text" class="form-control" name="keyword" placeholder="Search here..." />
 					</form>
 				</div>
 				<!-- /headerbar -->
+				<?php echo $content; ?>
 				
-				<div class="pageheader">
-					<h2><i class="fa fa-home"></i> Dashboard</h2>
-					<div class="breadcrumb-wrapper">
-						<span class="label">You are here:</span>
-						<ol class="breadcrumb">
-							<li><a href="">Bracket</a></li>
-							<li class="active">Dashboard</li>
-						</ol>
-					</div>
-				</div>
-				<div class="contentpanel">
-					<?php echo $content; ?>
-				</div>
 			</div>
 			<!-- /mainpanel -->
 			<!-- magical wizardry -->
