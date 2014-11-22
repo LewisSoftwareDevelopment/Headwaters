@@ -6,7 +6,7 @@ class Home extends CI_Controller {
 	{
 		parent::__construct();	
 		//Sets the variables for the slices
-		$this->stencil->slice(array('head','header'));
+		$this->stencil->slice(array('head','header','footer'));
 
 	}
 
@@ -19,7 +19,7 @@ class Home extends CI_Controller {
 		$this->stencil->layout('home_layout');
 
 		//Adds Font-Awesome to the homepage (/assets/css/font-awesome.css)
-		$this->stencil->css('font-awesome');
+		//$this->stencil->js(array('flot/flot.min','flot/flot.resize.min'));
 
 		//Sets the variable $welcome_text to be used in your views
 		//$this->stencil->data('welcome_text', 'Welcome to Stencil!');

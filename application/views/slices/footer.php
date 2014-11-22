@@ -1,0 +1,31 @@
+<!-- magical wizardry -->
+<?php echo add_js(array(
+	'jquery-1.10.2.min',
+	'jquery-migrate-1.2.1.min',
+	'jquery-ui-1.10.3.min',
+	'bootstrap.min', 
+	'modernizr.min',
+	'jquery.sparkline.min',
+	'toggles.min',
+	'retina.min',
+	'jquery.cookies.js',
+	'flot/flot.min',
+	'flot/flot.resize.min',
+	'jquery.autogrow-textarea',
+	'bootstrap-fileupload.min',
+	'bootstrap-timepicker.min',
+	'jquery.maskedinput.min',
+	'jquery.tagsinput.min',
+	'jquery.mousewheel',
+	'chosen.jquery.min',
+	'dropzone.min',
+	'colorpicker',
+	'morris.min',
+	'raphael-2.1.0.min',
+	'jquery.datatables.min',
+	'bootstrap-editable',
+	'chosen.jquery.min',
+	'custom',
+	'dashboard'
+)); ?>
+<?php echo $js; ?>

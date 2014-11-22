@@ -5,7 +5,7 @@ class Pages extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		$this->stencil->slice(array('head', 'header', 'sidebar'));
+		$this->stencil->slice(array('head','header','footer'));
 		$this->stencil->layout('subpage_layout');
 	}
 

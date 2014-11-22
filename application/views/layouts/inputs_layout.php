@@ -27,28 +27,8 @@
 				<?php echo $content; ?>
 				
 			</div>
-			<!-- /mainpanel -->
-			<!-- magical wizardry -->
-			<?php echo add_js(array(
-									'jquery-1.10.2.min',
-									'jquery-migrate-1.2.1.min',
-									'jquery-ui.min',
-									'bootstrap.min', 
-									'modernizr.min',
-									'jquery.sparkline.min',
-									'toggles.min',
-									'retina.min',
-									'flot/flot.min',
-									'flot/flot.resize.min',
-									'morris.min',
-									'raphael-2.1.0.min',
-									'jquery.datatables.min',
-									'bootstrap-editable',
-									'chosen.jquery.min',
-									'custom',
-									'dashboard'
-								)); ?>
-			<?php echo $js; ?>
 		</section>
+		<!-- /mainpanel -->
+		<?php echo $footer; ?>
 	</body>
 </html>

@@ -6,7 +6,7 @@ class Forms extends CI_Controller {
 	{
 		parent::__construct();	
 		//Sets the variables for the slices
-		$this->stencil->slice(array('head','header'));
+		$this->stencil->slice(array('head','header','footer'));
 		$this->load->library('form_validation');
 		$this->load->database();
 		$this->load->helper('form');
@@ -23,9 +23,6 @@ class Forms extends CI_Controller {
 		//Sets the layout to be home_layout (/views/layouts/home_layout.php)
 		$this->stencil->layout('forms_layout');
 
-		//Adds Font-Awesome to the homepage (/assets/css/font-awesome.css)
-		$this->stencil->css('font-awesome');
-
 		//Sets the variable $welcome_text to be used in your views
 		//$this->stencil->data('welcome_text', 'Welcome to Stencil!');
 
@@ -40,9 +37,6 @@ class Forms extends CI_Controller {
 
 		//Sets the layout to be home_layout (/views/layouts/home_layout.php)
 		$this->stencil->layout('forms_layout');
-
-		//Adds Font-Awesome to the homepage (/assets/css/font-awesome.css)
-		$this->stencil->css('font-awesome');
 
 		$this->form_validation->set_rules('company', 'Company', 'max_length[255]');			
 		$this->form_validation->set_rules('ELDate', 'ELDate', 'max_length[255]');			
@@ -64,7 +58,7 @@ class Forms extends CI_Controller {
 		$this->form_validation->set_rules('FeeMinimum', 'FeeMinimum', 'max_length[255]');			
 		$this->form_validation->set_rules('EngagmentFee', 'EngagmentFee', 'max_length[255]');			
 		$this->form_validation->set_rules('FeeDetails', 'FeeDetails', 'max_length[255]');			
-		$this->form_validation->set_rules('SplitTo Corporate', 'SplitTo Corporate', 'max_length[255]');			
+		$this->form_validation->set_rules('SplitToCorporate', 'SplitToCorporate', 'max_length[255]');			
 		$this->form_validation->set_rules('MonthlyRetainer', 'MonthlyRetainer', 'max_length[255]');			
 		$this->form_validation->set_rules('FinalTotalSucessFee', 'FinalTotalSucessFee', 'max_length[255]');			
 		$this->form_validation->set_rules('OwnershipClass', 'OwnershipClass', 'max_length[255]');			
@@ -72,9 +66,9 @@ class Forms extends CI_Controller {
 		$this->form_validation->set_rules('ReferralSourceCompany', 'ReferralSourceCompany', 'max_length[255]');			
 		$this->form_validation->set_rules('ReferralScourceInd', 'ReferralScourceInd', 'max_length[255]');			
 		$this->form_validation->set_rules('Description', 'Description', 'max_length[255]');			
-		$this->form_validation->set_rules('teamsplit1', 'TeamSplit1', 'max_length[255]');			
+		$this->form_validation->set_rules('TeamSplit1', 'TeamSplit1', 'max_length[255]');			
 		$this->form_validation->set_rules('Team1', 'Team1', 'max_length[255]');			
-		$this->form_validation->set_rules('teamsplit2', 'TeamSplit2', 'max_length[255]');			
+		$this->form_validation->set_rules('TeamSplit2', 'TeamSplit2', 'max_length[255]');			
 		$this->form_validation->set_rules('team2', 'Team2', 'max_length[255]');			
 		$this->form_validation->set_rules('TeamSplit3', 'TeamSplit3', 'max_length[255]');			
 		$this->form_validation->set_rules('Team3', 'Team3', 'max_length[255]');			
@@ -134,7 +128,7 @@ class Forms extends CI_Controller {
 					       	'FeeMinimum' => @$this->input->post('FeeMinimum'),
 					       	'EngagmentFee' => @$this->input->post('EngagmentFee'),
 					       	'FeeDetails' => @$this->input->post('FeeDetails'),
-					       	'SplitTo Corporate' => @$this->input->post('SplitTo Corporate'),
+					       	'SplitTo Corporate' => @$this->input->post('SplitToCorporate'),
 					       	'MonthlyRetainer' => @$this->input->post('MonthlyRetainer'),
 					       	'FinalTotalSucessFee' => @$this->input->post('FinalTotalSucessFee'),
 					       	'OwnershipClass' => @$this->input->post('OwnershipClass'),
@@ -142,9 +136,9 @@ class Forms extends CI_Controller {
 					       	'ReferralSourceCompany' => @$this->input->post('ReferralSourceCompany'),
 					       	'ReferralScourceInd' => @$this->input->post('ReferralScourceInd'),
 					       	'Description' => @$this->input->post('Description'),
-					       	'teamsplit1' => @$this->input->post('teamsplit1'),
+					       	'TeamSplit1' => @$this->input->post('TeamSplit1'),
 					       	'Team1' => @$this->input->post('Team1'),
-					       	'teamsplit2' => @$this->input->post('teamsplit2'),
+					       	'TeamSplit2' => @$this->input->post('TeamSplit2'),
 					       	'team2' => @$this->input->post('team2'),
 					       	'TeamSplit3' => @$this->input->post('TeamSplit3'),
 					       	'Team3' => @$this->input->post('Team3'),
