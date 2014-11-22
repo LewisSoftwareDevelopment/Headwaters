@@ -10,9 +10,9 @@
 
 			<!--** Begin Navigation-->
 			<ul class="nav nav-pills nav-stacked nav-bracket">
-				<li class="active"><a href=""><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
+				<li class="active"><a href="<?php echo base_url(''); ?>"><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
 
-				<li><a href=""><span class="pull-right badge badge-success">2</span><i class="fa fa-envelope-o"></i> <span>Email</span></a></li>
+				<!-- <li><a href=""><span class="pull-right badge badge-success"></span><i class="fa fa-envelope-o"></i> <span>Email</span></a></li> -->
 
 				<!--** Inputs Section-->
 				<li class="nav-parent"><a href=""><i class="fa fa-folder-open"></i> <span>Inputs</span></a>
@@ -48,7 +48,8 @@
 
 				<li class="nav-parent"><a href=""><i class="fa fa-edit"></i> <span>Forms</span></a>
 					<ul class="children">
-						<li><a href=""><i class="fa fa-caret-right"></i> Form 1</a></li>
+						<li><a href="<?php echo base_url('/forms'); ?>"><i class="fa fa-caret-right"></i>Forms Dashboard</a></li>
+						<li><a href="<?php echo base_url('/forms/company_form'); ?>"><i class="fa fa-caret-right"></i>Company Form</a></li>
 						<li><a href=""><i class="fa fa-caret-right"></i> Form 2</a></li>
 						<li><a href=""><i class="fa fa-caret-right"></i> Form 3</a></li>
 						<li><a href=""><i class="fa fa-caret-right"></i> Form 4</a></li>
