@@ -1,5 +1,4 @@
 <div class="pageheader">
-	<h2><i class="fa fa-home"></i> Dashboard</h2>
 	<div class="breadcrumb-wrapper">
 		<span class="label">You are here:</span>
 		<ol class="breadcrumb">
@@ -24,28 +23,28 @@
 					</div>
 					<div class="panel-body">
 						<div class="form-group">
-						    <label for="company" class="control-label">Company</label>
-							<input id="company" class="form-control" type="text" name="company" maxlength="255" value="<?php echo set_value('company'); ?>"  />
-							<?php echo form_error('company'); ?>
+						    <label for="Company" class="control-label">Company</label>
+							<input id="Company" class="form-control" type="text" name="Company" maxlength="255" value="<?php echo set_value('Company'); ?>"  />
+							<?php echo form_error('Company'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="ELDate" class="control-label">EL Date</label>
-						    <input class="form-control datepicker" type="text" name="ELDate" value="<?php echo set_value('ELDate'); ?>"  />
+						    <input class="form-control" id="date" type="text" name="ELDate" value="<?php echo set_value('ELDate'); ?>"  />
 							<?php echo form_error('ELDate'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="IBCDate" class="control-label">IBC Date</label>
-							<input class="form-control datepicker" type="text" name="IBCDate" value="<?php echo set_value('IBCDate'); ?>"  />
+							<input class="form-control" id="date" type="text" name="IBCDate" value="<?php echo set_value('IBCDate'); ?>"  />
 							<?php echo form_error('IBCDate'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="EstCloseDate" class="control-label">Est Close Date</label>
-							<input class="form-control datepicker" type="text" name="EstCloseDate" value="<?php echo set_value('EstCloseDate'); ?>"  />
+							<input class="form-control" id="date" type="text" name="EstCloseDate" value="<?php echo set_value('EstCloseDate'); ?>"  />
 							<?php echo form_error('EstCloseDate'); ?>
 						</div>
 						<div class="form-group">
-						    <label for="ELExpirationDate" class="control-label">ELExpirationDate</label>
-							<input class="form-control datepicker" type="text" name="ELExpirationDate" value="<?php echo set_value('ELExpirationDate'); ?>"  />
+						    <label for="ELExpirationDate" class="control-label">EL Expiration Date</label>
+							<input class="form-control" id="date" type="text" name="ELExpirationDate" value="<?php echo set_value('ELExpirationDate'); ?>"  />
 							<?php echo form_error('ELExpirationDate'); ?>
 						</div>
 						<div class="form-group">
@@ -54,23 +53,23 @@
 							<?php echo form_error('Status'); ?>
 						</div>
 						<div class="form-group">
-						    <label for="DealType" class="control-label">DealType</label>
+						    <label for="DealType" class="control-label">Deal Type</label>
 							<input id="DealType" class="form-control" type="text" name="DealType" maxlength="255" value="<?php echo set_value('DealType'); ?>"  />
 							<?php echo form_error('DealType'); ?>
 						</div>
 						<div class="form-group">
-						    <label for="DealSlot" class="control-label">DealSlot</label>
+						    <label for="DealSlot" class="control-label">Deal Slot</label>
 							<input id="DealSlot" class="form-control" type="text" name="DealSlot" maxlength="255" value="<?php echo set_value('DealSlot'); ?>"  />
 							<?php echo form_error('DealSlot'); ?>
 						</div>
 						<div class="form-group">
-						    <label for="ClosedDate" class="control-label">ClosedDate</label>
-							<input class="form-control datepicker" type="text" name="ClosedDate" value="<?php echo set_value('ClosedDate'); ?>"  />
+						    <label for="ClosedDate" class="control-label">Closed Date</label>
+							<input class="form-control" id="date" type="text" name="ClosedDate" value="<?php echo set_value('ClosedDate'); ?>"  />
 							<?php echo form_error('ClosedDate'); ?>
 						</div>
 						<div class="form-group">
-						    <label for="DeadDate" class="control-label">DeadDate</label>
-							<input class="form-control" id="datepicker" type="text" name="DeadDate"  value="<?php echo set_value('DeadDate'); ?>"  />
+						    <label for="DeadDate" class="control-label">Dead Date</label>
+							<input class="form-control" id="date" type="text" name="DeadDate"  value="<?php echo set_value('DeadDate'); ?>"  />
 							<?php echo form_error('DeadDate'); ?>
 						</div>
 					</div>
@@ -89,7 +88,7 @@
 							<?php echo form_error('PrimaryBanker'); ?>
 						</div>
 						<div class="form-group">
-						    <label for="PracticeArea" class="control-label">PracticeArea</label>
+						    <label for="PracticeArea" class="control-label">Practice Area</label>
 							<input id="PracticeArea" class="form-control" type="text" name="PracticeArea" maxlength="255" value="<?php echo set_value('PracticeArea'); ?>"  />
 							<?php echo form_error('PracticeArea'); ?>
 						</div>
@@ -99,49 +98,49 @@
 							<?php echo form_error('Industry'); ?>
 						</div>
 						<div class="form-group">
-						    <label for="ProjectedTransactionSize" class="control-label">ProjectedTransactionSize</label>
+						    <label for="ProjectedTransactionSize" class="control-label">Projected Transaction Size</label>
 							
 						       <input id="ProjectedTransactionSize" class="form-control" type="text" name="ProjectedTransactionSize" maxlength="255" value="<?php echo set_value('ProjectedTransactionSize'); ?>"  />
 								 <?php echo form_error('ProjectedTransactionSize'); ?>
 						
 						</div>
 						<div class="form-group">
-						    <label for="EnterpiseValue" class="control-label">EnterpiseValue</label>
+						    <label for="EnterpiseValue" class="control-label">Enterpise Value</label>
 							
 						       <input id="EnterpiseValue" class="form-control" type="text" name="EnterpiseValue" maxlength="255" value="<?php echo set_value('EnterpiseValue'); ?>"  />
 								 <?php echo form_error('EnterpiseValue'); ?>
 						
 						</div>
 						<div class="form-group">
-						    <label for="FinalTransactionSize" class="control-label">FinalTransactionSize</label>
+						    <label for="FinalTransactionSize" class="control-label">Final Transaction Size</label>
 							
 						       <input id="FinalTransactionSize" class="form-control" type="text" name="FinalTransactionSize" maxlength="255" value="<?php echo set_value('FinalTransactionSize'); ?>"  />
 								 <?php echo form_error('FinalTransactionSize'); ?>
 						
 						</div>
 						<div class="form-group">
-						    <label for="ProjectedFee" class="control-label">ProjectedFee</label>
+						    <label for="ProjectedFee" class="control-label">Projected Fee</label>
 							
 						       <input id="ProjectedFee" class="form-control" type="text" name="ProjectedFee" maxlength="255" value="<?php echo set_value('ProjectedFee'); ?>"  />
 								 <?php echo form_error('ProjectedFee'); ?>
 						
 						</div>
 						<div class="form-group">
-						    <label for="FeeMinimum" class="control-label">FeeMinimum</label>
+						    <label for="FeeMinimum" class="control-label">Fee Minimum</label>
 							
 						       <input id="FeeMinimum" class="form-control" type="text" name="FeeMinimum" maxlength="255" value="<?php echo set_value('FeeMinimum'); ?>"  />
 								 <?php echo form_error('FeeMinimum'); ?>
 						
 						</div>
 						<div class="form-group">
-						    <label for="EngagmentFee" class="control-label">EngagmentFee</label>
+						    <label for="EngagmentFee" class="control-label">Engagment Fee</label>
 							
 						       <input id="EngagmentFee" class="form-control" type="text" name="EngagmentFee" maxlength="255" value="<?php echo set_value('EngagmentFee'); ?>"  />
 								 <?php echo form_error('EngagmentFee'); ?>
 					
 						</div>
 						<div class="form-group">
-						    <label for="FeeDetails" class="control-label">FeeDetails</label>
+						    <label for="FeeDetails" class="control-label">Fee Details</label>
 							
 						       <input id="FeeDetails" class="form-control" type="text" name="FeeDetails" maxlength="255" value="<?php echo set_value('FeeDetails'); ?>"  />
 								 <?php echo form_error('FeeDetails'); ?>
@@ -290,10 +289,8 @@
 						</div>
 						<div class="form-group">
 						    <label for="Team5" class="control-label">Team-5</label>
-							
-						       <input id="Team5" class="form-control" type="text" name="Team5" maxlength="255" value="<?php echo set_value('Team5'); ?>"  />
-								 <?php echo form_error('Team5'); ?>
-			
+							<input id="Team5" class="form-control" type="text" name="Team5" maxlength="255" value="<?php echo set_value('Team5'); ?>"  />
+							<?php echo form_error('Team5'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="TeamSplit6" class="control-label">Team Split-6</label>

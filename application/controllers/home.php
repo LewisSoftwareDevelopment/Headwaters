@@ -18,14 +18,7 @@ class Home extends CI_Controller {
 		//Sets the layout to be home_layout (/views/layouts/home_layout.php)
 		$this->stencil->layout('home_layout');
 
-		//Adds Font-Awesome to the homepage (/assets/css/font-awesome.css)
-		//$this->stencil->js(array('flot/flot.min','flot/flot.resize.min'));
 
-		//Sets the variable $welcome_text to be used in your views
-		//$this->stencil->data('welcome_text', 'Welcome to Stencil!');
-
-		//Mixes everything together and loads the home_view as the $content variable in the layout
-		//home_view is located here: /views/pages/home_view.php
 		$this->stencil->paint('home_view');
 	}
 }

@@ -108,7 +108,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array();
+$autoload['model'] = array('forms_model', 'inputs_model');
 
 
 /* End of file autoload.php */

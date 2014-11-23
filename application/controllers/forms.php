@@ -7,11 +7,7 @@ class Forms extends CI_Controller {
 		parent::__construct();	
 		//Sets the variables for the slices
 		$this->stencil->slice(array('head','header','footer'));
-		$this->load->library('form_validation');
 		$this->load->database();
-		$this->load->helper('form');
-		$this->load->helper('url');
-		$this->load->model('forms_model');
 
 	}
 
@@ -38,7 +34,7 @@ class Forms extends CI_Controller {
 		//Sets the layout to be home_layout (/views/layouts/home_layout.php)
 		$this->stencil->layout('forms_layout');
 
-		$this->form_validation->set_rules('company', 'Company', 'max_length[255]');			
+		$this->form_validation->set_rules('Company', 'Company', 'max_length[255]');			
 		$this->form_validation->set_rules('ELDate', 'ELDate', 'max_length[255]');			
 		$this->form_validation->set_rules('IBCDate', 'IBCDate', 'max_length[255]');			
 		$this->form_validation->set_rules('EstCloseDate', 'EstCloseDate', 'max_length[255]');			
@@ -108,7 +104,7 @@ class Forms extends CI_Controller {
 		 	// build array for the model
 			
 			$form_data = array(
-					       	'company' => @$this->input->post('company'),
+					       	'Company' => @$this->input->post('Company'),
 					       	'ELDate' => @$this->input->post('ELDate'),
 					       	'IBCDate' => @$this->input->post('IBCDate'),
 					       	'EstCloseDate' => @$this->input->post('EstCloseDate'),
@@ -128,7 +124,7 @@ class Forms extends CI_Controller {
 					       	'FeeMinimum' => @$this->input->post('FeeMinimum'),
 					       	'EngagmentFee' => @$this->input->post('EngagmentFee'),
 					       	'FeeDetails' => @$this->input->post('FeeDetails'),
-					       	'SplitTo Corporate' => @$this->input->post('SplitToCorporate'),
+					       	'SplitToCorporate' => @$this->input->post('SplitToCorporate'),
 					       	'MonthlyRetainer' => @$this->input->post('MonthlyRetainer'),
 					       	'FinalTotalSucessFee' => @$this->input->post('FinalTotalSucessFee'),
 					       	'OwnershipClass' => @$this->input->post('OwnershipClass'),

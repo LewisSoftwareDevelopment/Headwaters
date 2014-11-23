@@ -18,10 +18,10 @@
 				<div class="headerbar">
 					<!--** MENU TOGGLE NEEDS TO BE KEPT-->
 					<a class="menutoggle"><i class="fa fa-bars"></i></a>
-					<!--** SEARCH FUNCTIONALITY NEEDS TO BE KEPT // MAYBE REMOVE LATER-->
+					<!--** SEARCH FUNCTIONALITY NEEDS TO BE KEPT // MAYBE REMOVE LATER
 					<form class="searchform" action="" method="post">
 						<input type="text" class="form-control" name="keyword" placeholder="Search here..." />
-					</form>
+					</form>-->
 				</div>
 				<!-- /headerbar -->
 				<?php echo $content; ?>

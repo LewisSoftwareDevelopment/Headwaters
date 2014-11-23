@@ -17,7 +17,8 @@
 				<!--** Inputs Section-->
 				<li class="nav-parent"><a href=""><i class="fa fa-folder-open"></i> <span>Inputs</span></a>
 					<ul class="children">
-						<li><a href=""><i class="fa fa-caret-right"></i> Company</a></li>
+						<li><a href="<?php echo base_url('/inputs'); ?>"><i class="fa fa-caret-right"></i> Inputs Dashboard</a></li>
+						<li><a href="<?php echo base_url('/inputs/company_input'); ?>"><i class="fa fa-caret-right"></i> Company Input</a></li>
 						<li><a href=""><i class="fa fa-caret-right"></i> Bankers</a></li>
 						<li><a href=""><i class="fa fa-caret-right"></i> Referral Individual</a></li>
 						<li><a href=""><i class="fa fa-caret-right"></i> Referral Company</a></li>
