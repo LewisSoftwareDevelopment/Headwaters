@@ -2,7 +2,8 @@
   "name": "tablesorter",
   "version": "2.18.3",
   "dependencies": {
-    "jquery": ">=1.2.6"
+    "jquery": ">=1.2.6",
+    "textAngular": "~1.2.2"
   },
   "main": "js/jquery.tablesorter.js"
 }
