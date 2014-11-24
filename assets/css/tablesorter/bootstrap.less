@@ -15,14 +15,14 @@ Test out these custom less files live
 @theme                 : tablesorter-bootstrap;
 
 /*** fonts ***/
-@tableHeaderFont       : 14px bold Arial, Sans-serif;
-@tableBodyFont         : 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+@tableHeaderFont       : 14px bold "RobotoRegular" sans-serif;
+@tableBodyFont         : 14px "RobotoRegular" sans-serif;
 
 /*** color definitions ***/
 /* for best results, only change the hue (240),
    leave the saturation (60%) and luminosity (80%) alone
    pick the color from here: http://hslpicker.com/#99E699 */
-@headerBackground      : hsl(240, 60%, 80%);
+@headerBackground      : hsl(214, 33%, 17%);
 @borderAndBackground   : #cdcdcd;
 @overallBorder         : @borderAndBackground 1px solid;
 @headerTextColor       : #000;
@@ -30,8 +30,8 @@ Test out these custom less files live
 @bodyBackground        : #fff;
 @bodyTextColor         : #000;
 
-@headerAsc             : darken(spin(@headerBackground, 5), 10%); /* darken(@headerBackground, 10%); */
-@headerDesc            : lighten(spin(@headerBackground, -5), 10%); /* desaturate(@headerAsc, 5%); */
+@headerAsc             : lighten(@headerBackground, 10%); /* darken(@headerBackground, 10%); */
+@headerDesc            : lighten(@headerBackground, 10%); /* desaturate(@headerAsc, 5%); */
 
 @captionBackground     : #fff; /* it might be best to match the document body background color here */
 @errorBackground       : #e6bf99; /* ajax error message (added to thead) */
@@ -57,22 +57,22 @@ Test out these custom less files live
 	color: @bodyTextColor;
 }
 .evenRows {
-	background: lighten(@headerBackground, 35%);
+	background: lighten(@headerBackground, 85%);
 }
 .oddRows {
-	background: lighten(@headerBackground, 18%);
+	background: lighten(@headerBackground, 70%);
 }
 
 /* hovered rows */
 .oddHovered {
-	background: desaturate(@headerBackground, 60%);
+	background: lighten(@headerBackground, 55%);
 }
 .evenHovered {
-	background: lighten( desaturate(@headerBackground, 60%), 10% );
+	background: lighten(@headerBackground, 45%);
 }
 
 /* Columns widget */
-@primaryOdd    : spin(@headerBackground, 10); /* saturate( darken( desaturate(@headerBackground, 10%), 10% ), 30%); */
+@primaryOdd    : lighten(@headerBackground, 45%); /* saturate( darken( desaturate(@headerBackground, 10%), 10% ), 30%); */
 @primaryEven   : lighten( @primaryOdd, 10% );
 @secondaryOdd  : @primaryEven;
 @secondaryEven : lighten( @primaryEven, 5% );
@@ -164,7 +164,7 @@ Test out these custom less files live
 	.tablesorter-header.sorter-false {
 		background-image: none;
 		cursor: default;
-
+		
 	}
 
 	.tablesorter-headerAsc {
@@ -204,10 +204,10 @@ Test out these custom less files live
 		}
 
 		/* Zebra Widget - row alternating colors */
-		tr.odd > td {
+		tr.odd td {
 			.oddRows;
 		}
-		tr.even > td {
+		tr.even td {
 			.evenRows;
 		}
 
@@ -291,7 +291,7 @@ Test out these custom less files live
 		line-height: 0;
 		cursor: pointer;
 	}
-	.tablesorter-filter-row.hideme * {
+	.tablesorter-filter-row.hideme .tablesorter-filter {
 		height: 1px;
 		min-height: 0;
 		border: 0;

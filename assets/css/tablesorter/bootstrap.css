@@ -1,0 +1,197 @@
+.allRows {
+  background: #ffffff;
+  color: #000000;
+}
+.evenRows {
+  background: #ffffff;
+}
+.oddRows {
+  background: #d3dce9;
+}
+.oddHovered {
+  background: #a0b4cf;
+}
+.evenHovered {
+  background: #7e9abe;
+}
+.filterWidgetTransition {
+  -webkit-transition: line-height 0.1s ease;
+  -moz-transition: line-height 0.1s ease;
+  -o-transition: line-height 0.1s ease;
+  transition: line-height 0.1s ease;
+}
+.iconPosition {
+  font-size: 11px;
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  margin-top: -7px;
+  width: 14px;
+  height: 14px;
+  background-repeat: no-repeat;
+  line-height: 14px;
+}
+.tablesorter-bootstrap {
+  font: 14px "RobotoRegular" sans-serif;
+  background-color: #cdcdcd;
+  width: 100%;
+}
+.tablesorter-bootstrap th,
+.tablesorter-bootstrap thead td {
+  font: 14px bold "RobotoRegular" sans-serif;
+  font-weight: bold;
+  background-color: #1d293a;
+  color: #e6e6e6;
+  border-collapse: collapse;
+  margin: 0 0 18px;
+  padding: 4px;
+}
+.tablesorter-bootstrap tbody td,
+.tablesorter-bootstrap tfoot th,
+.tablesorter-bootstrap tfoot td {
+  padding: 4px;
+  vertical-align: top;
+}
+.tablesorter-bootstrap .tablesorter-header {
+  cursor: pointer;
+}
+.tablesorter-bootstrap .tablesorter-header-inner {
+  position: relative;
+  padding: 4px 20px 4px 4px;
+}
+.tablesorter-bootstrap .tablesorter-header-inner i {
+  font-size: 11px;
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  margin-top: -7px;
+  width: 14px;
+  height: 14px;
+  background-repeat: no-repeat;
+  line-height: 14px;
+}
+.tablesorter-bootstrap .tablesorter-header.sorter-false {
+  background-image: none;
+  cursor: default;
+}
+.tablesorter-bootstrap .tablesorter-headerAsc {
+  background-color: #2e425c;
+}
+.tablesorter-bootstrap .tablesorter-headerDesc {
+  background-color: #2e425c;
+}
+.tablesorter-bootstrap .bootstrap-icon-unsorted {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOBAMAAAALT/umAAAAKlBMVEUAAAD///////////////////////////////////////////////////+Gu8ovAAAADXRSTlMA4EXKBtQqvR0+sxmalc142gAAAFdJREFUCNdjYGDoamAAAjZbMxCVfvd6AgMDd+3du9UMDKx3hWSvMjBwXZww8RYDGuC53NB8h4GB8a617UUGBs7Yu3cjGRhYVO9eVQFKOskKOQApFmUgBwBZ+xXRTttNdAAAAABJRU5ErkJggg==);
+  color: #e6e6e6;
+}
+.tablesorter-bootstrap tfoot .tablesorter-headerAsc,
+.tablesorter-bootstrap tfoot .tablesorter-headerDesc {
+  background-image: none;
+}
+.tablesorter-bootstrap .disabled {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  cursor: not-allowed;
+}
+.tablesorter-bootstrap tbody td {
+  background: #ffffff;
+  color: #000000;
+  padding: 4px;
+  vertical-align: top;
+}
+.tablesorter-bootstrap tbody tr.odd td {
+  background: #d3dce9;
+}
+.tablesorter-bootstrap tbody tr.even td {
+  background: #ffffff;
+}
+.tablesorter-bootstrap tbody > tr:hover td,
+.tablesorter-bootstrap tbody > tr:hover + tr.tablesorter-childRow > td,
+.tablesorter-bootstrap tbody > tr:hover + tr.tablesorter-childRow + tr.tablesorter-childRow > td,
+.tablesorter-bootstrap tbody > tr.even:hover > td,
+.tablesorter-bootstrap tbody > tr.even:hover + tr.tablesorter-childRow > td,
+.tablesorter-bootstrap tbody > tr.even:hover + tr.tablesorter-childRow + tr.tablesorter-childRow > td {
+  background: #7e9abe;
+}
+.tablesorter-bootstrap tbody > tr.odd:hover > td,
+.tablesorter-bootstrap tbody > tr.odd:hover + tr.tablesorter-childRow > td,
+.tablesorter-bootstrap tbody > tr.odd:hover + tr.tablesorter-childRow + tr.tablesorter-childRow > td {
+  background: #a0b4cf;
+}
+.tablesorter-bootstrap .tablesorter-processing {
+  background-image: url('data:image/gif;base64,R0lGODlhFAAUAKEAAO7u7lpaWgAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQBCgACACwAAAAAFAAUAAACQZRvoIDtu1wLQUAlqKTVxqwhXIiBnDg6Y4eyx4lKW5XK7wrLeK3vbq8J2W4T4e1nMhpWrZCTt3xKZ8kgsggdJmUFACH5BAEKAAIALAcAAAALAAcAAAIUVB6ii7jajgCAuUmtovxtXnmdUAAAIfkEAQoAAgAsDQACAAcACwAAAhRUIpmHy/3gUVQAQO9NetuugCFWAAAh+QQBCgACACwNAAcABwALAAACE5QVcZjKbVo6ck2AF95m5/6BSwEAIfkEAQoAAgAsBwANAAsABwAAAhOUH3kr6QaAcSrGWe1VQl+mMUIBACH5BAEKAAIALAIADQALAAcAAAIUlICmh7ncTAgqijkruDiv7n2YUAAAIfkEAQoAAgAsAAAHAAcACwAAAhQUIGmHyedehIoqFXLKfPOAaZdWAAAh+QQFCgACACwAAAIABwALAAACFJQFcJiXb15zLYRl7cla8OtlGGgUADs=');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.tablesorter-bootstrap tr.odd td.primary {
+  background-color: #7e9abe;
+}
+.tablesorter-bootstrap td.primary,
+.tablesorter-bootstrap tr.even td.primary {
+  background-color: #a0b4cf;
+}
+.tablesorter-bootstrap tr.odd td.secondary {
+  background-color: #a0b4cf;
+}
+.tablesorter-bootstrap td.secondary,
+.tablesorter-bootstrap tr.even td.secondary {
+  background-color: #b1c2d8;
+}
+.tablesorter-bootstrap tr.odd td.tertiary {
+  background-color: #b1c2d8;
+}
+.tablesorter-bootstrap td.tertiary,
+.tablesorter-bootstrap tr.even td.tertiary {
+  background-color: #c2cfe0;
+}
+.tablesorter-bootstrap caption {
+  background: #ffffff;
+}
+.tablesorter-bootstrap .tablesorter-filter-row input,
+.tablesorter-bootstrap .tablesorter-filter-row select {
+  width: 98%;
+  margin: 0;
+  padding: 4px;
+  color: #333333;
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: line-height 0.1s ease;
+  -moz-transition: line-height 0.1s ease;
+  -o-transition: line-height 0.1s ease;
+  transition: line-height 0.1s ease;
+}
+.tablesorter-bootstrap .tablesorter-filter-row td {
+  background: #eeeeee;
+  line-height: normal;
+  text-align: center;
+  -webkit-transition: line-height 0.1s ease;
+  -moz-transition: line-height 0.1s ease;
+  -o-transition: line-height 0.1s ease;
+  transition: line-height 0.1s ease;
+}
+.tablesorter-bootstrap .tablesorter-filter-row.hideme td {
+  padding: 2px;
+  margin: 0;
+  line-height: 0;
+  cursor: pointer;
+}
+.tablesorter-bootstrap .tablesorter-filter-row.hideme .tablesorter-filter {
+  height: 1px;
+  min-height: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.tablesorter-bootstrap .filtered {
+  display: none;
+}
+.tablesorter-bootstrap .tablesorter-errorRow td {
+  text-align: center;
+  cursor: pointer;
+  background-color: #e6bf99;
+}
