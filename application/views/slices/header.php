@@ -51,7 +51,7 @@
 					<ul class="children">
 						<li><a href="<?php echo base_url('/forms'); ?>"><i class="fa fa-caret-right"></i>Forms Dashboard</a></li>
 						<li><a href="<?php echo base_url('/forms/company_form'); ?>"><i class="fa fa-caret-right"></i>Company Form</a></li>
-						<li><a href=""><i class="fa fa-caret-right"></i> Form 2</a></li>
+						<li><a href="<?php echo base_url('/forms/actuals_form'); ?>"><i class="fa fa-caret-right"></i>Actuals Form</a></li>
 						<li><a href=""><i class="fa fa-caret-right"></i> Form 3</a></li>
 						<li><a href=""><i class="fa fa-caret-right"></i> Form 4</a></li>
 						<li><a href=""><i class="fa fa-caret-right"></i> Form 5</a></li>
