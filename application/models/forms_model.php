@@ -23,6 +23,15 @@ class Forms_model extends CI_Model
 		}
 		return FALSE;
 	}
+	function save_actuals_form($form_data)
+	{
+		$this->db->insert('actuals', $form_data);
+		if ($this->db->affected_rows() == '1')
+		{
+			return TRUE;
+		}
+		return FALSE;
+	}
 	
 }
 /* End of file forms_model.php */
