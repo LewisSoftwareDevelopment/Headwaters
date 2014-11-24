@@ -209,6 +209,73 @@ class Forms extends CI_Controller {
 			}
 		}
 	}
+	public function bankers_form()
+	{			
+		$this->form_validation->set_rules('FirstName', 'First Name', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('YTDLast', 'YTD Last', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('LastName', 'Last Name', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('Active', 'Active', 'trim|max_length[11]');			
+		$this->form_validation->set_rules('Name', 'Name', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('BudgetYear', 'Budget Year', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('StartDate', 'Start Date', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('YTDRevenue', 'YTD Revenue', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('LastYearRev', 'Last Year Rev', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('PriorYearRev', 'Prior Year Rev', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('LastYearRank', 'Last Year Rank', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('YTDClosing', 'YTD Closing', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('LastYearClosing', 'Last Year Closing', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('YTDIBC', 'YTD IBC', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('YTDEngagements', 'YTD Engagements', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('TotalCurrentEngagments', 'Total Current Engagments', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('Wheelhouse', 'Wheelhouse', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('Speculative', 'Speculative', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('Minimum', 'Minimum', 'trim|max_length[255]');
+			
+		$this->form_validation->set_error_delimiters('<br /><span class="error">', '</span>');
+	
+		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
+		{
+			$this->stencil->paint('forms/bankers_view');
+		}
+		else // passed validation proceed to post success logic
+		{
+		 	// build array for the model
+			
+			$form_data = array(
+					       	'FirstName' => @$this->input->post('FirstName'),
+					       	'YTDLast' => @$this->input->post('YTDLast'),
+					       	'LastName' => @$this->input->post('LastName'),
+					       	'Active' => @$this->input->post('Active'),
+					       	'Name' => @$this->input->post('Name'),
+					       	'BudgetYear' => @$this->input->post('BudgetYear'),
+					       	'StartDate' => @$this->input->post('StartDate'),
+					       	'YTDRevenue' => @$this->input->post('YTDRevenue'),
+					       	'LastYearRev' => @$this->input->post('LastYearRev'),
+					       	'PriorYearRev' => @$this->input->post('PriorYearRev'),
+					       	'LastYearRank' => @$this->input->post('LastYearRank'),
+					       	'YTDClosing' => @$this->input->post('YTDClosing'),
+					       	'LastYearClosing' => @$this->input->post('LastYearClosing'),
+					       	'YTDIBC' => @$this->input->post('YTDIBC'),
+					       	'YTDEngagements' => @$this->input->post('YTDEngagements'),
+					       	'TotalCurrentEngagments' => @$this->input->post('TotalCurrentEngagments'),
+					       	'Wheelhouse' => @$this->input->post('Wheelhouse'),
+					       	'Speculative' => @$this->input->post('Speculative'),
+					       	'Minimum' => @$this->input->post('Minimum')
+						);
+					
+			// run insert model to write data to db
+		
+			if ($this->forms_model->save_bankers_form($form_data) == TRUE) // the information has therefore been successfully saved in the db
+			{
+				redirect('forms');   // or whatever logic needs to occur
+			}
+			else
+			{
+				echo 'An error occurred saving your information. Please try again later';
+				// Or whatever error handling is necessary
+			}
+		}
+	}
 	public  function check_file($field,$field_value)
 	{
 		if(isset($this->custom_errors[$field_value]))

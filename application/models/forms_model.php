@@ -32,7 +32,15 @@ class Forms_model extends CI_Model
 		}
 		return FALSE;
 	}
-	
+	function save_bankers_form($form_data)
+	{
+		$this->db->insert('bankers', $form_data);
+		if ($this->db->affected_rows() == '1')
+		{
+			return TRUE;
+		}
+		return FALSE;
+	}
 }
 /* End of file forms_model.php */
-/* Location: ./application/models/jobs_model.php */
+/* Location: ./application/models/forms_model.php */
