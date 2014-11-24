@@ -8,16 +8,13 @@ class Forms extends CI_Controller {
 		//Sets the variables for the slices
 		$this->stencil->slice(array('head','header','footer'));
 		$this->load->database();
-
+		$this->stencil->layout('forms_layout');
 	}
 
 	public function index()
 	{
 		//Sets the variable $title to be used in your views
-		$this->stencil->title('Forms Dashboard');
-
-		//Sets the layout to be home_layout (/views/layouts/home_layout.php)
-		$this->stencil->layout('forms_layout');
+		$this->stencil->title('Forms Dashboard');		
 
 		//Sets the variable $welcome_text to be used in your views
 		//$this->stencil->data('welcome_text', 'Welcome to Stencil!');
@@ -174,6 +171,41 @@ class Forms extends CI_Controller {
 			{
 				echo 'An error occurred saving your information. Please try again later';
 				// Or whatever error handling is necessary
+			}
+		}
+	}
+	public function actuals_form()
+	{			
+		$this->form_validation->set_rules('ThisYearBudgetNet', 'This Year Budget Net', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('ThisYearBugetGross', 'This Year Buget Gross', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('YTDNetActual', 'YTD Net Actual', 'trim|max_length[255]');
+			
+		$this->form_validation->set_error_delimiters('<br /><span class="error">', '</span>');
+	
+		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
+		{
+			$this->stencil->paint('forms/actuals_view');
+		}
+		else // passed validation proceed to post success logic
+		{
+		 	// build array for the model
+			
+			$form_data = array(
+					       	'ThisYearBudgetNet' => @$this->input->post('ThisYearBudgetNet'),
+					       	'ThisYearBugetGross' => @$this->input->post('ThisYearBugetGross'),
+					       	'YTDNetActual' => @$this->input->post('YTDNetActual')
+						);
+					
+			// run insert model to write data to db
+		
+			if ($this->forms_model->save_actuals_form($form_data) == TRUE) // the information has therefore been successfully saved in the db
+			{
+				redirect('forms/success');   // or whatever logic needs to occur
+			}
+			else
+			{
+			echo 'An error occurred saving your information. Please try again later';
+			// Or whatever error handling is necessary
 			}
 		}
 	}
