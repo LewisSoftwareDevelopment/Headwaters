@@ -86,6 +86,15 @@ class Forms_model extends CI_Model
 		}
 		return FALSE;
 	}
+	function save_ssvsop_form($form_data)
+	{
+		$this->db->insert('ssvsop', $form_data);
+		if ($this->db->affected_rows() == '1')
+		{
+			return TRUE;
+		}
+		return FALSE;
+	}
 }
 /* End of file forms_model.php */
 /* Location: ./application/models/forms_model.php */
