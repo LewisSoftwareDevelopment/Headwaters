@@ -329,6 +329,93 @@ class Forms extends CI_Controller {
 			}
 		}
 	}
+	public function in_market_loi_form()
+	{			
+		$this->form_validation->set_rules('January', 'January', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('Febuary', 'Febuary', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('March', 'March', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('April', 'April', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('May', 'May', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('June', 'June', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('July', 'July', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('August', 'August', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('September', 'September', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('October', 'October', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('November', 'November', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('December', 'December', 'trim|max_length[255]');
+			
+		$this->form_validation->set_error_delimiters('<br /><span class="error">', '</span>');
+	
+		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
+		{
+			$this->stencil->paint('forms/inmarketloi_view');
+		}
+		else // passed validation proceed to post success logic
+		{
+		 	// build array for the model
+			
+			$form_data = array(
+					       	'January' => @$this->input->post('January'),
+					       	'Febuary' => @$this->input->post('Febuary'),
+					       	'March' => @$this->input->post('March'),
+					       	'April' => @$this->input->post('April'),
+					       	'May' => @$this->input->post('May'),
+					       	'June' => @$this->input->post('June'),
+					       	'July' => @$this->input->post('July'),
+					       	'August' => @$this->input->post('August'),
+					       	'September' => @$this->input->post('September'),
+					       	'October' => @$this->input->post('October'),
+					       	'November' => @$this->input->post('November'),
+					       	'December' => @$this->input->post('December')
+						);
+					
+			// run insert model to write data to db
+		
+			if ($this->forms_model->save_in_market_loi_form($form_data) == TRUE) // the information has therefore been successfully saved in the db
+			{
+				redirect('forms');   // or whatever logic needs to occur
+			}
+			else
+			{
+			echo 'An error occurred saving your information. Please try again later';
+			// Or whatever error handling is necessary
+			}
+		}
+	}
+	public function nda_per_month_form()
+	{			
+		$this->form_validation->set_rules('Date', 'Date', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('TotalPerMonth', 'TotalPerMonth', 'trim|max_length[255]');
+			
+		$this->form_validation->set_error_delimiters('<br /><span class="error">', '</span>');
+	
+		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
+		{
+			$this->stencil->paint('forms/nda_per_month_view');
+		}
+		else // passed validation proceed to post success logic
+		{
+		 	// build array for the model
+			
+			$form_data = array(
+					       	'Date' => @$this->input->post('Date'),
+					       	'TotalPerMonth' => @$this->input->post('TotalPerMonth')
+						);
+					
+			// run insert model to write data to db
+		
+			if ($this->forms_model->save_nda_per_month_form($form_data) == TRUE) // the information has therefore been successfully saved in the db
+			{
+				redirect('forms');   // or whatever logic needs to occur
+			}
+			else
+			{
+			echo 'An error occurred saving your information. Please try again later';
+			// Or whatever error handling is necessary
+			}
+		}
+	}
+
 	public  function check_file($field,$field_value)
 	{
 		if(isset($this->custom_errors[$field_value]))

@@ -50,6 +50,24 @@ class Forms_model extends CI_Model
 		}
 		return FALSE;
 	}
+	function save_in_market_loi_form($form_data)
+	{
+		$this->db->insert('in_market_loi', $form_data);
+		if ($this->db->affected_rows() == '1')
+		{
+			return TRUE;
+		}
+		return FALSE;
+	}
+	function save_nda_per_month_form($form_data)
+	{
+		$this->db->insert('nda_per_month', $form_data);
+		if ($this->db->affected_rows() == '1')
+		{
+			return TRUE;
+		}
+		return FALSE;
+	}
 }
 /* End of file forms_model.php */
 /* Location: ./application/models/forms_model.php */
