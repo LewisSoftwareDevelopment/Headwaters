@@ -95,6 +95,15 @@ class Forms_model extends CI_Model
 		}
 		return FALSE;
 	}
+	function save_utilization_targets_form($form_data)
+	{
+		$this->db->insert('utilization_targets', $form_data);
+		if ($this->db->affected_rows() == '1')
+		{
+			return TRUE;
+		}
+		return FALSE;
+	}
 }
 /* End of file forms_model.php */
 /* Location: ./application/models/forms_model.php */

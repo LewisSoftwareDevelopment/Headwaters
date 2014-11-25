@@ -540,7 +540,53 @@ class Forms extends CI_Controller {
 			}
 		}
 	}
-
+	public function utilization_targets_form()
+	{			
+		$this->form_validation->set_rules('IBCPerMD', 'IBC Per MD', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('IBCTotalMD', 'IBC Total MD', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('IBCYTDTarget', 'IBC YTD Target', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('ELPerMD', 'EL Per MD', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('ELTotalMD', 'EL Total MD', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('ELYTDTarget', 'ELY TD Target', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('ClosingPerMD', 'Closing Per MD', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('ClosingTotalMD', 'Closing Total MD', 'trim|max_length[255]');			
+		$this->form_validation->set_rules('ClosingYTDMD', 'Closing YTD MD', 'trim|max_length[255]');
+			
+		$this->form_validation->set_error_delimiters('<br /><span class="error">', '</span>');
+	
+		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
+		{
+			$this->stencil->paint('forms/utilization_targets_view');
+		}
+		else // passed validation proceed to post success logic
+		{
+		 	// build array for the model
+			
+			$form_data = array(
+					       	'IBCPerMD' => @$this->input->post('IBCPerMD'),
+					       	'IBCTotalMD' => @$this->input->post('IBCTotalMD'),
+					       	'IBCYTDTarget' => @$this->input->post('IBCYTDTarget'),
+					       	'ELPerMD' => @$this->input->post('ELPerMD'),
+					       	'ELTotalMD' => @$this->input->post('ELTotalMD'),
+					       	'ELYTDTarget' => @$this->input->post('ELYTDTarget'),
+					       	'ClosingPerMD' => @$this->input->post('ClosingPerMD'),
+					       	'ClosingTotalMD' => @$this->input->post('ClosingTotalMD'),
+					       	'ClosingYTDMD' => @$this->input->post('ClosingYTDMD')
+						);
+					
+			// run insert model to write data to db
+		
+			if ($this->forms_model->save_utilization_targets_form($form_data) == TRUE) // the information has therefore been successfully saved in the db
+			{
+				redirect('forms');   // or whatever logic needs to occur
+			}
+			else
+			{
+			echo 'An error occurred saving your information. Please try again later';
+			// Or whatever error handling is necessary
+			}
+		}
+	}
 	public  function check_file($field,$field_value)
 	{
 		if(isset($this->custom_errors[$field_value]))
