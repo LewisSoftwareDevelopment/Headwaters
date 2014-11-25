@@ -21,13 +21,13 @@
 						<li><a href="<?php echo base_url('/inputs/company_input'); ?>"><i class="fa fa-caret-right"></i> Company Input</a></li>
 						<li><a href="<?php echo base_url('/inputs/bankers_input'); ?>"><i class="fa fa-caret-right"></i>Bankers</a></li>
 						<li><a href="<?php echo base_url('/inputs/referral_individual_input'); ?>"><i class="fa fa-caret-right"></i>Referral Individual</a></li>
-						<li><a href=""><i class="fa fa-caret-right"></i>Referral Company</a></li>
-						<li><a href=""><i class="fa fa-caret-right"></i>NDA Per Month</a></li>
-						<li><a href=""><i class="fa fa-caret-right"></i>Ellive</a></li>
-						<li><a href=""><i class="fa fa-caret-right"></i>In Market LOI</a></li>
-						<li><a href=""><i class="fa fa-caret-right"></i>Utilization Targets</a></li>
+						<li><a href="<?php echo base_url('/inputs/referral_company_input'); ?>"><i class="fa fa-caret-right"></i>Referral Company</a></li>
+						<li><a href="<?php echo base_url('/inputs/nda_per_month_input'); ?>"><i class="fa fa-caret-right"></i>NDA Per Month</a></li>
+						<li><a href="<?php echo base_url('/inputs/ellive_input'); ?>"><i class="fa fa-caret-right"></i>Ellive</a></li>
+						<li><a href="<?php echo base_url('/inputs/in_market_loi_input'); ?>"><i class="fa fa-caret-right"></i>In Market LOI</a></li>
+						<li><a href="<?php echo base_url('/inputs/utilization_targets_input'); ?>"><i class="fa fa-caret-right"></i>Utilization Targets</a></li>
 						<li><a href="<?php echo base_url('/inputs/actuals_input'); ?>"><i class="fa fa-caret-right"></i> Actuals</a></li>
-						<li><a href=""><i class="fa fa-caret-right"></i>SSVSOP</a></li>
+						<li><a href="<?php echo base_url('/inputs/ssvsop_input'); ?>"><i class="fa fa-caret-right"></i>SSVSOP</a></li>
 					</ul>
 				</li>
 

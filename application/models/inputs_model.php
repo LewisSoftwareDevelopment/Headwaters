@@ -23,7 +23,17 @@ class Inputs_model extends CI_Model {
 		return $company_input_query->result();
 		
 	}	
-
+	function get_banker_input()
+	{
+		$banker_input_query = $this->db->get('bankers');
+		
+		if (!$banker_input_query)
+		{
+			return false;
+		}
+		return $banker_input_query->result();
+		
+	}	
 }
 
 /* End of file inputs_model.php */
