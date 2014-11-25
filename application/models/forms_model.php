@@ -77,6 +77,15 @@ class Forms_model extends CI_Model
 		}
 		return FALSE;
 	}
+	function save_referral_individual_form($form_data)
+	{
+		$this->db->insert('referral_individual', $form_data);
+		if ($this->db->affected_rows() == '1')
+		{
+			return TRUE;
+		}
+		return FALSE;
+	}
 }
 /* End of file forms_model.php */
 /* Location: ./application/models/forms_model.php */
