@@ -1,4 +1,4 @@
-<fieldset><legend>actuals_view</legend>
+<fieldset><legend>actuals_form</legend>
  <?php     
 $attributes = array('class' => 'form-horizontal', 'id' => '');
 echo form_open('forms/actuals_form', $attributes); ?>
