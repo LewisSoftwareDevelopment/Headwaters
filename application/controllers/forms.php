@@ -415,6 +415,37 @@ class Forms extends CI_Controller {
 			}
 		}
 	}
+	public function referral_company_form()
+	{			
+		$this->form_validation->set_rules('Name', 'Name', 'trim|max_length[255]');
+			
+		$this->form_validation->set_error_delimiters('<br /><span class="error">', '</span>');
+	
+		if ($this->form_validation->run() == FALSE) // validation hasn't been passed
+		{
+			$this->stencil->paint('forms/referral_company_view');
+		}
+		else // passed validation proceed to post success logic
+		{
+		 	// build array for the model
+			
+			$form_data = array(
+					       	'Name' => @$this->input->post('Name')
+						);
+					
+			// run insert model to write data to db
+		
+			if ($this->forms_model->save_referral_company_form($form_data) == TRUE) // the information has therefore been successfully saved in the db
+			{
+				redirect('forms');   // or whatever logic needs to occur
+			}
+			else
+			{
+			echo 'An error occurred saving your information. Please try again later';
+			// Or whatever error handling is necessary
+			}
+		}
+	}
 
 	public  function check_file($field,$field_value)
 	{
