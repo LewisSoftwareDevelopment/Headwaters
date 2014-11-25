@@ -53,7 +53,7 @@
 						<li><a href="<?php echo base_url('/forms/actuals_form'); ?>"><i class="fa fa-caret-right"></i>Actuals Form</a></li>
 						<li><a href="<?php echo base_url('/forms/bankers_form'); ?>"><i class="fa fa-caret-right"></i>Bankers Form</a></li>
 						<li><a href="<?php echo base_url('/forms/ellive_form'); ?>"><i class="fa fa-caret-right"></i>Ellive Form</a></li>
-						<li><a href="<?php echo base_url('/forms/in_market_loi_form'); ?>"><i class="fa fa-caret-right"></i>Actuals Form</a></li>
+						<li><a href="<?php echo base_url('/forms/in_market_loi_form'); ?>"><i class="fa fa-caret-right"></i>In Market LOI Form</a></li>
 						<li><a href="<?php echo base_url('/forms/nda_per_month_form'); ?>"><i class="fa fa-caret-right"></i>NDA per Month Form</a></li>
 						<li><a href="<?php echo base_url('/forms/referral_company_form'); ?>"><i class="fa fa-caret-right"></i>Referral Company Form</a></li>
 						<li><a href="<?php echo base_url('/forms/referral_individual_form'); ?>"><i class="fa fa-caret-right"></i>Referral Individual Form</a></li>
