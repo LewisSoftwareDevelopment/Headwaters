@@ -25,11 +25,11 @@ class Inputs extends CI_Controller {
 		//Sets the variable $title to be used in your views
 		$this->stencil->title('Company Input');
 
-			$data['company_input'] = $this->inputs_model->get_company_input();
+		$data['company_input'] = $this->inputs_model->get_company_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
 		$this->stencil->paint('inputs/company_input_view',$data);
 
@@ -41,9 +41,9 @@ class Inputs extends CI_Controller {
 
 		$data['banker_input'] = $this->inputs_model->get_banker_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
 		$this->stencil->paint('inputs/bankers_input_view',$data);
 
@@ -65,15 +65,15 @@ class Inputs extends CI_Controller {
 	public function referral_company_input()
 	{
 		//Sets the variable $title to be used in your views
-		$this->stencil->title('Bankers Input');
+		$this->stencil->title('Referral Company Input');
 
-		//$data['company_input'] = $this->inputs_model->get_company_input();
+		$data['referral_company_input'] = $this->inputs_model->get_referral_company_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";,$data
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
-		$this->stencil->paint('inputs/referral_company_input_view');
+		$this->stencil->paint('inputs/referral_company_input_view',$data);
 
 	}
 	public function nda_per_month_input()
@@ -81,13 +81,13 @@ class Inputs extends CI_Controller {
 		//Sets the variable $title to be used in your views
 		$this->stencil->title('NDA Per Month Input');
 
-		//$data['company_input'] = $this->inputs_model->get_company_input();
+		$data['nda_per_month_input'] = $this->inputs_model->get_nda_per_month_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";,$data
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
-		$this->stencil->paint('inputs/nda_per_month_input_view');
+		$this->stencil->paint('inputs/nda_per_month_input_view',$data);
 
 	}
 	public function ellive_input()
@@ -95,13 +95,13 @@ class Inputs extends CI_Controller {
 		//Sets the variable $title to be used in your views
 		$this->stencil->title('Elive Input');
 
-		//$data['company_input'] = $this->inputs_model->get_company_input();
+		$data['ellive_input'] = $this->inputs_model->get_ellive_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";,$data
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
-		$this->stencil->paint('inputs/ellive_input_view');
+		$this->stencil->paint('inputs/ellive_input_view',$data);
 
 	}
 	public function in_market_loi_input()
@@ -109,13 +109,13 @@ class Inputs extends CI_Controller {
 		//Sets the variable $title to be used in your views
 		$this->stencil->title('In Market LOI Input');
 
-		//$data['company_input'] = $this->inputs_model->get_company_input();
+		$data['in_market_loi_input'] = $this->inputs_model->get_in_market_loi_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";,$data
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
-		$this->stencil->paint('inputs/in_market_loi_input_view');
+		$this->stencil->paint('inputs/in_market_loi_input_view',$data);
 
 	}
 	public function utilization_targets_input()
@@ -123,13 +123,13 @@ class Inputs extends CI_Controller {
 		//Sets the variable $title to be used in your views
 		$this->stencil->title('In Market LOI Input');
 
-		//$data['company_input'] = $this->inputs_model->get_company_input();
+		$data['utilization_targets_input'] = $this->inputs_model->get_utilization_targets_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";,$data
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
-		$this->stencil->paint('inputs/utilization_targets_input_view');
+		$this->stencil->paint('inputs/utilization_targets_input_view',$data);
 
 	}
 	public function actuals_input()
@@ -137,13 +137,13 @@ class Inputs extends CI_Controller {
 		//Sets the variable $title to be used in your views
 		$this->stencil->title('Actuals Input');
 
-		//$data['company_input'] = $this->inputs_model->get_company_input();
+		$data['actuals_input'] = $this->inputs_model->get_actuals_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";,$data
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
-		$this->stencil->paint('inputs/actuals_input_view');
+		$this->stencil->paint('inputs/actuals_input_view',$data);
 
 	}
 	public function ssvsop_input()
@@ -151,13 +151,13 @@ class Inputs extends CI_Controller {
 		//Sets the variable $title to be used in your views
 		$this->stencil->title('SSVSOP Input');
 
-		//$data['company_input'] = $this->inputs_model->get_company_input();
+		$data['ssvsop_input'] = $this->inputs_model->get_ssvsop_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";,$data
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
-		$this->stencil->paint('inputs/ssvsop_input_view');
+		$this->stencil->paint('inputs/ssvsop_input_view',$data);
 
 	}
 }
