@@ -24,17 +24,17 @@
 						<div class="panel-body">
 							<div class="form-group">
 								<label for="ThisYearBudgetNet" class="control-label">This Year Budget Net</label>
-								<input id="ThisYearBudgetNet" type="text" name="ThisYearBudgetNet" maxlength="255" value="<?php echo set_value('ThisYearBudgetNet'); ?>"  />
+								<input id="ThisYearBudgetNet" class="form-control" type="text" name="ThisYearBudgetNet" maxlength="255" value="<?php echo set_value('ThisYearBudgetNet'); ?>"  />
 								<?php echo form_error('ThisYearBudgetNet'); ?>
 							</div>
 							<div class="form-group">
 								<label for="ThisYearBugetGross" class="control-label">This Year Buget Gross</label>
-								<input id="ThisYearBugetGross" type="text" name="ThisYearBugetGross" maxlength="255" value="<?php echo set_value('ThisYearBugetGross'); ?>"  />
+								<input id="ThisYearBugetGross" class="form-control" type="text" name="ThisYearBugetGross" maxlength="255" value="<?php echo set_value('ThisYearBugetGross'); ?>"  />
 								<?php echo form_error('ThisYearBugetGross'); ?>
 							</div>
 							<div class="form-group">
 								<label for="YTDNetActual" class="control-label">YTD Net Actual</label>
-								<input id="YTDNetActual" type="text" name="YTDNetActual" maxlength="255" value="<?php echo set_value('YTDNetActual'); ?>"  />
+								<input id="YTDNetActual" class="form-control" type="text" name="YTDNetActual" maxlength="255" value="<?php echo set_value('YTDNetActual'); ?>"  />
 								<?php echo form_error('YTDNetActual'); ?>
 							</div>
 							<div class="form-group">
@@ -43,9 +43,9 @@
 									    'name' => 'button',
 									    'class' => 'btn btn-lg btn-block btn-darkblue',
 									    'id' => 'actuals-button',
-									    'value' => 'Add a Actuals record',
+									    'value' => 'Add an Actuals record',
 									    'type' => 'submit',
-									    'content' => 'Add a Company record'
+									    'content' => 'Add an Actuals record'
 									);
 									echo form_submit($attributes); ?>
 							</div>
