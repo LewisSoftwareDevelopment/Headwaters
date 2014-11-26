@@ -33,6 +33,17 @@ class Inputs_model extends CI_Model {
 		}
 		return $banker_input_query->result();
 		
+	}
+	function get_referral_individual_input()
+	{
+		$referral_individual_input_query = $this->db->get('referral_individual');
+		
+		if (!$referral_individual_input_query)
+		{
+			return false;
+		}
+		return $referral_individual_input_query->result();
+		
 	}	
 }
 

@@ -51,15 +51,15 @@ class Inputs extends CI_Controller {
 	public function referral_individual_input()
 	{
 		//Sets the variable $title to be used in your views
-		$this->stencil->title('Bankers Input');
+		$this->stencil->title('Referral Individual Input');
 
-		//$data['company_input'] = $this->inputs_model->get_company_input();
+		$data['referral_individual_input'] = $this->inputs_model->get_referral_individual_input();
 		
-		// echo "<pre style='padding-top:75px;'>";
-		// var_dump($data);
-		// echo "</pre>";,$data
+		echo "<pre style='padding-top:75px;'>";
+		var_dump($data);
+		echo "</pre>";
 
-		$this->stencil->paint('inputs/referral_individual_input_view');
+		$this->stencil->paint('inputs/referral_individual_input_view', $data);
 
 	}
 	public function referral_company_input()
