@@ -13,14 +13,18 @@
 		$attributes = array('class' => 'form-horizontal form-bordered', 'id' => '');
 		echo form_open('forms/company_form', $attributes); ?>
 		<div class="row">
+
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
 				<div class="panel panel-primary">
+
 					<div class="panel-heading">
 						<div class="panel-btns">
 							<a href="" class="minimize">−</a>
 						</div><!-- panel-btns -->
 						<h3 class="panel-title">Company Group 1</h3>
 					</div>
+
 					<div class="panel-body">
 						<div class="form-group">
 						    <label for="Company" class="control-label">Company</label>
@@ -73,14 +77,18 @@
 							<?php echo form_error('DeadDate'); ?>
 						</div>
 					</div>
-				</div>	
+
+				</div>
+
 				<div class="panel panel-primary">
+
 					<div class="panel-heading">
 						<div class="panel-btns">
 							<a href="" class="minimize">−</a>
 						</div><!-- panel-btns -->
 						<h3 class="panel-title">Company Group 2</h3>
 					</div>
+
 					<div class="panel-body">
 						<div class="form-group">
 						    <label for="PrimaryBanker" class="control-label">PrimaryBanker</label>
@@ -99,193 +107,154 @@
 						</div>
 						<div class="form-group">
 						    <label for="ProjectedTransactionSize" class="control-label">Projected Transaction Size</label>
-							
-						       <input id="ProjectedTransactionSize" class="form-control" type="text" name="ProjectedTransactionSize" maxlength="255" value="<?php echo set_value('ProjectedTransactionSize'); ?>"  />
-								 <?php echo form_error('ProjectedTransactionSize'); ?>
-						
+						    <input id="ProjectedTransactionSize" class="form-control" type="text" name="ProjectedTransactionSize" maxlength="255" value="<?php echo set_value('ProjectedTransactionSize'); ?>"  />
+							<?php echo form_error('ProjectedTransactionSize'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="EnterpiseValue" class="control-label">Enterpise Value</label>
-							
-						       <input id="EnterpiseValue" class="form-control" type="text" name="EnterpiseValue" maxlength="255" value="<?php echo set_value('EnterpiseValue'); ?>"  />
-								 <?php echo form_error('EnterpiseValue'); ?>
-						
+							<input id="EnterpiseValue" class="form-control" type="text" name="EnterpiseValue" maxlength="255" value="<?php echo set_value('EnterpiseValue'); ?>"  />
+							<?php echo form_error('EnterpiseValue'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="FinalTransactionSize" class="control-label">Final Transaction Size</label>
-							
-						       <input id="FinalTransactionSize" class="form-control" type="text" name="FinalTransactionSize" maxlength="255" value="<?php echo set_value('FinalTransactionSize'); ?>"  />
-								 <?php echo form_error('FinalTransactionSize'); ?>
-						
+						    <input id="FinalTransactionSize" class="form-control" type="text" name="FinalTransactionSize" maxlength="255" value="<?php echo set_value('FinalTransactionSize'); ?>"  />
+							<?php echo form_error('FinalTransactionSize'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="ProjectedFee" class="control-label">Projected Fee</label>
-							
-						       <input id="ProjectedFee" class="form-control" type="text" name="ProjectedFee" maxlength="255" value="<?php echo set_value('ProjectedFee'); ?>"  />
-								 <?php echo form_error('ProjectedFee'); ?>
-						
+						    <input id="ProjectedFee" class="form-control" type="text" name="ProjectedFee" maxlength="255" value="<?php echo set_value('ProjectedFee'); ?>"  />
+							<?php echo form_error('ProjectedFee'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="FeeMinimum" class="control-label">Fee Minimum</label>
-							
-						       <input id="FeeMinimum" class="form-control" type="text" name="FeeMinimum" maxlength="255" value="<?php echo set_value('FeeMinimum'); ?>"  />
-								 <?php echo form_error('FeeMinimum'); ?>
-						
+						    <input id="FeeMinimum" class="form-control" type="text" name="FeeMinimum" maxlength="255" value="<?php echo set_value('FeeMinimum'); ?>"  />
+							<?php echo form_error('FeeMinimum'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="EngagmentFee" class="control-label">Engagment Fee</label>
-							
-						       <input id="EngagmentFee" class="form-control" type="text" name="EngagmentFee" maxlength="255" value="<?php echo set_value('EngagmentFee'); ?>"  />
-								 <?php echo form_error('EngagmentFee'); ?>
-					
+						    <input id="EngagmentFee" class="form-control" type="text" name="EngagmentFee" maxlength="255" value="<?php echo set_value('EngagmentFee'); ?>"  />
+							<?php echo form_error('EngagmentFee'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="FeeDetails" class="control-label">Fee Details</label>
-							
-						       <input id="FeeDetails" class="form-control" type="text" name="FeeDetails" maxlength="255" value="<?php echo set_value('FeeDetails'); ?>"  />
-								 <?php echo form_error('FeeDetails'); ?>
-					
+						    <input id="FeeDetails" class="form-control" type="text" name="FeeDetails" maxlength="255" value="<?php echo set_value('FeeDetails'); ?>"  />
+							<?php echo form_error('FeeDetails'); ?>
 						</div>
 					</div>
-				</div>		
+
+				</div>	
+
 				<div class="panel panel-primary">
+
 					<div class="panel-heading">
 						<div class="panel-btns">
 							<a href="" class="minimize">−</a>
 						</div><!-- panel-btns -->
 						<h3 class="panel-title">Company Group 3</h3>
 					</div>
+
 					<div class="panel-body">
 						<div class="form-group">
-						    <label for="SplitToCorporate" class="control-label">SplitTo Corporate</label>
-							
-						       <input id="SplitToCorporate" class="form-control" type="text" name="SplitToCorporate" maxlength="255" value="<?php echo set_value('SplitToCorporate'); ?>"  />
-								 <?php echo form_error('SplitToCorporate'); ?>
-						
+							<label for="SplitToCorporate" class="control-label">SplitTo Corporate</label>
+						    <input id="SplitToCorporate" class="form-control" type="text" name="SplitToCorporate" maxlength="255" value="<?php echo set_value('SplitToCorporate'); ?>"  />
+							<?php echo form_error('SplitToCorporate'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="MonthlyRetainer" class="control-label">MonthlyRetainer</label>
-							
-						       <input id="MonthlyRetainer" class="form-control" type="text" name="MonthlyRetainer" maxlength="255" value="<?php echo set_value('MonthlyRetainer'); ?>"  />
-								 <?php echo form_error('MonthlyRetainer'); ?>
-				
+						    <input id="MonthlyRetainer" class="form-control" type="text" name="MonthlyRetainer" maxlength="255" value="<?php echo set_value('MonthlyRetainer'); ?>"  />
+							<?php echo form_error('MonthlyRetainer'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="FinalTotalSucessFee" class="control-label">FinalTotalSucessFee</label>
-							
-						       <input id="FinalTotalSucessFee" class="form-control" type="text" name="FinalTotalSucessFee" maxlength="255" value="<?php echo set_value('FinalTotalSucessFee'); ?>"  />
-								 <?php echo form_error('FinalTotalSucessFee'); ?>
-					
+						    <input id="FinalTotalSucessFee" class="form-control" type="text" name="FinalTotalSucessFee" maxlength="255" value="<?php echo set_value('FinalTotalSucessFee'); ?>"  />
+							<?php echo form_error('FinalTotalSucessFee'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="OwnershipClass" class="control-label">OwnershipClass</label>
-							
-						       <input id="OwnershipClass" class="form-control" type="text" name="OwnershipClass" maxlength="255" value="<?php echo set_value('OwnershipClass'); ?>"  />
-								 <?php echo form_error('OwnershipClass'); ?>
-					
+							<input id="OwnershipClass" class="form-control" type="text" name="OwnershipClass" maxlength="255" value="<?php echo set_value('OwnershipClass'); ?>"  />
+							<?php echo form_error('OwnershipClass'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="ReferralType" class="control-label">ReferralType</label>
-							
-						       <input id="ReferralType" class="form-control" type="text" name="ReferralType" maxlength="255" value="<?php echo set_value('ReferralType'); ?>"  />
-								 <?php echo form_error('ReferralType'); ?>
-						
+						    <input id="ReferralType" class="form-control" type="text" name="ReferralType" maxlength="255" value="<?php echo set_value('ReferralType'); ?>"  />
+							<?php echo form_error('ReferralType'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="ReferralSourceCompany" class="control-label">ReferralSourceCompany</label>
-							
-						       <input id="ReferralSourceCompany" class="form-control" type="text" name="ReferralSourceCompany" maxlength="255" value="<?php echo set_value('ReferralSourceCompany'); ?>"  />
-								 <?php echo form_error('ReferralSourceCompany'); ?>
-			
+						    <input id="ReferralSourceCompany" class="form-control" type="text" name="ReferralSourceCompany" maxlength="255" value="<?php echo set_value('ReferralSourceCompany'); ?>"  />
+							<?php echo form_error('ReferralSourceCompany'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="ReferralScourceInd" class="control-label">ReferralScourceInd</label>
-							
-						       <input id="ReferralScourceInd" class="form-control" type="text" name="ReferralScourceInd" maxlength="255" value="<?php echo set_value('ReferralScourceInd'); ?>"  />
-								 <?php echo form_error('ReferralScourceInd'); ?>
-				
+						    <input id="ReferralScourceInd" class="form-control" type="text" name="ReferralScourceInd" maxlength="255" value="<?php echo set_value('ReferralScourceInd'); ?>"  />
+							<?php echo form_error('ReferralScourceInd'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="Description" class="control-label">Description</label>
-							
-						       <input id="Description" class="form-control" type="text" name="Description" maxlength="255" value="<?php echo set_value('Description'); ?>"  />
-								 <?php echo form_error('Description'); ?>
-					
+						    <input id="Description" class="form-control" type="text" name="Description" maxlength="255" value="<?php echo set_value('Description'); ?>"  />
+							<?php echo form_error('Description'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="TeamSplit1" class="control-label">TeamSplit1</label>
-							
-						       <input id="TeamSplit1" class="form-control" type="text" name="TeamSplit1" maxlength="255" value="<?php echo set_value('TeamSplit1'); ?>"  />
-								 <?php echo form_error('TeamSplit1'); ?>
-					
+						    <input id="TeamSplit1" class="form-control" type="text" name="TeamSplit1" maxlength="255" value="<?php echo set_value('TeamSplit1'); ?>"  />
+							<?php echo form_error('TeamSplit1'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="Team1" class="control-label">Team1</label>
-							
-						       <input id="Team1" class="form-control" type="text" name="Team1" maxlength="255" value="<?php echo set_value('Team1'); ?>"  />
-								 <?php echo form_error('Team1'); ?>
-				
+						    <input id="Team1" class="form-control" type="text" name="Team1" maxlength="255" value="<?php echo set_value('Team1'); ?>"  />
+							<?php echo form_error('Team1'); ?>
 						</div>
+
 					</div>
 				</div>
 			</div>
+
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
 				<div class="panel panel-primary">
+
 					<div class="panel-heading">
 						<div class="panel-btns">
 							<a href="" class="minimize">−</a>
 						</div><!-- panel-btns -->
 						<h3 class="panel-title">Company Group 4</h3>
 					</div>
+
 					<div class="panel-body">
 						<div class="form-group">
 						    <label for="TeamSplit2" class="control-label">Team Split-2</label>
-							
-						       <input id="TeamSplit2" class="form-control" type="text" name="TeamSplit2" maxlength="255" value="<?php echo set_value('TeamSplit2'); ?>"  />
-								 <?php echo form_error('TeamSplit2'); ?>
-					
+						    <input id="TeamSplit2" class="form-control" type="text" name="TeamSplit2" maxlength="255" value="<?php echo set_value('TeamSplit2'); ?>"  />
+							<?php echo form_error('TeamSplit2'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="team2" class="control-label">Team-2</label>
-							
-						       <input id="team2" class="form-control" type="text" name="team2" maxlength="255" value="<?php echo set_value('team2'); ?>"  />
-								 <?php echo form_error('team2'); ?>
-			
+						    <input id="team2" class="form-control" type="text" name="team2" maxlength="255" value="<?php echo set_value('team2'); ?>"  />
+							<?php echo form_error('team2'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="TeamSplit3" class="control-label">Team Split-3</label>
-							
-						       <input id="TeamSplit3" class="form-control" type="text" name="TeamSplit3" maxlength="255" value="<?php echo set_value('TeamSplit3'); ?>"  />
-								 <?php echo form_error('TeamSplit3'); ?>
-	
+						    <input id="TeamSplit3" class="form-control" type="text" name="TeamSplit3" maxlength="255" value="<?php echo set_value('TeamSplit3'); ?>"  />
+							<?php echo form_error('TeamSplit3'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="Team3" class="control-label">Team-3</label>
-							
-						       <input id="Team3" class="form-control" type="text" name="Team3" maxlength="255" value="<?php echo set_value('Team3'); ?>"  />
-								 <?php echo form_error('Team3'); ?>
-		
+						    <input id="Team3" class="form-control" type="text" name="Team3" maxlength="255" value="<?php echo set_value('Team3'); ?>"  />
+							<?php echo form_error('Team3'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="TeamSplit4" class="control-label">Team Split-4</label>
-							
-						       <input id="TeamSplit4" class="form-control" type="text" name="TeamSplit4" maxlength="255" value="<?php echo set_value('TeamSplit4'); ?>"  />
-								 <?php echo form_error('TeamSplit4'); ?>
-					
+						    <input id="TeamSplit4" class="form-control" type="text" name="TeamSplit4" maxlength="255" value="<?php echo set_value('TeamSplit4'); ?>"  />
+							<?php echo form_error('TeamSplit4'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="Team4" class="control-label">Team-4</label>
-							
-						       <input id="Team4" class="form-control" type="text" name="Team4" maxlength="255" value="<?php echo set_value('Team4'); ?>"  />
-								 <?php echo form_error('Team4'); ?>
-			
+						    <input id="Team4" class="form-control" type="text" name="Team4" maxlength="255" value="<?php echo set_value('Team4'); ?>"  />
+							<?php echo form_error('Team4'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="TeamSplit5" class="control-label">Team Split-5</label>
-							
-						       <input id="TeamSplit5" class="form-control" type="text" name="TeamSplit5" maxlength="255" value="<?php echo set_value('TeamSplit5'); ?>"  />
-								 <?php echo form_error('TeamSplit5'); ?>
-			
+						    <input id="TeamSplit5" class="form-control" type="text" name="TeamSplit5" maxlength="255" value="<?php echo set_value('TeamSplit5'); ?>"  />
+							<?php echo form_error('TeamSplit5'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="Team5" class="control-label">Team-5</label>
@@ -294,27 +263,27 @@
 						</div>
 						<div class="form-group">
 						    <label for="TeamSplit6" class="control-label">Team Split-6</label>
-							
-						       <input id="TeamSplit6" class="form-control" type="text" name="TeamSplit6" maxlength="255" value="<?php echo set_value('TeamSplit6'); ?>"  />
-								 <?php echo form_error('TeamSplit6'); ?>
-					
+						    <input id="TeamSplit6" class="form-control" type="text" name="TeamSplit6" maxlength="255" value="<?php echo set_value('TeamSplit6'); ?>"  />
+							<?php echo form_error('TeamSplit6'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="Team6" class="control-label">Team-6</label>
-							
-						       <input id="Team6" class="form-control" type="text" name="Team6" maxlength="255" value="<?php echo set_value('Team6'); ?>"  />
-								 <?php echo form_error('Team6'); ?>
-			
+						    <input id="Team6" class="form-control" type="text" name="Team6" maxlength="255" value="<?php echo set_value('Team6'); ?>"  />
+							<?php echo form_error('Team6'); ?>
 						</div>
 					</div>
+
 				</div>
+
 				<div class="panel panel-primary">
+
 					<div class="panel-heading">
 						<div class="panel-btns">
 							<a href="" class="minimize">−</a>
 						</div><!-- panel-btns -->
 						<h3 class="panel-title">Company Group 5</h3>
 					</div>
+
 					<div class="panel-body">
 						<div class="form-group">
 						    <label for="FeeSplit1" class="control-label">Fee Split-1</label>
@@ -367,23 +336,27 @@
 								 <?php echo form_error('FeeTo5'); ?>		
 						</div>
 					</div>
+
 				</div>
+
 				<div class="panel panel-primary">
+
 					<div class="panel-heading">
 						<div class="panel-btns">
 							<a href="" class="minimize">−</a>
 						</div><!-- panel-btns -->
 						<h3 class="panel-title">Company Group 6</h3>
 					</div>
+
 					<div class="panel-body">
 						<div class="form-group">
-						    <label for="FeeSplit6" class="control-label">Fee Split-6</label>
+							<label for="FeeSplit6" class="control-label">Fee Split-6</label>
 							<input id="FeeSplit6" class="form-control" type="text" name="FeeSplit6" maxlength="255" value="<?php echo set_value('FeeSplit6'); ?>"  />
 							<?php echo form_error('FeeSplit6'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="FeeTo6" class="control-label">FeeTo6</label>
-							<input id="FeeTo6" class="form-control" type="text" name="FeeTo6" maxlength="255" value="<?php echo set_value('FeeTo6'); ?>"  />
+						    <input id="FeeTo6" class="form-control" type="text" name="FeeTo6" maxlength="255" value="<?php echo set_value('FeeTo6'); ?>"  />
 							<?php echo form_error('FeeTo6'); ?>
 						</div>
 						<div class="ckbox ckbox-default">
@@ -429,8 +402,11 @@
 								echo form_submit($attributes); ?>
 						</div>
 					</div>
-				</div>				
+
+				</div>
+
 			</div>
+			
 		</div>
 	<?php echo form_close(); ?>
 </div>
