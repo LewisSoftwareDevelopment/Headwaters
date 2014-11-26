@@ -378,17 +378,13 @@
 					<div class="panel-body">
 						<div class="form-group">
 						    <label for="FeeSplit6" class="control-label">Fee Split-6</label>
-							
-						       <input id="FeeSplit6" class="form-control" type="text" name="FeeSplit6" maxlength="255" value="<?php echo set_value('FeeSplit6'); ?>"  />
-								 <?php echo form_error('FeeSplit6'); ?>
-			
+							<input id="FeeSplit6" class="form-control" type="text" name="FeeSplit6" maxlength="255" value="<?php echo set_value('FeeSplit6'); ?>"  />
+							<?php echo form_error('FeeSplit6'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="FeeTo6" class="control-label">FeeTo6</label>
-							
-						       <input id="FeeTo6" class="form-control" type="text" name="FeeTo6" maxlength="255" value="<?php echo set_value('FeeTo6'); ?>"  />
-								 <?php echo form_error('FeeTo6'); ?>
-			
+							<input id="FeeTo6" class="form-control" type="text" name="FeeTo6" maxlength="255" value="<?php echo set_value('FeeTo6'); ?>"  />
+							<?php echo form_error('FeeTo6'); ?>
 						</div>
 						<div class="ckbox ckbox-default">
 							<input type="checkbox" id="Paul" name="Paul" value="1" class="" <?php echo set_checkbox('Paul', '1'); ?>>
@@ -402,31 +398,23 @@
 						</div>
 						<div class="form-group">
 						    <label for="Pipeline" class="control-label">Pipeline</label>
-							
-						       <input id="Pipeline" class="form-control" type="text" name="Pipeline" maxlength="255" value="<?php echo set_value('Pipeline'); ?>"  />
-								 <?php echo form_error('Pipeline'); ?>
-			
+							<input id="Pipeline" class="form-control" type="text" name="Pipeline" maxlength="255" value="<?php echo set_value('Pipeline'); ?>"  />
+							<?php echo form_error('Pipeline'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="MonthofClose" class="control-label">Month of Close</label>
-							
-						       <input class="form-control" id="datepicker" type="text" name="MonthofClose"  value="<?php echo set_value('MonthofClose'); ?>"  />
-							   <?php echo form_error('MonthofClose'); ?>
-			
+							<input class="form-control" id="datepicker" type="text" name="MonthofClose"  value="<?php echo set_value('MonthofClose'); ?>"  />
+							<?php echo form_error('MonthofClose'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="GrossThis" class="control-label">GrossThis</label>
-							
-						       <input id="GrossThis" class="form-control" type="text" name="GrossThis" maxlength="255" value="<?php echo set_value('GrossThis'); ?>"  />
-								 <?php echo form_error('GrossThis'); ?>
-				
+						    <input id="GrossThis" class="form-control" type="text" name="GrossThis" maxlength="255" value="<?php echo set_value('GrossThis'); ?>"  />
+							<?php echo form_error('GrossThis'); ?>
 						</div>
 						<div class="form-group">
 						    <label for="GrossNext" class="control-label">GrossNext</label>
-							
 							<input id="GrossNext" class="form-control" type="text" name="GrossNext" maxlength="255" value="<?php echo set_value('GrossNext'); ?>"  />
 							<?php echo form_error('GrossNext'); ?>
-		
 						</div>
 						<div class="form-group">
 							<?php 
