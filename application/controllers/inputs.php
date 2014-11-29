@@ -34,6 +34,11 @@ class Inputs extends CI_Controller {
 		$this->stencil->paint('inputs/company_input_view',$data);
 
 	}
+	public function save_company_input()
+	{
+		
+
+	}
 	public function actuals_input()
 	{
 		//Sets the variable $title to be used in your views
@@ -46,6 +51,11 @@ class Inputs extends CI_Controller {
 		//echo "</pre>";
 
 		$this->stencil->paint('inputs/actuals_input_view',$data);
+
+	}
+	public function save_actuals_input()
+	{
+		
 
 	}
 	public function bankers_input()
@@ -62,6 +72,11 @@ class Inputs extends CI_Controller {
 		$this->stencil->paint('inputs/bankers_input_view',$data);
 
 	}
+	public function save_bankers_input()
+	{
+		
+
+	}
 	public function ellive_input()
 	{
 		//Sets the variable $title to be used in your views
@@ -74,6 +89,11 @@ class Inputs extends CI_Controller {
 		//echo "</pre>";
 
 		$this->stencil->paint('inputs/ellive_input_view',$data);
+
+	}
+	public function save_ellive_input()
+	{
+		
 
 	}
 	public function in_market_loi_input()

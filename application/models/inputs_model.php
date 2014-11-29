@@ -22,6 +22,12 @@ class Inputs_model extends CI_Model {
 		}
 		return $company_input_query->result();
 	}
+	function update_company_input()
+	{
+		$this->db->where('id', $id);
+		$this->db->update('mytable', $object); 
+		
+	}
 	function get_actuals_input()
 	{
 		$actuals_input_query = $this->db->get('actuals');
